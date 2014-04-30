@@ -39,6 +39,11 @@ if ( ! isset( $content_width ) )
  *
  * @since Twenty Twelve 1.0
  */
+
+if (function_exists('camera_main_ss_add')) {
+    add_action('admin_init','camera_main_ss_add');
+}
+
 function southpac_setup() {
 	/*
 	 * Makes Twenty Twelve available for translation.
@@ -140,7 +145,7 @@ function southpac_scripts_styles() {
 		wp_enqueue_script( 'comment-reply' );
 
 	// Adds JavaScript for handling the navigation menu hide-and-show behavior.
-	wp_enqueue_script( 'southpac-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '1.0', true );
+	//wp_enqueue_script( 'southpac-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '1.0', true );
 
 	$font_url = southpac_get_font_url();
 	if ( ! empty( $font_url ) )

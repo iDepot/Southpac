@@ -78,7 +78,8 @@ class PLL_Plugins_Compat {
 	public function wpseo_translate_options() {
 		if (defined('WPSEO_VERSION') && !PLL_ADMIN && did_action('wp_loaded')) {
 			global $wpseo_front;
-			foreach ( get_wpseo_options_arr() as $opt )
+			$options = version_compare(WPSEO_VERSION, '1.5', '<') ? get_wpseo_options_arr() : WPSEO_Options::get_option_names();
+			foreach ( $options as $opt )
 				$wpseo_front->options = array_merge( $wpseo_front->options, (array) get_option( $opt ) );
 		}
 	}
@@ -179,8 +180,8 @@ class PLL_Plugins_Compat {
 	 */
 	public function twenty_fourteen_widgets_init() {
 		// overwrites the Twenty Fourteen Ephemera widget to allow translating strings when setting the language by content
-		// FIXME should be removed when WP >= 3.9 See http://core.trac.wordpress.org/ticket/27069
-		if (class_exists('Twenty_Fourteen_Ephemera_Widget')) {
+		// removed when WP >= 3.9 See http://core.trac.wordpress.org/ticket/27069 & https://core.trac.wordpress.org/ticket/27843
+		if (class_exists('Twenty_Fourteen_Ephemera_Widget') && !current_theme_supports( 'html5', 'gallery' )) {
 			unregister_widget('Twenty_Fourteen_Ephemera_Widget');
 			register_widget('PLL_Widget_Twenty_Fourteen_Ephemera');
 		}

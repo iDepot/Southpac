@@ -86,7 +86,7 @@
         <div class="grid_3">
 
             <a class="f_logo" href="index.html">
-                <img alt="" src="images/f_logo.png" />
+                <img alt="" src="../wp-content/themes/southpac/images/f_logo.png" />
             </a>
             <div class="clear"></div>
             <div class="copy">
