@@ -48,7 +48,7 @@
         <div class="container_12">
             <div class="grid_12">
                 <h1><a href="index.html">
-                        <img alt="Southpac Services 南太平洋事务所" src="<?php echo get_template_directory_uri(); ?>/images/logo.gif" />
+                        <img alt="Southpac Services 南太平洋事务所" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
                     </a></h1>
                 <div class="slogan">专业注册移民中介</div>
                 <div class="h_search"><a href="#">login</a><a href="#">register</a><form id="search" action="search.php" method="GET"><input type="text" name="s" value="Search" onfocus="if (this.value == 'Search') {this.value=''}" onblur="if (this.value == '') {this.value='Search'}" />

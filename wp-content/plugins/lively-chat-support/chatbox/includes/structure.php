@@ -1,13 +1,15 @@
 <?php
 
+if ($livelychatsupport["online"] == "offline") { $livelychatsupport_offline = true; }
 if (($convo->name != "" && $convo->email != "") || $convo->messages_count > 0 || LIVELYCHATSUPPORT_ADMIN == true) { $livelychatsupport_chatting = true; }
-$livelychatsupport_states = LivelyChatSupport_state(isset($livelychatsupport_open), false, isset($livelychatsupport_chatting));
+$livelychatsupport_states = LivelyChatSupport_state(isset($livelychatsupport_open), isset($livelychatsupport_offline), isset($livelychatsupport_chatting));
 
 if (property_exists($convo, "agent_id")) { 
   $agent = LivelyChatSupport_agent($convo->agent_id);
 } else {
   $agent = LivelyChatSupport_agent();
 }
+
 ?>
 
 <style type="text/css">
@@ -41,8 +43,8 @@ if (property_exists($convo, "agent_id")) {
     <h3>
       <a href="#!/lively-chat-support" target="livelychatsupport-iframe" data-href="<?php echo plugins_url("lively-chat-support/chatbox/convos.php?open="); ?>" class="livelychatsupport-close">&mdash;</a>
       <a href="#!/lively-chat-support" target="livelychatsupport-iframe" data-href="<?php echo plugins_url("lively-chat-support/chatbox/convos.php?open="); ?>" class="livelychatsupport-open">
-        <span class="cta_offline_text"><?php echo stripslashes($livelychatsupport["cta_offline_text"]); ?></span>
-        <span class="cta_online_text"><?php echo stripslashes($livelychatsupport["cta_online_text"]); ?></span>
+        <span class="cta_offline_text"><?php echo stripslashes(__($livelychatsupport["cta_offline_text"],'lively-chat-support')); ?></span>
+        <span class="cta_online_text"><?php echo stripslashes(__($livelychatsupport["cta_online_text"],'lively-chat-support')); ?></span>
       </a>
     </h3>
   </div>
@@ -98,7 +100,10 @@ if (property_exists($convo, "agent_id")) {
       <div class="field">
         <button type="submit" class="livelychatsupport-chatbox-border-colour livelychatsupport-chatbox-background-colour">
           <span class="loading"><?php _e( "Loading...", "lively-chat-support" ); ?></span>
-          <span class="nonloading"><?php echo isset($livelychatsupport_offline) ? __("Send Email!", "lively-chat-support") : __("Start Chatting Now!", "lively-chat-support"); ?></span>
+          <span class="nonloading">
+            <span class="offline_button"><?php _e("Send Email!", "lively-chat-support"); ?></span>
+            <span class="online_button"><?php _e("Start Chatting Now!", "lively-chat-support"); ?></span>
+          </span>
         </button>
       </div>
       

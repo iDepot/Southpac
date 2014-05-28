@@ -46,9 +46,10 @@
         "sms_responder_id", 
         "show_powered_by"
       );
+      $allow_blanks = array();
       
       foreach ($post_fields as $field) {
-        if (isset($_POST[$field]) && $_POST[$field] != "") {
+        if (isset($_POST[$field])) {
           $posted_data[$field] = trim(stripslashes( $_POST[$field] ));
         }
       }
@@ -58,7 +59,7 @@
 
     if (isset($_POST["activation_code"])) { LivelyChatSupport_activate(); }
     if (isset($_GET["delete_convo"])) { LivelyChatSupport_delete_convo($_GET["convo_token"]); }
-    if (isset($_POST["twilio_phone"])) { LivelyChatSupport_settings( array("twilio_phone" => "+" . preg_replace("/[^0-9]/", "", trim($_POST["twilio_phone"]))) ); LivelyChatSupport_send_sms("Site", "Your Lively Chat Support is installed!"); }
+    if (isset($_POST["twilio_phone"])) { $agent = LivelyChatSupport_agent(get_current_user_id()); LivelyChatSupport_settings( array("twilio_phone" => "+" . preg_replace("/[^0-9]/", "", trim($_POST["twilio_phone"]))) ); LivelyChatSupport_send_sms("Site", "Your Lively Chat Support is installed!", $agent); }
     
     if (isset($_POST["agents"])) {
       foreach($_POST["agents"] as $agent) {
@@ -295,8 +296,10 @@
   
   function LivelyChatSupport_add_convo() {
     global $wpdb;
-    $convo = LivelyChatSupport_convo($_POST["convo_token"]);
-    die(json_encode($convo));
+    if (isset($_POST["convo_token"])) {
+      $convo = LivelyChatSupport_convo($_POST["convo_token"]);
+      die(json_encode($convo));
+    }
   }
   
   function LivelyChatSupport_find_visitors() {
@@ -327,18 +330,21 @@
   
   function LivelyChatSupport_read_convo() {
     global $wpdb;
-    $convo = LivelyChatSupport_convo($_POST["convo_token"]);
-    $wpdb->update( 
-    	$wpdb->prefix . "livelychatsupport_convos", 
-      array(
-    	  "pending" => false
-    	),
-      array(
-        "token" => $convo->token
-      )
-    );
+    if (isset($_POST["convo_token"])) {
+      $convo = LivelyChatSupport_convo($_POST["convo_token"]);
+      
+      $wpdb->update( 
+      	$wpdb->prefix . "livelychatsupport_convos", 
+        array(
+      	  "pending" => false
+      	),
+        array(
+          "token" => $convo->token
+        )
+      );
     
-    die(json_encode(array("success" => true)));
+      die(json_encode(array("success" => true)));
+    }
   }
   
   function LivelyChatSupport_activate() {

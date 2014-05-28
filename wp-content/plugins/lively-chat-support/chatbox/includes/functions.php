@@ -13,11 +13,15 @@
     if ($all_users) {
       $users = $wpdb->get_results("SELECT * FROM $wpdb->users");
     } else {
+      $users = (object) array();
       $user_ids = array();
       $metas = $wpdb->get_results("SELECT user_id FROM $wpdb->usermeta WHERE meta_key = 'livelychatsupport-active' AND meta_value = '1'");
       foreach ($metas as $meta) { array_push($user_ids, $meta->user_id); }
       $user_ids = join(",", $user_ids);
-      $users = $wpdb->get_results("SELECT * FROM $wpdb->users WHERE id in ($user_ids)");
+
+      if (!empty($user_ids)) {
+        $users = $wpdb->get_results("SELECT * FROM $wpdb->users WHERE id IN ($user_ids)");
+      }
     }
     
     foreach ($users as $user) {
@@ -56,30 +60,23 @@
         "active" => get_user_meta($id, "livelychatsupport-active", true)
       );
     } else {
+      $agents = LivelyChatSupport_agents();
+      
       if ($livelychatsupport["online"] == "hours") {
         $hour = LivelyChatSupport_hour();
 
         if ($hour != null) {
           if ($hour->responder_id == 0) {
-            $agents = LivelyChatSupport_agents();
             $agent = $agents[rand(0, sizeof($agents) - 1)];
           } else {
-            $agent = (object) array(
-              "id" => $hour->responder_id,
-              "name" => get_user_meta($hour->responder_id, "livelychatsupport-name", true),
-              "mobile" => get_user_meta($hour->responder_id, "livelychatsupport-mobile", true),
-              "avatar" => get_user_meta($hour->responder_id, "livelychatsupport-avatar", true),
-              "active" => get_user_meta($hour->responder_id, "livelychatsupport-active", true)
-            );
+            $agent = LivelyChatSupport_agent($hour->responder_id);
           }
         }
       }
     
-      if (!isset($agent) && $livelychatsupport["online"] == "online") {
-        $agents = LivelyChatSupport_agents();
-
+      if (!$agent) {
         if (!empty($agents)) {
-          $agent = $agents[rand(0, count($agents) - 1)];
+          $agent = $agents[rand(0, sizeof($agents) - 1)];
         }
       }
     }
@@ -109,70 +106,74 @@
     global $wpdb;
     $convo_token = $_POST["convo_token"];
     
-    $messages_table = $wpdb->prefix . "livelychatsupport_messages";
-    $triggers_table = $wpdb->prefix . "livelychatsupport_triggers";
-    $surveys_table = $wpdb->prefix . "livelychatsupport_surveys";
-    $hours_table = $wpdb->prefix . "livelychatsupport_hours";
+    if (isset($_POST["convo_token"])) {
+      $livelychatsupport = LivelyChatSupport_details();
     
-    $convo = LivelyChatSupport_convo($convo_token);
-    $messages = $wpdb->get_results("SELECT * FROM $messages_table WHERE convo_token = '$convo_token' ORDER BY created_at ASC");
-    $triggers = $wpdb->get_results("SELECT * FROM $triggers_table ORDER BY delay ASC");
-    $surveys = $wpdb->get_results("SELECT * FROM $surveys_table ORDER BY delay ASC");
-    $hours = $wpdb->get_results("SELECT * FROM $hours_table");
-    $popups = array();
-    $ms = array();
-    $hrs = array();
+      $messages_table = $wpdb->prefix . "livelychatsupport_messages";
+      $triggers_table = $wpdb->prefix . "livelychatsupport_triggers";
+      $surveys_table = $wpdb->prefix . "livelychatsupport_surveys";
+      $hours_table = $wpdb->prefix . "livelychatsupport_hours";
     
-    foreach($hours as $hour) {
-      $h = array(
-        "day" => $hour->day,
-        "open_at" => $hour->open_at,
-        "close_at" => $hour->close_at
-      );
-      array_push($hrs, $h);
+      $convo = LivelyChatSupport_convo($convo_token);
+      $messages = $wpdb->get_results("SELECT * FROM $messages_table WHERE convo_token = '$convo_token' ORDER BY created_at ASC");
+      $triggers = $wpdb->get_results("SELECT * FROM $triggers_table ORDER BY delay ASC");
+      $surveys = $wpdb->get_results("SELECT * FROM $surveys_table ORDER BY delay ASC");
+      $hours = $wpdb->get_results("SELECT * FROM $hours_table");
+      $popups = array();
+      $ms = array();
+      $hrs = array();
+    
+      foreach($hours as $hour) {
+        $h = array(
+          "day" => $hour->day,
+          "open_at" => $hour->open_at,
+          "close_at" => $hour->close_at
+        );
+        array_push($hrs, $h);
+      }
+    
+      foreach($triggers as $trigger) {
+        $t = array(
+          "type" => "trigger",
+          "urls" => $trigger->urls,
+          "delay" => $trigger->delay,
+          "body" => nl2br(stripslashes($trigger->body))
+        );
+        array_push($popups, $t);
+      }
+    
+      foreach($surveys as $survey) {
+        $s = array(
+          "type" => "survey",
+          "title" => $survey->title,
+          "id" => $survey->id,
+          "urls" => $survey->urls,
+          "delay" => $survey->delay,
+          "questions" => json_decode($survey->questions),
+          "thanks" => nl2br(stripslashes($survey->thanks))
+        );
+        array_push($popups, $s);
+      }
+    
+      foreach ($messages as $message) {
+        $m = array(
+          "id" => $message->id,
+          "convo_token" => $message->convo_token,
+          "body" => nl2br(stripslashes($message->body)),
+          "from_agent" => $message->from_agent,
+          "created_at" => $message->created_at
+        );
+        array_push($ms, $m);
+      }
+    
+      die(json_encode(array(
+        "messages" => $ms, 
+        "popups" => $popups, 
+        "hours" => $hrs, 
+        "online" => $livelychatsupport["online"],
+        "gmt_offset" => get_option("gmt_offset")
+      )));
     }
-    
-    foreach($triggers as $trigger) {
-      $t = array(
-        "type" => "trigger",
-        "urls" => $trigger->urls,
-        "delay" => $trigger->delay,
-        "body" => nl2br(stripslashes($trigger->body))
-      );
-      array_push($popups, $t);
-    }
-    
-    foreach($surveys as $survey) {
-      $s = array(
-        "type" => "survey",
-        "title" => $survey->title,
-        "id" => $survey->id,
-        "urls" => $survey->urls,
-        "delay" => $survey->delay,
-        "questions" => json_decode($survey->questions),
-        "thanks" => nl2br(stripslashes($survey->thanks))
-      );
-      array_push($popups, $s);
-    }
-    
-    foreach ($messages as $message) {
-      $m = array(
-        "id" => $message->id,
-        "convo_token" => $message->convo_token,
-        "body" => nl2br(stripslashes($message->body)),
-        "from_agent" => $message->from_agent,
-        "created_at" => $message->created_at
-      );
-      array_push($ms, $m);
-    }
-    
-    die(json_encode(array(
-      "messages" => $ms, 
-      "popups" => $popups, 
-      "hours" => $hrs, 
-      "online" => get_option("livelychatsupport_online"),
-      "gmt_offset" => get_option("gmt_offset")
-    )));
   }
   
   function LivelyChatSupport_triggers() {
@@ -195,7 +196,7 @@
       setcookie("livelychatsupport_convo_open", $_COOKIE["livelychatsupport_convo_open"], mktime(0, 0, 0, 12, 31, date("Y") + 2), "/");
     }
 
-    if (!isset($_COOKIE["livelychatsupport_convo_token"])) {
+    if (!isset($_COOKIE["livelychatsupport_convo_token"]) || $_COOKIE["livelychatsupport_convo_token"] == "") {
       $_COOKIE["livelychatsupport_convo_token"] = md5(uniqid(rand(), true));
       setcookie("livelychatsupport_convo_token", $_COOKIE["livelychatsupport_convo_token"], mktime(0, 0, 0, 12, 31, date("Y") + 2), "/");
     }
@@ -209,19 +210,11 @@
     }
     else
     {
-      if ($chatting == true)
-      {
-        array_push($classes, "chatting");
-      }
+      if ($chatting == true) { array_push($classes, "chatting"); }
     }
   
-    if ($open == true) {
-      array_push($classes, "open"); 
-    }
-    
-    if (isset($_COOKIE["livelychatsupport_surveyed"])) {
-      array_push($classes, "surveyed");
-    }
+    if ($open == true) { array_push($classes, "open"); }
+    if (isset($_COOKIE["livelychatsupport_surveyed"])) { array_push($classes, "surveyed"); }
     
     return $classes;
   }
@@ -231,6 +224,8 @@
     global $wpdb;
     $convos_table = $wpdb->prefix . "livelychatsupport_convos";
     
+    if (isset($_GET["from_twilio"])) { LivelyChatSupport_receive_sms(); }
+    
     wp_register_style( "LivelyChatSupport-chatbox-reset", plugins_url( "lively-chat-support/chatbox/css/reset.css" ) );
     wp_register_style( "LivelyChatSupport-chatbox-style", plugins_url( "lively-chat-support/chatbox/css/style.css" ) );
     wp_register_script( "LivelyChatSupport-chatbox-script", plugins_url( "lively-chat-support/chatbox/js/chatbox.js" ) );
@@ -239,7 +234,7 @@
     wp_enqueue_script( array("jquery", "LivelyChatSupport-chatbox-script") );
   
     $livelychatsupport = LivelyChatSupport_details();
-    $convo = LivelyChatSupport_convo($_COOKIE["livelychatsupport_convo_token"]);
+    if (isset($_COOKIE["livelychatsupport_convo_token"])) { $convo = LivelyChatSupport_convo($_COOKIE["livelychatsupport_convo_token"]); }
     $agent = LivelyChatSupport_agent();
     
     if (!$agent) {
@@ -278,8 +273,7 @@
           )
         );
       } else if (!is_admin()) {
-        LivelyChatSupport_create_visitor($referrers);
-        $convo = (object) array( "name" => "", "email" => "", "token" => $_COOKIE["livelychatsupport_convo_token"] );
+        $convo = LivelyChatSupport_create_visitor($referrers);
       }
 
       if (LivelyChatSupport_is_visible_for_current_page()) {
@@ -335,6 +329,8 @@
     	$convos_table, 
     	$args
     );
+    
+    return (object) $args;
   }
   
   function LivelyChatSupport_is_visible_for_current_page() {
@@ -408,7 +404,7 @@
           
           if (($hour && $hour->via == "sms") || ($sms_activated && get_user_meta($agent->id, "livelychatsupport-mobile") != ""))
           {
-            LivelyChatSupport_send_sms($convo->mini_token, $body);
+            LivelyChatSupport_send_sms($convo->mini_token, $body, $agent);
             $details = array(
               "messages_count" => $convo->messages_count + 1,
               "updated_at" => $now,

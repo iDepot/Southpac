@@ -10,7 +10,7 @@ if (basename($_SERVER['SCRIPT_FILENAME']) == 'leaflet-pro-upgrade.php') { die ("
 include('inc' . DIRECTORY_SEPARATOR . 'admin-header.php');
 $lmm_pro_readme = WP_PLUGIN_DIR . DIRECTORY_SEPARATOR . 'leaflet-maps-marker-pro' . DIRECTORY_SEPARATOR . 'readme.txt';
 $action = isset($_POST['action']) ? $_POST['action'] : '';
-if (extension_loaded('ionCube Loader')) { if ( function_exists('ioncube_loader_iversion') ) { $ic_lv = ioncube_loader_iversion(); $lmm_ic_lv = (int)substr($ic_lv,0,1); } else { $ic_lv = ioncube_loader_version(); $lmm_ic_lv = (int)substr($ic_lv,0,1); } if ($lmm_ic_lv >= 4) { $sf = ''; } else { $sf = strrev('orp-'); } } else { $sf = strrev('orp-'); }
+if ( extension_loaded('ionCube Loader') && version_compare(phpversion(),"5.5","<") ) { if ( function_exists('ioncube_loader_iversion') ) { $ic_lv = ioncube_loader_iversion(); $lmm_ic_lv = (int)substr($ic_lv,0,1); } else { $ic_lv = ioncube_loader_version(); $lmm_ic_lv = (int)substr($ic_lv,0,1); } if ($lmm_ic_lv >= 4) { $sf = ''; } else { $sf = strrev('orp-'); } } else { $sf = strrev('orp-'); }
 if ( $action == NULL ) {
 	if (!file_exists($lmm_pro_readme)) {
 		echo '<div style="float:left;margin: 20px 10px 10px 0;"><img src="' . LEAFLET_PLUGIN_URL . 'inc/img/logo-mapsmarker-pro.png" alt="Pro Logo" title="Leaflet Maps Marker Pro Logo"></div>';
@@ -286,6 +286,7 @@ if ( $action == NULL ) {
 				<div class="pro-feature-content" style="background:' . $bgcolor . ';">
 				<ul style="list-style-type:disc;margin-left:15px;margin-top:0;">
 					<li><a class="pro-upgrade-external-links" href="http://www.mapsmarker.com/v1.2.1p" target="_blank">' . __('improved performance for layer maps with a huge number of markers (parsing of GeoJSON is up to 3 times faster)','lmm') . '</a></li>
+					<li><a class="pro-upgrade-external-links" href="http://www.mapsmarker.com/v1.6p" target="_blank">' . __('improved performance for layer maps by asynchronous loading of markers via GeoJSON','lmm') . '</a></li>
 					<li><a class="pro-upgrade-external-links" href="http://www.mapsmarker.com/v1.3p" target="_blank">' . __('support for shortcodes in popup texts','lmm') . '</a></li>
 					<li><a class="pro-upgrade-external-links" href="http://www.mapsmarker.com/v1.5p" target="_blank">' . __('support for setting global maximum zoom level to 21 (tiles from basemaps with lower native zoom levels will be upscaled automatically)','lmm') . '</a></li>
 					<li><a class="pro-upgrade-external-links" href="http://www.mapsmarker.com/v1.5.1p" target="_blank">' . __('support for duplicating markers','lmm') . '</a></li>
@@ -295,6 +296,8 @@ if ( $action == NULL ) {
 					<li><a class="pro-upgrade-external-links" href="http://www.mapsmarker.com/v1.5.7p" target="_blank">' . __('support for bulk updates of marker maps on the tools page for selected layers only','lmm') . '</a></li>
 					<li><a class="pro-upgrade-external-links" href="http://www.mapsmarker.com/v1.5.8p" target="_blank">' . __('option to add markernames to popups automatically (default = false)','lmm') . '</a></li>
 					<li><a class="pro-upgrade-external-links" href="http://www.mapsmarker.com/v1.5.8p" target="_blank">' . __('map moves back to initial position after popup is closed','lmm') . '</a></li>
+					<li><a class="pro-upgrade-external-links" href="http://www.mapsmarker.com/v1.6p" target="_blank">' . __('option to disable loading of Google Maps API for higher performance if alternative basemaps are used only','lmm') . '</a></li>
+					<li><a class="pro-upgrade-external-links" href="http://www.mapsmarker.com/v1.6p" target="_blank">' . sprintf(__('map parameters can be overwritten within shortcodes (e.g. %1s)','lmm'), '[mapsmarker marker="1" height="100"]') . '</a></li>
 				</ul>
 				</div>
 				<p><a href="#top" class="upgrade-top-link">' . __('back to top to start free 30-day-trial','lmm') . '</a></p>

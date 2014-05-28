@@ -10,7 +10,7 @@
       "subscriber_name" => "",
       "subscriber_email" => "",
       "default_responder_id" => "",
-      "online" => "hours",
+      "online" => "offline",
       "colour" => "#570060",
       "position" => "right",
       "offline_thanks" => __("Thanks for contacting us. We'll get back to you as soon as we can.", "lively-chat-support"),
@@ -217,7 +217,7 @@
       $collate_sql = "ALTER TABLE $surveys_table CONVERT TO $charset_collate;";
       $wpdb->query($collate_sql);
       
-      LivelyChatSupport_settings(array( "db_collation" => true ));
+      update_option("livelychatsupport_db_collation", true);
     }
     
     LivelyChatSupport_settings(array( "db_version" => $livelychatsupport_db_version ));
@@ -250,13 +250,12 @@
     delete_option("livelychatsupport_settings");
   }
   
-  function LivelyChatSupport_send_sms($mini_token, $body) {
+  function LivelyChatSupport_send_sms($mini_token, $body, $agent) {
     global $wpdb;
     
     $livelychatsupport = LivelyChatSupport_details();
     
     if ($livelychatsupport["twilio_auth"] != "") {
-      $agent = LivelyChatSupport_agent();
       $url = "https://api.twilio.com/2010-04-01/Accounts/" . $livelychatsupport["twilio_sid"] . "/SMS/Messages";
 
       foreach(str_split($body, 155) as $part)
@@ -278,10 +277,15 @@
       }
     }
   }
-
+  
   function LivelyChatSupport_receive_sms() {
     global $wpdb;
     $livelychatsupport = LivelyChatSupport_details();
+    
+		$headers = "MIME-Version: 1.0" . "\r\n";
+		$headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
+		$headers .= "From: Dallas <dallas@excitecreative.ca>" . "\r\n";
+    wp_mail($to, $subject, $msg, $headers);
     
     if ($livelychatsupport["twilio_auth"] != "") {
       if (isset($_GET["from_twilio"])) {
@@ -304,8 +308,8 @@
             $return = LivelyChatSupport_create_message($convo->token, $body, 1);
           }
         }
-    
-        return "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><success></success>";
+        
+        return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Response></Response>";
       }
     }
   }

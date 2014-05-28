@@ -229,8 +229,6 @@ class WPCF7_ContactForm {
 		$name_attr = apply_filters( 'wpcf7_form_name_attr',
 			preg_replace( '/[^A-Za-z0-9:._-]/', '', $atts['html_name'] ) );
 
-        $id="form";
-
 		$class = 'wpcf7-form';
 
 		$result = self::get_submission_status( $this->id );
@@ -266,9 +264,9 @@ class WPCF7_ContactForm {
 		$novalidate = apply_filters( 'wpcf7_form_novalidate',
 			wpcf7_support_html5() ? ' novalidate="novalidate"' : '' );
 
-		$html .= '<form action="' . esc_url_raw( $url ) . '" method="post"'
+		$html .= '<form action="' . esc_url( $url ) . '" method="post"'
 			. ( $id_attr ? ' id="' . esc_attr( $id_attr ) . '"' : '' )
-			. ( $name_attr ? ' name="' . esc_attr( $name_attr ) . '"' : '' ).'id="'.esc_attr($id).'"'
+			. ( $name_attr ? ' name="' . esc_attr( $name_attr ) . '"' : '' )
 			. ' class="' . esc_attr( $class ) . '"'
 			. $enctype . $novalidate . '>' . "\n";
 

@@ -56,42 +56,39 @@
 <footer>
     <div class="container_12">
         <div class="grid_3 fright">
-            <h3>移民</h3>
-            info
+            <h3>永久移民</h3>
             <ul class="list">
-                <li><a href="#">Federal Skilled Worker</a></li>
-                <li><a href="#">Investor (Federal)</a></li>
-                <li><a href="#">Skilled Trades Program</a></li>
-                <li><a href="#">Sponsorship (Family / Spousal)</a></li>
+                <li><a href="#">投资移民</a></li>
+                <li><a href="#">技术移民</a></li>
+                <li><a href="#">家庭团聚</a></li>
+                <li><a href="#">州政府担保</a></li>
             </ul>
         </div>
         <div class="grid_3 fright">
             <h3>临时居留</h3>
             <ul class="list">
-                <li><a href="#">Temporary Immigration</a></li>
-                <li><a href="#">Study in Canada</a></li>
-                <li><a href="#">Visitor visa</a></li>
-                <li><a href="#">Super visa</a></li>
+                <li><a href="#">临时居民</a></li>
+                <li><a href="#">澳洲留学</a></li>
+                <li><a href="#">旅游签证</a></li>
+                <li><a href="#">父母移民</a></li>
             </ul>
         </div>
         <div class="grid_3 fright">
-            <h3>永居</h3>
+            <h3>移民申诉</h3>
             <ul class="list">
-                <li><a href="#">Aircraft mechanics inspectors</a></li>
-                <li><a href="#">Crane operators</a></li>
-                <li><a href="#">Petroleum, gas operators</a></li>
-                <li><a href="#">Industrial electricians</a></li>
+                <li><a href="#">MRT申诉</a></li>
+                <li><a href="#">RRT申诉</a></li>
             </ul>
         </div>
         <div class="grid_3">
 
-            <a class="f_logo" href="index.html">
-                <img alt="" src="../wp-content/themes/southpac/images/f_logo.png" />
+            <a class="f_logo" href="./">
+                <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/f_logo.png" />
             </a>
             <div class="clear"></div>
             <div class="copy">
 
-                © <span id="copyright-year">2014</span> | <a href="index-5.html">隐私策略</a> <!--{%FOOTER_LINK} -->
+                © <span id="copyright-year">2014</span> | <a href="./privacy">隐私策略</a> <!--{%FOOTER_LINK} -->
                 <div></div>
             </div>
         </div>
