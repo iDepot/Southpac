@@ -1,7 +1,9 @@
 <?php
 
   function register_LivelyChatSupport_admin_menu() {
-    add_menu_page( "Lively Chat", "Lively Chat", "read", "livelychatsupport", "LivelyChatSupport_admin", plugins_url( "lively-chat-support/assets/icon32.png" ) );
+    if (current_user_can("can_livelychatsupport") || current_user_can("manage_options")) {
+      add_menu_page( "Lively Chat", "Lively Chat", "read", "livelychatsupport", "LivelyChatSupport_admin", plugins_url( "lively-chat-support/assets/icon32.png" ) );
+    }
   }
   
   function LivelyChatSupport_admin() {
@@ -44,7 +46,8 @@
         "twilio_sid", 
         "twilio_auth", 
         "sms_responder_id", 
-        "show_powered_by"
+        "show_powered_by",
+        "track_pages"
       );
       $allow_blanks = array();
       
@@ -381,13 +384,42 @@
   }
   
   function LivelyChatSupport_military_to_pretty($time) {
+    $int_time = (integer) $time;
+    if (strlen($time) == 2) { $time = "00$time"; }
     if (strlen($time) == 3) { $time = "0$time"; }
+    if ($int_time > 1159 && $int_time < 2400) { $pm = true; }
     $hour = (integer) substr($time, 0, 2);
-    if ($hour > 12) { $hour = $hour - 12; $pm = true; }
+    if ($int_time == 0) { $hour = 12; }
+    if ($int_time > 1200) { $hour = $hour - 12; }
     $minute = substr($time, 2, 2);
+    if (strlen($minute) == 0) { $minute = "00"; }
+    if (strlen($minute) == 1) { $minute = "0$minute"; }
     $output = "$hour:$minute ";
     if (isset($pm)) { $output .= "PM"; } else { $output .= "AM"; }
     return $output;
   }
   
+  function LivelyChatSupport_user_profile_fields( $user ) { ?>
+      <table class="form-table">
+          <tr>
+              <th><label for="livelychatsupport_access"><?php _e("Lively Chat Access", "lively-chat-support") ?></label></th>
+              <td>
+                  <input id="livelychatsupport_access" name="livelychatsupport_access" type="checkbox" value="1" <?php if ( user_can($user->ID, "can_livelychatsupport") ) { echo " checked=\"checked\""; } ?> />
+              </td>
+          </tr>
+      </table>
+  <?php }
+  
+  function LivelyChatSupport_save_user_profile_fields($user_id) {
+    if (!current_user_can("edit_user", $user_id)) { return false; }
+    
+    $user = new WP_User( $user_id );
+    
+    if (isset($_POST["livelychatsupport_access"])) {
+      $user->add_cap( "can_livelychatsupport" );
+    }
+    else {
+      $user->remove_cap( "can_livelychatsupport" );
+    }
+  }
 ?>

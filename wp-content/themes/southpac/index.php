@@ -17,6 +17,14 @@ get_header(); ?>
 
 
 
+
+
+<?php if ( is_front_page()):?>
+     <div id="first-front-page-widget-area">
+            <?php  {dynamic_sidebar( 'First Front Page Widget Area' );}  ?>
+      </div>
+<?php endif;?>
+
 <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
         <?php the_content(); ?>
