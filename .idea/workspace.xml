@@ -26,7 +26,28 @@
       <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="28" selection-start="2581" selection-end="2581" vertical-scroll-proportion="0.47699758" vertical-offset="452" max-vertical-offset="2304">
+            <state vertical-scroll-proportion="0.37628278" vertical-offset="202" max-vertical-offset="2565">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6442" max-vertical-offset="21679">
+              <caret line="355" column="14" selection-start-line="355" selection-start-column="14" selection-end-line="355" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -44,7 +65,6 @@
       <list>
         <option value="db-console:/10e8f89d/3817172d-234c-4e21-9971-2f32640c9ab6/" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/camer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/southpac/css/style.css" />
         <option value="$PROJECT_DIR$/wp-includes/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/camera-slideshow/lib/camera_admin.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/subscriber/subscriber.php" />
@@ -82,6 +102,7 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-register.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/scripts.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/southpac/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/header.php" />
       </list>
     </option>
@@ -90,8 +111,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -107,7 +128,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -206,6 +227,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="southpac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="southpac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Southpac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -235,17 +282,45 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <list size="0" />
@@ -263,15 +338,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24107143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -280,6 +354,7 @@
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -292,6 +367,9 @@
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -323,72 +401,100 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/readme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/js/simple-slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="476" selection-end="502" vertical-scroll-proportion="0.02078522" vertical-offset="306" max-vertical-offset="6642" />
+        <state vertical-scroll-proportion="0.02078522" vertical-offset="306" max-vertical-offset="6642">
+          <caret line="18" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/slider_Options.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="0" selection-start="7208" selection-end="7219" vertical-scroll-proportion="3.094431" vertical-offset="0" max-vertical-offset="8226" />
+        <state vertical-scroll-proportion="3.094431" vertical-offset="0" max-vertical-offset="8226">
+          <caret line="142" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/js/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="38" selection-start="967" selection-end="967" vertical-scroll-proportion="0.62355655" vertical-offset="0" max-vertical-offset="866" />
+        <state vertical-scroll-proportion="0.62355655" vertical-offset="0" max-vertical-offset="866">
+          <caret line="30" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/subscribers/view-subscriber.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.44314185" vertical-offset="378" max-vertical-offset="2466" />
+        <state vertical-scroll-proportion="-0.44314185" vertical-offset="378" max-vertical-offset="2466">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/languages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/sliders.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="478" selection-end="478" vertical-scroll-proportion="-1.2857143" vertical-offset="1350" max-vertical-offset="9972" />
+        <state vertical-scroll-proportion="-1.2857143" vertical-offset="1350" max-vertical-offset="9972">
+          <caret line="16" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/slider_Options.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="1" selection-start="579" selection-end="579" vertical-scroll-proportion="0.42908224" vertical-offset="0" max-vertical-offset="839" />
+        <state vertical-scroll-proportion="0.42908224" vertical-offset="0" max-vertical-offset="839">
+          <caret line="20" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/slider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-1.590799" vertical-offset="1620" max-vertical-offset="9648" />
+        <state vertical-scroll-proportion="-1.590799" vertical-offset="1620" max-vertical-offset="9648">
+          <caret line="24" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/elements/jscolor/arrow.gif">
@@ -403,203 +509,249 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/slider_function/html_slider_func.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1113801" vertical-offset="918" max-vertical-offset="1746" />
+        <state vertical-scroll-proportion="-1.1113801" vertical-offset="918" max-vertical-offset="1746">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/slider_front_end.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.9612591" vertical-offset="1620" max-vertical-offset="23976" />
+        <state vertical-scroll-proportion="-1.9612591" vertical-offset="1620" max-vertical-offset="23976">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/style/simple-slider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="25" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1098" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1098">
+          <caret line="42" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/subscribers/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/subscribers/view-subscriber-show.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="64" selection-start="5083" selection-end="5085" vertical-scroll-proportion="0.33333334" vertical-offset="2613" max-vertical-offset="5202" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="2613" max-vertical-offset="5202">
+          <caret line="160" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/subscribers/view-subscriber-import.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.031210987" vertical-offset="25" max-vertical-offset="2394" />
+        <state vertical-scroll-proportion="-0.031210987" vertical-offset="25" max-vertical-offset="2394">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/subscribers/view-subscriber-add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.031210987" vertical-offset="25" max-vertical-offset="2754" />
+        <state vertical-scroll-proportion="-0.031210987" vertical-offset="25" max-vertical-offset="2754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/sendmail/sendmail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="26" selection-start="888" selection-end="888" vertical-scroll-proportion="0.44069913" vertical-offset="25" max-vertical-offset="4176" />
+        <state vertical-scroll-proportion="0.44069913" vertical-offset="25" max-vertical-offset="4176">
+          <caret line="21" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/query/db_subscriber.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="690" selection-end="690" vertical-scroll-proportion="0.44069913" vertical-offset="25" max-vertical-offset="5328" />
+        <state vertical-scroll-proportion="0.44069913" vertical-offset="25" max-vertical-offset="5328">
+          <caret line="21" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/job/es-viewstatus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="397" selection-end="397" vertical-scroll-proportion="0.30035758" vertical-offset="0" max-vertical-offset="839" />
+        <state vertical-scroll-proportion="0.30035758" vertical-offset="0" max-vertical-offset="839">
+          <caret line="14" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/job/es-optin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.86650777" vertical-offset="727" max-vertical-offset="1566" />
+        <state vertical-scroll-proportion="-0.86650777" vertical-offset="727" max-vertical-offset="1566">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/help/help.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/base/es-defined.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="50" selection-start="997" selection-end="997" vertical-scroll-proportion="0.32181168" vertical-offset="0" max-vertical-offset="839">
-          <folding />
+        <state vertical-scroll-proportion="0.32181168" vertical-offset="0" max-vertical-offset="839">
+          <caret line="15" column="50" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/job/es-subscribe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="259" selection-end="259" vertical-scroll-proportion="0.19804402" vertical-offset="0" max-vertical-offset="1764" />
+        <state vertical-scroll-proportion="0.19804402" vertical-offset="0" max-vertical-offset="1764">
+          <caret line="9" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/job/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/email-subscribers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="2" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.38617402" vertical-offset="0" max-vertical-offset="839" />
+        <state vertical-scroll-proportion="0.38617402" vertical-offset="0" max-vertical-offset="839">
+          <caret line="28" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="66" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="1325" max-vertical-offset="2178" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1325" max-vertical-offset="2178">
+          <caret line="18" column="66" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="260" column="32" selection-start="8561" selection-end="8561" vertical-scroll-proportion="0.43220338" vertical-offset="3981" max-vertical-offset="9018" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="0.42908224" vertical-offset="0" max-vertical-offset="839" />
+        <state vertical-scroll-proportion="0.43220338" vertical-offset="3981" max-vertical-offset="9018">
+          <caret line="260" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.39225182" vertical-offset="324" max-vertical-offset="2592" />
+        <state vertical-scroll-proportion="-0.39225182" vertical-offset="324" max-vertical-offset="2592">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="639" selection-end="639" vertical-scroll-proportion="0.16859123" vertical-offset="232" max-vertical-offset="1368" />
+        <state vertical-scroll-proportion="0.16859123" vertical-offset="232" max-vertical-offset="1368">
+          <caret line="21" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget-backup.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="26" selection-start="615" selection-end="615" vertical-scroll-proportion="0.4157044" vertical-offset="0" max-vertical-offset="1368" />
+        <state vertical-scroll-proportion="0.4157044" vertical-offset="0" max-vertical-offset="1368">
+          <caret line="20" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-register-backup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="157" selection-end="157" vertical-scroll-proportion="0.13075061" vertical-offset="54" max-vertical-offset="4194" />
+        <state vertical-scroll-proportion="0.13075061" vertical-offset="54" max-vertical-offset="4194">
+          <caret line="9" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="11" selection-start="275" selection-end="275" vertical-scroll-proportion="0.31177828" vertical-offset="0" max-vertical-offset="4572">
-          <folding />
+        <state vertical-scroll-proportion="0.31177828" vertical-offset="0" max-vertical-offset="4572">
+          <caret line="15" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/formatting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="260" selection-end="265" vertical-scroll-proportion="0.2247191" vertical-offset="0" max-vertical-offset="3654">
-          <folding />
+        <state vertical-scroll-proportion="0.2247191" vertical-offset="0" max-vertical-offset="3654">
+          <caret line="10" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/shortcodes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="0" selection-start="4634" selection-end="4634" vertical-scroll-proportion="0.63267815" vertical-offset="2617" max-vertical-offset="7650">
-          <folding />
+        <state vertical-scroll-proportion="0.63267815" vertical-offset="2617" max-vertical-offset="7650">
+          <caret line="174" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="34" selection-start="1443" selection-end="1448" vertical-scroll-proportion="0.5135135" vertical-offset="626" max-vertical-offset="1440">
-          <folding />
+        <state vertical-scroll-proportion="0.5135135" vertical-offset="626" max-vertical-offset="1440">
+          <caret line="58" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/classes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="43" selection-start="5538" selection-end="5538" vertical-scroll-proportion="0.42137593" vertical-offset="3761" max-vertical-offset="19602">
-          <folding />
+        <state vertical-scroll-proportion="0.42137593" vertical-offset="3761" max-vertical-offset="19602">
+          <caret line="228" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.35637665" vertical-offset="115" max-vertical-offset="1224">
-          <folding />
+        <state vertical-scroll-proportion="0.35637665" vertical-offset="115" max-vertical-offset="1224">
+          <caret line="32" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="767" selection-end="767" vertical-scroll-proportion="0.12661196" vertical-offset="252" max-vertical-offset="2178">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="19" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.10550997" vertical-offset="2106" max-vertical-offset="20520">
+        <state vertical-scroll-proportion="0.12661196" vertical-offset="252" max-vertical-offset="2178">
+          <caret line="20" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="16" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.5011547" vertical-offset="1096" max-vertical-offset="2286">
-          <folding />
+        <state vertical-scroll-proportion="0.5011547" vertical-offset="1096" max-vertical-offset="2286">
+          <caret line="85" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="0" selection-start="4158" selection-end="4158" vertical-scroll-proportion="0.5072464" vertical-offset="2370" max-vertical-offset="6462">
-          <folding />
+        <state vertical-scroll-proportion="0.5072464" vertical-offset="2370" max-vertical-offset="6462">
+          <caret line="155" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="14" selection-start="6485" selection-end="6485" vertical-scroll-proportion="0.80266345" vertical-offset="2343" max-vertical-offset="4212">
-          <folding>
-            <marker date="1402477896055" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-          </folding>
+        <state vertical-scroll-proportion="0.80266345" vertical-offset="2343" max-vertical-offset="4212">
+          <caret line="167" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6442" max-vertical-offset="21679">
+          <caret line="355" column="14" selection-start-line="355" selection-start-column="14" selection-end-line="355" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="28" selection-start="2581" selection-end="2581" vertical-scroll-proportion="0.47699758" vertical-offset="452" max-vertical-offset="2304">
+        <state vertical-scroll-proportion="0.37628278" vertical-offset="202" max-vertical-offset="2565">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding />
         </state>
       </provider>

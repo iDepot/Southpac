@@ -355,7 +355,8 @@ header h1 a img {
 
 .page1_block {
     background-color: #fff;
-    width: 1050px;
+    /*width: 1050px;*/
+    width:auto;
     position: relative;
     margin: 0 auto 0;
 }
