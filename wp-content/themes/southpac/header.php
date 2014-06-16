@@ -50,7 +50,19 @@
                         <img alt="Southpac Services 南太平洋事务所" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
                     </a></h1>
                 <div class="slogan">专业注册移民中介</div>
-                <div class="h_search"><a href="#">login</a><?php wp_register(); ?><form id="search" action="search.php" method="GET"><input type="text" name="s" value="Search" onfocus="if (this.value == 'Search') {this.value=''}" onblur="if (this.value == '') {this.value='Search'}" />
+                <div class="h_search">
+
+                <?php if (is_user_logged_in()) : ?>
+                    <a href="<?php echo wp_logout_url(get_permalink()); ?>"><?php _e('Log out') ?></a>
+                <?php else : ?>
+                    <a href="<?php echo wp_login_url(get_permalink()); ?>"><?php _e('Log in') ?></a>
+                <?php endif;?>
+
+                    <?php if (get_option('users_can_register')) : ?>
+                       <a href="<?php bloginfo('wpurl'); ?>/wp-login.php?action=register"><?php _e('Register') ?></a>
+                    <?php endif; ?>
+
+                    <form id="search" action="search.php" method="GET"><input type="text" name="s" value="Search" onfocus="if (this.value == 'Search') {this.value=''}" onblur="if (this.value == '') {this.value='Search'}" />
                         <a onclick="document.getElementById('search').submit()">
                         </a>
                         <div class="clear"></div>

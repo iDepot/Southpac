@@ -15,10 +15,6 @@
  */
 get_header(); ?>
 
-
-
-
-
 <?php if ( is_front_page()):?>
      <div id="first-front-page-widget-area">
             <?php  {dynamic_sidebar( 'First Front Page Widget Area' );}  ?>
