@@ -26,12 +26,11 @@
       <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="31" selection-start="2302" selection-end="2302" vertical-scroll-proportion="0.5447942" vertical-offset="414" max-vertical-offset="2502">
+            <state line="56" column="31" selection-start="2302" selection-end="2302" vertical-scroll-proportion="-0.17433414" vertical-offset="1008" max-vertical-offset="2502">
               <folding>
                 <marker date="1402902326284" expanded="true" signature="3188:3380" placeholder="..." />
                 <marker date="1402902326284" expanded="true" signature="3227:3380" placeholder="..." />
                 <marker date="1402902326284" expanded="true" signature="3265:3380" placeholder="..." />
-                <marker date="1402902326284" expanded="true" signature="3994:5384" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -124,7 +123,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,6 +197,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +249,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -258,7 +257,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -267,11 +266,11 @@
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -525,16 +524,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/default-constants.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2446941" vertical-offset="997" max-vertical-offset="5742">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2446941" vertical-offset="997" max-vertical-offset="5742" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/registration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/languages/zh_CN.mo">
@@ -542,50 +537,36 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="2149" selection-end="2149" vertical-scroll-proportion="-0.5217391" vertical-offset="702" max-vertical-offset="6174">
-          <folding />
-        </state>
+        <state line="15" column="19" selection-start="2149" selection-end="2149" vertical-scroll-proportion="-0.5217391" vertical-offset="702" max-vertical-offset="6174" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/locale.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="6" selection-start="603" selection-end="603" vertical-scroll-proportion="-4.0923843" vertical-offset="3728" max-vertical-offset="6642">
-          <folding />
-        </state>
+        <state line="30" column="6" selection-start="603" selection-end="603" vertical-scroll-proportion="-4.0923843" vertical-offset="3728" max-vertical-offset="6642" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/polylang/polylang.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.818402" vertical-offset="4806" max-vertical-offset="5670">
-          <folding>
-            <marker date="1402469019431" expanded="true" signature="-1:-1" placeholder="SELECT blog_..." />
-            <marker date="1402469019431" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.818402" vertical-offset="4806" max-vertical-offset="5670" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.3432658" vertical-offset="0" max-vertical-offset="839">
-          <folding />
-        </state>
+        <state line="16" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.3432658" vertical-offset="0" max-vertical-offset="839" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="31" selection-start="2302" selection-end="2302" vertical-scroll-proportion="0.5447942" vertical-offset="414" max-vertical-offset="2502">
+        <state line="56" column="31" selection-start="2302" selection-end="2302" vertical-scroll-proportion="-0.17433414" vertical-offset="1008" max-vertical-offset="2502">
           <folding>
             <marker date="1402902326284" expanded="true" signature="3188:3380" placeholder="..." />
             <marker date="1402902326284" expanded="true" signature="3227:3380" placeholder="..." />
             <marker date="1402902326284" expanded="true" signature="3265:3380" placeholder="..." />
-            <marker date="1402902326284" expanded="true" signature="3994:5384" placeholder="..." />
           </folding>
         </state>
       </provider>
