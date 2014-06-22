@@ -123,17 +123,10 @@
 
 
 
-        </header>
+</header>
 
-
-
-
-
-
-
-
-    </header><!-- #masthead -->
-
+<!-- #masthead -->
+</div>
 
 
 
