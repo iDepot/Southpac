@@ -9,7 +9,10 @@
  * @since
  */
 ?>
-	</div><!-- #main .wrapper -->
+
+</div><!-- #main .wrapper -->
+
+
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 	</footer><!-- #colophon -->

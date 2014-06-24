@@ -16,9 +16,14 @@
 get_header(); ?>
 
 <?php if ( is_front_page()):?>
-     <div id="first-front-page-widget-area">
-            <?php  {dynamic_sidebar( 'First Front Page Widget Area' );}  ?>
-      </div>
+             <div id="first-front-page-widget-area">
+                    <?php  {dynamic_sidebar( 'First Front Page Widget Area' );}  ?>
+              </div>
+    <div class="content">
+        <div class="container_12 p_bot">
+    <?php else:?>
+        <div class="content">
+            <div class="container_12">
 <?php endif;?>
 
 <?php if (have_posts()) : ?>
@@ -32,5 +37,13 @@ get_header(); ?>
 
     <?php // include (TEMPLATEPATH . "/searchform.php"); ?>
 <?php endif; ?>
+
+
+            </div>
+        </div>
+
+
+    </div><!--  #main.content -->
+</div><!--  #main.container -->
 
 <?php get_footer(); ?>

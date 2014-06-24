@@ -46,7 +46,7 @@
 
         <div class="container_12">
             <div class="grid_12">
-                <h1><a href="index.html">
+                <h1><a href="../home">
                         <img alt="Southpac Services 南太平洋事务所" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
                     </a></h1>
                 <div class="slogan">专业注册移民中介</div>
@@ -91,45 +91,7 @@
                     </div>
                 </div>
         </div>
-
-<!--
-        <div class="menu_block ">
-            <div class="container_12">
-                <div class="grid_12"><nav class="horizontal-nav full-width horizontalNav-notprocessed">
-                        <ul class="sf-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">about us</a></li>
-                            <li class="current"><a href="services.html" class="sf-with-ul">services</a>
-                                <ul>
-                                    <li><a href="#">columns 01</a></li>
-                                    <li><a href="#">columns 02</a></li>
-                                    <li><a href="#">columns 03</a>
-                                        <ul>
-                                            <li><a href="#">columns 04</a></li>
-                                            <li><a href="#">columns 05</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="assessment.html">assessment</a></li>
-                            <li><a href="contact.html">contacts</a></li>
-                        </ul>
-                    </nav>
-                    <div class="clear"></div>
-                </div>
-            </div>
-        </div>
-
--->
-
-
-
 </header>
-
-<!-- #masthead -->
 </div>
 
-
-
-
-	<div id="main" class="wrapper">
+<div id="main" class="wrapper">
