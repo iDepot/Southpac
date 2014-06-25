@@ -25,8 +25,6 @@ if ( ! isset( $content_width ) )
 	$content_width = 625;
 
 /**
- * Twenty Twelve setup.
- *
  * Sets up theme defaults and registers the various WordPress features that
  * Twenty Twelve supports.
  *
@@ -37,12 +35,10 @@ if ( ! isset( $content_width ) )
  * @uses register_nav_menu() To add support for navigation menus.
  * @uses set_post_thumbnail_size() To set a custom post thumbnail size.
  *
- * @since Twenty Twelve 1.0
+ * @package WordPress
+ * @subpackage Southpac_Services
+ * @since Southpac Services 1.0
  */
-
-if (function_exists('camera_main_ss_add')) {
-    add_action('admin_init','camera_main_ss_add');
-}
 
 function southpac_setup() {
 	/*

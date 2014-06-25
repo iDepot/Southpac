@@ -62,11 +62,13 @@
                        <a href="<?php bloginfo('wpurl'); ?>/wp-login.php?action=register"><?php _e('Register') ?></a>
                     <?php endif; ?>
 
-                    <form id="search" action="search.php" method="GET"><input type="text" name="s" value="Search" onfocus="if (this.value == 'Search') {this.value=''}" onblur="if (this.value == '') {this.value='Search'}" />
+                    <form id="search"  action="<?php echo esc_url( home_url( '/' ) ); ?>"  method="GET">
+                        <input type="text" name="s" value="<?php _e('Search')?>" onfocus="if (this.value == '<?php _e('Search')?>') {this.value=''}" onblur="if (this.value == ''){this.value='<?php _e('Search')?>'}" />
                         <a onclick="document.getElementById('search').submit()">
                         </a>
                         <div class="clear"></div>
                     </form>
+
                 </div>
                 <div class="clear"></div>
             </div>
