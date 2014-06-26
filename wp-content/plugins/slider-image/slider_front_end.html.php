@@ -20,9 +20,6 @@ function front_end_slider($images, $paramssld, $slider)
 
 ?>
 
-
-
-
 	<!--Huge IT SLIDER START-->
 	
 	<script>

@@ -50,13 +50,13 @@
                         <img alt="Southpac Services 南太平洋事务所" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
                     </a></h1>
                 <div class="slogan">专业注册移民中介</div>
-                <div class="h_search">
 
-                <?php if (is_user_logged_in()) : ?>
-                    <a href="<?php echo wp_logout_url(get_permalink()); ?>"><?php _e('Log out') ?></a>
-                <?php else : ?>
-                    <a href="<?php echo wp_login_url(get_permalink()); ?>"><?php _e('Log in') ?></a>
-                <?php endif;?>
+                <div class="h_search">
+                    <?php if (is_user_logged_in()) : ?>
+                        <a href="<?php echo wp_logout_url(get_permalink()); ?>"><?php _e('Log out') ?></a>
+                    <?php else : ?>
+                        <a href="<?php echo wp_login_url(get_permalink()); ?>"><?php _e('Log in') ?></a>
+                    <?php endif;?>
 
                     <?php if (get_option('users_can_register')) : ?>
                        <a href="<?php bloginfo('wpurl'); ?>/wp-login.php?action=register"><?php _e('Register') ?></a>
@@ -68,7 +68,11 @@
                         </a>
                         <div class="clear"></div>
                     </form>
+                </div> <!-- h_search -->
 
+                <!-- top-widget -->
+                <div id="top-widget-area">
+                    <?php  {dynamic_sidebar( 'Top Widget Area' );}  ?>
                 </div>
                 <div class="clear"></div>
             </div>

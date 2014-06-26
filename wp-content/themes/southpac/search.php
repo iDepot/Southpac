@@ -21,7 +21,7 @@ get_header(); ?>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'content', 'search'); ?>
+				<?php get_template_part( 'content','search'); ?>
 			<?php endwhile; ?>
 
 			<?php //southpac_content_nav( 'nav-below' ); ?>
@@ -30,7 +30,6 @@ get_header(); ?>
 
 			<article id="post-0" class="post no-results not-found">
 					<h3><?php _e( 'Nothing Found' ); ?></h3>
-
 				<div>
 					<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.' ); ?></p>
 					<?php get_search_form(); ?>

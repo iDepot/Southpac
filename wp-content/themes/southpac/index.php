@@ -24,19 +24,14 @@ get_header(); ?>
     <?php else:?>
         <div class="content">
             <div class="container_12">
+                <?php southpac_customize_breadcrumb() ;?>
 <?php endif;?>
 
 <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
         <?php the_content(); ?>
     <?php endwhile; ?>
-    <?php else: ?>
-
-    <h6 class="center">Not Found</h6>
-    <p class="center">Sorry, but you are looking for something that isn't here.</p>
-
-    <?php // include (TEMPLATEPATH . "/searchform.php"); ?>
-<?php endif; ?>
+ <?php endif; ?>
 
 
             </div>
