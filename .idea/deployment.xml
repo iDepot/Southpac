@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Southpac">
+    <serverData>
+      <paths name="Southpac">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/southpacservices.com" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
+

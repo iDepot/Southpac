@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1206594155">
+  <component name="DataSourceManagerImpl" format="xml" hash="2278400351">
     <data-source source="LOCAL" name="MySQL - southpac@localhost" uuid="3817172d-234c-4e21-9971-2f32640c9ab6">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/southpac</jdbc-url>
       <user-name>root</user-name>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - @Southpac" uuid="6b001978-9fc3-4122-b321-e7cd9c70c29c">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://173.0.129.24:3306/esthery_southpac</jdbc-url>
+      <user-name>esthery_southpac</user-name>
+      <user-password>dff9dfc5dfdfdfdedfc2dfdadfcbdfc9df98df9adf9bdf9e</user-password>
       <driver-properties>
         <property name="zeroDateTimeBehavior" value="convertToNull" />
         <property name="tinyInt1isBit" value="false" />
