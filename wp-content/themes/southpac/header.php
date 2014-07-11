@@ -47,9 +47,9 @@
         <div class="container_12">
             <div class="grid_12">
                 <h1><a href="../home">
-                        <img alt="Southpac Services 南太平洋事务所" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
+                        <img alt="Southpac Services <?php _e('Southpac Services')?>" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
                     </a></h1>
-                <div class="slogan">专业注册移民中介</div>
+                <div class="slogan"><?php _e('Registered Migration Agent')?></div>
 
                 <div class="h_search">
                     <?php if (is_user_logged_in()) : ?>

@@ -71,6 +71,8 @@ $table_prefix  = 'wp_';
  */\
 define('WPLANG', '');
 
+define('WPLANG', 'zh_CN');
+
 /**\
  * For developers: WordPress debugging mode.\
  *\

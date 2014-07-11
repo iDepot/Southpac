@@ -439,6 +439,7 @@ endif;
  * @return array Filtered class values.
  */
 function southpac_body_class( $classes ) {
+
 	$background_color = get_background_color();
 	$background_image = get_background_image();
 
@@ -461,8 +462,8 @@ function southpac_body_class( $classes ) {
 	}
 
 	// Enable custom font class only if the font CSS is queued to load.
-	if ( wp_style_is( 'southpac-fonts', 'queue' ) )
-		$classes[] = 'custom-font-enabled';
+    //	if ( wp_style_is( 'southpac-fonts', 'queue' ) )
+    //		$classes[] = 'custom-font-enabled';
 
 	if ( ! is_multi_author() )
 		$classes[] = 'single-author';
