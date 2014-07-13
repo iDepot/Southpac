@@ -25,8 +25,8 @@ get_header(); ?>
         <div class="content">
             <div class="container_12">
                 <?php southpac_customize_breadcrumb() ;?>
-<?php endif;?>
-
+<?php endif;
+    ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
     <?php get_template_part( 'content'); ?>

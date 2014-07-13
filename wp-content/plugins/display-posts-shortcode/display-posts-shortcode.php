@@ -78,7 +78,7 @@ function be_display_posts_shortcode( $atts ) {
 		'tax_term'            => false,
 		'taxonomy'            => false,
 		'wrapper'             => 'ul',
-		'wrapper_class'       => 'list',
+		'wrapper_class'       => 'display-posts-listing',
 		'wrapper_id'          => false,
 	), $atts, 'display-posts' );
 	

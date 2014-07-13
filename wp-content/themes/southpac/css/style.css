@@ -907,6 +907,25 @@ a.f_logo {
     background-position: right 0;
 }
 
+/* display post shortcode css*/
+.title{
+    font-size: 20px;
+}
+
+.display-posts-listing .excerpt-dash{
+    display: none;
+}
+
+.display-posts-listing .listing-item {
+    margin: 20px 0;
+    clear: both;
+}
+
+.display-posts-listing img {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1555px) {
     .page1_block {
@@ -1136,7 +1155,5 @@ a.gal {
 .c_phone {
     font-size: 26px;
 }
-
-
 
 }

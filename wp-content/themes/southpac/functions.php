@@ -522,6 +522,18 @@ function southpac_customize_preview_js() {
 add_action( 'customize_preview_init', 'southpac_customize_preview_js' );
 
 
+//chinese character
+
+//function excerpt_read_more_link($output) {
+//    global $post;
+//    $output = mb_substr($output,0,400);
+//    return $output;
+//}
+//
+//add_filter('get_the_excerpt', 'excerpt_read_more_link');
+
+
+
 function southpac_customize_breadcrumb() {
     global $post;
     echo '<ul id="breadcrumbs">';
