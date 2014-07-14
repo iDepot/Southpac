@@ -72,7 +72,7 @@ function southpac_setup() {
 
 	// This theme uses a custom image size for featured images, displayed on "standard" posts.
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size( 624, 9999 ); // Unlimited height, soft crop
+	set_post_thumbnail_size( 350, 9999 ); // Unlimited height, soft crop
 }
 add_action( 'after_setup_theme', 'southpac_setup' );
 
@@ -524,13 +524,14 @@ add_action( 'customize_preview_init', 'southpac_customize_preview_js' );
 
 //chinese character
 
-//function excerpt_read_more_link($output) {
-//    global $post;
-//    $output = mb_substr($output,0,400);
-//    return $output;
-//}
-//
-//add_filter('get_the_excerpt', 'excerpt_read_more_link');
+function excerpt_read_more_link($output) {
+    global $post;
+    $output = mb_substr($output,0,400);
+    return $output;
+}
+
+add_filter('the_excerpt', 'excerpt_read_more_link');
+add_filter('get_the_excerpt', 'excerpt_read_more_link');
 
 
 
@@ -544,12 +545,12 @@ function southpac_customize_breadcrumb() {
         echo _e('Home');
         echo '</a></li><li class="separator"> > </li>';
         if (is_category() || is_single()) {
-            echo '<li>';
-            the_category(' </li><li class="separator"> > </li><li> ');
+          //  echo '<li>';
+            //the_category(' </li><li class="separator"> > </li><li> ');
             if (is_single()) {
-                echo '</li><li class="separator">  >  </li><li>';
+            //    echo '</li><li class="separator">  >  </li><li>';
                 the_title();
-                echo '</li>';
+             //   echo '</li>';
             }
         } elseif (is_page()) {
             if($post->post_parent){

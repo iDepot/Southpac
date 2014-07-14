@@ -17,8 +17,6 @@ get_header(); ?>
 
 		<h3><?php printf( __( 'Search Results for: %s' ), '<span>' . get_search_query() . '</span>' ); ?></h3>
 
-			<?php southpac_content_nav( 'nav-above' ); ?>
-
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content','search'); ?>
