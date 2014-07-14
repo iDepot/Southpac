@@ -91,7 +91,7 @@
             <div class="clear"></div>
             <div class="copy">
 
-                © <span id="copyright-year"></span> | <a href="./privacy">隐私策略</a> <!--{%FOOTER_LINK} -->
+                © <span id="copyright-year">2014</span> | <a href="./privacy">隐私策略</a> <!--{%FOOTER_LINK} -->
                 <div></div>
             </div>
         </div>
