@@ -103,7 +103,7 @@ class es_widget_register extends WP_Widget
 {
 	function __construct() 
 	{
-		$widget_ops = array('classname' => 'widget_text elp-widget', 'description' => __(ES_PLUGIN_DISPLAY, ES_TDOMAIN), ES_PLUGIN_NAME);
+		$widget_ops = array('classname' => 'widget_email_subscribers elp-widget', 'description' => __(ES_PLUGIN_DISPLAY, ES_TDOMAIN), ES_PLUGIN_NAME);
 		parent::__construct(ES_PLUGIN_NAME, __(ES_PLUGIN_DISPLAY, ES_TDOMAIN), $widget_ops);
 	}
 	
@@ -134,8 +134,7 @@ class es_widget_register extends WP_Widget
 		} 
 		?>
 		<script language="javascript" type="text/javascript" src="<?php echo ES_URL; ?>widget/es-widget.js"></script>
-<div class="page1_block">
-		<div class="p1_top">
+
         <div class=" container_12">
             <div class="grid_12">
 			<?php if( $es_desc <> "" ) { ?>
@@ -159,14 +158,16 @@ class es_widget_register extends WP_Widget
                         </div>
                     </div>
                 </div>
+
+
+
 			<?php if( $es_name != "YES" ) { ?>
 				<input name="es_txt_name" id="es_txt_name" value="" type="hidden">
 			<?php } ?>
 			<input name="es_txt_group" id="es_txt_group" value="<?php echo $es_group; ?>" type="hidden">
             </div>
             </div>
-        </div>
-        </div>
+
 		<?php
 		echo $args['after_widget'];
 	}

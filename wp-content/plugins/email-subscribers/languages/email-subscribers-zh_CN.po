@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Email Subscribers\n"
 "POT-Creation-Date: 2014-07-14 20:42+1000\n"
-"PO-Revision-Date: 2014-07-14 20:52+1000\n"
+"PO-Revision-Date: 2014-07-15 00:19+1000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -716,7 +716,7 @@ msgstr ""
 
 #: subscribers/view-subscriber-add.php:63
 msgid "Email is invalid."
-msgstr ""
+msgstr "电子邮件地址错误"
 
 #: subscribers/view-subscriber-add.php:98
 msgid "Add email"
@@ -735,7 +735,7 @@ msgstr ""
 #: subscribers/view-subscriber-add.php:104
 #: subscribers/view-subscriber-edit.php:86
 msgid "Enter email address."
-msgstr ""
+msgstr "输入电子邮件地址"
 
 #: subscribers/view-subscriber-add.php:115
 #: subscribers/view-subscriber-edit.php:97
@@ -753,17 +753,17 @@ msgstr ""
 
 #: subscribers/view-subscriber-edit.php:55
 msgid "Email was successfully updated."
-msgstr ""
+msgstr "电子邮件更新成功"
 
 #: subscribers/view-subscriber-edit.php:80
 msgid "Edit email"
-msgstr ""
+msgstr "编辑邮件"
 
 #: subscribers/view-subscriber-edit.php:99
 #: subscribers/view-subscriber-show.php:187
 #: subscribers/view-subscriber-show.php:200
 msgid "Group"
-msgstr ""
+msgstr "组"
 
 #: subscribers/view-subscriber-export.php:24
 msgid "Export email address in csv format"
@@ -806,7 +806,7 @@ msgstr ""
 
 #: subscribers/view-subscriber-export.php:72
 msgid "Add Email"
-msgstr ""
+msgstr "添加邮件"
 
 #: subscribers/view-subscriber-export.php:73
 #: subscribers/view-subscriber-show.php:172
@@ -874,12 +874,12 @@ msgstr ""
 #: subscribers/view-subscriber-show.php:173
 #: subscribers/view-subscriber-show.php:277
 msgid "Export Email (CSV)"
-msgstr ""
+msgstr "导出(CSV)"
 
 #: subscribers/view-subscriber-show.php:184
 #: subscribers/view-subscriber-show.php:197
 msgid "Email address"
-msgstr ""
+msgstr "邮件地址"
 
 #: subscribers/view-subscriber-show.php:237
 #: subscribers/view-subscriber-show.php:270
@@ -897,4 +897,4 @@ msgstr ""
 
 #: subscribers/view-subscriber-show.php:272
 msgid "Apply"
-msgstr ""
+msgstr "应用"

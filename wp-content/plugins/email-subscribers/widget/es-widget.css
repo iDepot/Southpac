@@ -1,29 +1,7 @@
-#email-subscribers-2 input{
-    border: none;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    float: left;
-    box-shadow: none !important;
-    width: 100%;
-    background-color: #10a1d6;
-    color: #fff;
-    font: bold 13px/18px 'Trebuchet MS', Arial, Helvetica, sans-serif;
-    height: 34px;
-    padding: 6px 12px 10px 12px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-appearance: none;
-    transition: 0.5s ease;
-    -o-transition: 0.5s ease;
-    -webkit-transition: 0.5s ease;
+.widget_email_subscribers{
+    background-color: #12b2f0;
 }
-
-.es_caption
+.widget_email_subscribers .es_caption
 {
     color: #fff;
     margin-right: 38px;

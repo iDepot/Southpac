@@ -5,13 +5,23 @@
 	es_group = document.getElementById("es_txt_group");
     if( es_email.value == "" )
     {
-        document.getElementById("es_msg").innerHTML="Please enter email address.";
+        if($('html').attr('lang')==='en-US'){
+            document.getElementById("es_msg").innerHTML="Please enter email address.";
+            console.log()
+        }else if($('html').attr('lang')==='zh-CN'){
+            document.getElementById("es_msg").innerHTML="请输入邮件地址.";
+        }
         es_email.focus();
         return false;    
     }
 	if( es_email.value!="" && ( es_email.value.indexOf("@",0) == -1 || es_email.value.indexOf(".",0) == -1 ))
     {
-        document.getElementById("es_msg").innerHTML="Please provide a valid email address.";
+        if($('html').attr('lang')==='en-US'){
+            document.getElementById("es_msg").innerHTML="Please provide a valid email address.";
+        }else if($('html').attr('lang')==='zh-CN'){
+            document.getElementById("es_msg").innerHTML="请输入正确的邮件地址.";
+        }
+
         es_email.focus();
         es_email.select();
         return false;

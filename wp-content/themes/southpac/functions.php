@@ -468,6 +468,9 @@ function southpac_body_class( $classes ) {
 	if ( ! is_multi_author() )
 		$classes[] = 'single-author';
 
+    if (is_front_page())
+        $classes[] = 'page1';
+
 	return $classes;
 }
 add_filter( 'body_class', 'southpac_body_class' );

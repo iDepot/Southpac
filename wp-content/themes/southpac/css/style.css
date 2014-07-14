@@ -109,7 +109,7 @@ h3.head1 {
 
 .page1 h3 {
     padding-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 18px;
     line-height: 24px;
 }
 
@@ -160,7 +160,7 @@ a {
 }
 
 a:hover {
-	color: #10a1d6;
+	color: #c4c4c4;
 }
 
 a.btn {
@@ -404,26 +404,6 @@ header h1 a img {
     display: block !important;
 }
 
-.page1_block .p1_top h3 {
-    color: #fff;
-    margin-right: 38px;
-    float: left;
-    margin-bottom: 0;
-    padding: 15px 0 20px;
-}
-
-.page1_block {
-    background-color: #fff;
-    /*width: 1050px;*/
-    width:auto;
-    position: relative;
-    margin: 0 auto 0;
-}
-
-.page1_block h3 {
-    margin-bottom: 18px;
-}
-
 .page1 h3 span {
     font-size: 72px;
     margin-bottom: 6px;
@@ -440,7 +420,7 @@ header h1 a img {
     text-transform: uppercase;
 }
 
-.page1_block a:hover, .page1 h3 a:hover span  {
+.page1 h3 a:hover span  {
     color: #bababa;
 }
 
@@ -533,7 +513,7 @@ header h1 a img {
 
 .block2 address {
     float: left;
-    margin-left: 15px;
+    margin-left: 10px;
     padding-top: 46px;
     display: block;
     font-size: 14px;
@@ -936,12 +916,7 @@ a.f_logo {
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1555px) {
-    .page1_block {
-        width: auto;
-        margin-top: 0;
-    }
-
-    .mt {
+.mt {
         margin-top: 0;
     }
 }
@@ -1024,11 +999,6 @@ a.chat {
     padding-top: 20px;
     margin-bottom: 20px;
 }
-
-.page1_block .p1_top h3 {
-    float: none;
-}
-
 
 #newsletter {
     float: none;
