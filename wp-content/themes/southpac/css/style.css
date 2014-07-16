@@ -356,6 +356,7 @@ header h1 a img {
 
 #top-widget-area{
     float: right;
+    padding-top: 5px;
 }
 
 /******breadcrumbs*****/

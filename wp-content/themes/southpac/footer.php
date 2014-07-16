@@ -59,28 +59,28 @@
 <footer>
     <div class="container_12">
         <div class="grid_3 fright">
-            <h3>永久移民</h3>
+            <h3><?php _e("Permanent")?></h3>
             <ul class="list">
-                <li><a href="#">投资移民</a></li>
-                <li><a href="#">技术移民</a></li>
-                <li><a href="#">家庭团聚</a></li>
-                <li><a href="#">州政府担保</a></li>
+                <li><a href="#"><?php _e("Investment Immigration")?></a></li>
+                <li><a href="#"><?php _e("Skilled Immigration")?></a></li>
+                <li><a href="#"><?php _e("Family Reunion")?></a></li>
+                <li><a href="#"><?php _e("State Sponsor")?></a></li>
             </ul>
         </div>
         <div class="grid_3 fright">
-            <h3>临时居留</h3>
+            <h3><?php _e("Temporary")?></h3>
             <ul class="list">
-                <li><a href="#">临时居民</a></li>
-                <li><a href="#">澳洲留学</a></li>
-                <li><a href="#">旅游签证</a></li>
-                <li><a href="#">父母移民</a></li>
+                <li><a href="#"><?php _e("Temporary Resident")?></a></li>
+                <li><a href="#"><?php _e("Student Visa")?></a></li>
+                <li><a href="#"><?php _e("Visitor Visa")?></a></li>
+                <li><a href="#"><?php _e("Work Visa")?></a></li>
             </ul>
         </div>
         <div class="grid_3 fright">
-            <h3>移民申诉</h3>
+            <h3><?php _e("Tribunal")?></h3>
             <ul class="list">
-                <li><a href="#">MRT申诉</a></li>
-                <li><a href="#">RRT申诉</a></li>
+                <li><a href="#"><?php _e("MRT Appeal")?></a></li>
+                <li><a href="#"><?php _e("RRT Appeal")?></a></li>
             </ul>
         </div>
         <div class="grid_3">
@@ -91,7 +91,7 @@
             <div class="clear"></div>
             <div class="copy">
 
-                © <span id="copyright-year"></span> | <a href="./privacy">隐私策略</a> <!--{%FOOTER_LINK} -->
+                © <span id="copyright-year"></span> | <a href="./privacy"><?php _e("Privacy")?></a> <!--{%FOOTER_LINK} -->
                 <div></div>
             </div>
         </div>

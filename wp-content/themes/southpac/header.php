@@ -51,6 +51,12 @@
                     </a></h1>
                 <div class="slogan"><?php _e('Registered Migration Agent')?></div>
 
+                <!-- top-widget -->
+                <div id="top-widget-area">
+                    <?php  {dynamic_sidebar( 'Top Widget Area' );}  ?>
+                </div>
+
+                <!-- h_search -->
                 <div class="h_search">
                     <?php if (is_user_logged_in()) : ?>
                         <a href="<?php echo wp_logout_url(get_permalink()); ?>"><?php _e('Log out') ?></a>
@@ -68,13 +74,9 @@
                         </a>
                         <div class="clear"></div>
                     </form>
-                </div> <!-- h_search -->
-
-                <!-- top-widget -->
-                <div id="top-widget-area">
-                    <?php  {dynamic_sidebar( 'Top Widget Area' );}  ?>
                 </div>
-                <div class="clear"></div>
+
+
             </div>
         </div>
 
@@ -82,7 +84,7 @@
         <div class="menu_block ">
             <div class="container_12">
                 <div class="grid_12">
-
+                    <!-- navigation -->
                          <?php wp_nav_menu(
                              array(
                                  'theme_location' => 'primary',
@@ -93,7 +95,7 @@
                                  'items_wrap'      => '<ul class="sf-menu">%3$s</ul>',
                                  'walker'          => ''
                              ) ); ?>
-                    <!-- #site-navigation -->
+
                     </div>
                 </div>
         </div>
@@ -101,3 +103,4 @@
 </div>
 
 <div id="main" class="wrapper">
+<!-- content -->
