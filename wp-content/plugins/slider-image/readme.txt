@@ -1,10 +1,10 @@
 === Slider ===
 Contributors: Huge-IT
 Donate link: http://huge-it.com/slider/
-Tags: slider, slideshow, wordpress slider, content slider, posts slider,image slider, responsive slideshow, image Rotator, jquery slider, Photo Slider, nivo slider, slider plugin, javascript slider, coin slider, responsive slider, featured-content-slider, Horizontal slider, carousel slider, wp slider, vertical slider, best slider plugin, content slideshow, javascript slideshow, slideshow manager, slideshow plugin, image slideshow, jquery slideshow, wordpress slideshow, vertical slides, responsive, nivoslider, flex slider, coinslider, carousel, post, posts, plugin, slider widget, widget slider, widget slideshow, widget, widgets, seo, wordpress seo, media, page, slide, slides, image, images
+Tags: slider, slideshow, wordpress slider, content slider, posts slider,image slider, responsive slideshow, image Rotator, jquery slider, Photo Slider, nivo slider, slider plugin, javascript slider, coin slider, responsive slider, featured-content-slider, Horizontal slider, carousel slider, wp slider, vertical slider, best slider plugin, content slideshow, javascript slideshow, slideshow manager, slideshow plugin, image slideshow, jquery slideshow, wordpress slideshow, vertical slides, responsive, nivoslider, flex slider, coinslider, carousel, post, posts, plugin, slider widget, widget slider, widget slideshow, widget, widgets, seo, wordpress seo, media, page, slide, slides, image, images, slide show
 Requires at least: 3.0.1
 Tested up to: 3.9.1
-Stable tag: 2.4.6
+Stable tag: 2.5.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,7 +41,7 @@ Upgrade to [WordPress Slider Pro](http://huge-it.com/slider) to add some feature
 * Full Design Management 
 * Support upon request in 24 hours
 
-### If you think, that you found a bug in our Slider plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
+### If you think, that you found a bug in our [WordPress Slider](http://huge-it.com/slider) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
 
 == Installation ==
 
@@ -49,7 +49,7 @@ Upgrade to [WordPress Slider Pro](http://huge-it.com/slider) to add some feature
 
 1. Log in to your website administrator panel.   
 2. Go to Plugins page, and add new plugin.    
-3. Upload WordPress Slider. 
+3. Upload [WordPress Slider](http://wordpress.org/plugins/slider-image). 
 4. Click `Install Now` button.     
 5. Then click `Activate Plugin` button. 
 
@@ -58,12 +58,24 @@ Now you can set your slider options, images and use our slider.
 == Screenshots ==
 
 1.  WordPress slider - Slider Frontend    
-2.  WordPress slider - Slides admin page  
-3.  WordPress slider - Sliders admin page 
+2.  [WordPress Slider](http://wordpress.org/plugins/slider-image) - Slides admin page  
+3.  [WordPress Slider](http://huge-it.com/slider) - Sliders admin page 
 4.  WordPress slider - Post Slider        
 5.  WordPress slider - Widget Slider      
 
 == Changelog ==
+
+= 2.5.1 =
+*  added possibility to change slider options when we insert the slider Shortcode in our posts/pages.
+
+= 2.5 =
+*  bug fixed in slider.
+
+= 2.4.7 =
+*  add some features.
+
+= 2.4.6 =
+*  bug fixed in slider.
 
 = 2.4.5 =
 *  bug fixed in slider.
@@ -118,7 +130,7 @@ Width. Specify the width of the slider in pixels.
 Height. Specify the height of the slider in pixels.
 Pause on Hover. Choose whether to pause the slider on mouse or leave it changing to the further image.
 Effects. Select the effect which will be applied to the slider.
-Pause time. Specify the pause time for the slider in miliseconds.
+Pause time. Specify the pause time for the [WordPress Slider](http://wordpress.org/plugins/slider-image) in miliseconds.
 Change speed. Specify the change speed in miliseconds.
 
 ### Step 3. Editing Slider General Options
@@ -167,7 +179,7 @@ Navigation type. Select the type of the navigation arrows to be used for the web
 4.1 Inserting the Slider into the Post or Page. 
 
 You should use the automatically generated code into the the Post or Page. The shortcodes takes the following form:
-[huge_it_slider id=N] , where N is the number ID of the created Slider.
+[huge_it_slider id=N] , where N is the number ID of the created [WordPress Slider](http://huge-it.com/slider).
 
 4.2 Inserting the Slider into the template.
 

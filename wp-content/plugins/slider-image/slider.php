@@ -4,7 +4,7 @@
 Plugin Name: Huge IT slider
 Plugin URI: http://huge-it.com/slider
 Description: Huge IT slider is a convenient tool for organizing the images represented on your website into sliders. Each product on the slider is assigned with a relevant slider, which makes it easier for the customers to search and identify the needed images within the slider.
-Version: 2.4.6
+Version: 2.5.1
 Author: http://huge-it.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -15,17 +15,17 @@ License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 
 function hugeit_slider_header() {
     if ( is_admin() ) {
-		wp_enqueue_script("jquery_old", "http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js", FALSE);
-		wp_enqueue_script("jquery_ui", "http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css", FALSE);
-		wp_enqueue_script("jquery_new", "http://code.jquery.com/jquery-1.10.2.js", FALSE);
-		wp_enqueue_script("jquery_ui_new", "http://code.jquery.com/ui/1.10.4/jquery-ui.js", FALSE);
-		
-		wp_enqueue_script("simple_slider_js",  plugins_url("js/simple-slider.js", __FILE__), FALSE);
-		wp_enqueue_style("simple_slider_css", plugins_url("style/simple-slider.css", __FILE__), FALSE);
-		
-		wp_enqueue_style("admin_css", plugins_url("style/admin.style.css", __FILE__), FALSE);
-		wp_enqueue_script("admin_js", plugins_url("js/admin.js", __FILE__), FALSE);
-	}
+        wp_enqueue_script("jquery_old", "http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js", FALSE);
+        wp_enqueue_script("jquery_ui", "http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css", FALSE);
+        wp_enqueue_script("jquery_new", "http://code.jquery.com/jquery-1.10.2.js", FALSE);
+        wp_enqueue_script("jquery_ui_new", "http://code.jquery.com/ui/1.10.4/jquery-ui.js", FALSE);
+
+        wp_enqueue_script("simple_slider_js",  plugins_url("js/simple-slider.js", __FILE__), FALSE);
+        wp_enqueue_style("simple_slider_css", plugins_url("style/simple-slider.css", __FILE__), FALSE);
+
+        wp_enqueue_style("admin_css", plugins_url("style/admin.style.css", __FILE__), FALSE);
+        wp_enqueue_script("admin_js", plugins_url("js/admin.js", __FILE__), FALSE);
+    }
 }
 add_action('admin_init', 'hugeit_slider_header');
 
@@ -33,47 +33,47 @@ add_action('admin_init', 'hugeit_slider_header');
 add_action('media_buttons_context', 'add_my_custom_button');
 add_action('admin_footer', 'add_inline_popup_content');
 function add_my_custom_button($context) {
-  $img = plugins_url( '/images/post.button.png' , __FILE__ );
-  $container_id = 'huge_it_slider';
-  $title = 'Select Huge IT Slider to insert into post';
-  $context .= '<a class="button thickbox" title="Select slider to insert into post"    href="#TB_inline?width=400&inlineId='.$container_id.'">
+    $img = plugins_url( '/images/post.button.png' , __FILE__ );
+    $container_id = 'huge_it_slider';
+    $title = 'Select Huge IT Slider to insert into post';
+    $context .= '<a class="button thickbox" title="Select slider to insert into post"    href="#TB_inline?width=400&inlineId='.$container_id.'">
 		<span class="wp-media-buttons-icon" style="background: url('.$img.'); background-repeat: no-repeat; background-position: left bottom;"></span>
 	Add Slider
 	</a>';
-  return $context;
+    return $context;
 }
 function add_inline_popup_content() {
-?>
-<script type="text/javascript">
-				jQuery(document).ready(function() {
-				  jQuery('#hugeitsliderinsert').on('click', function() {
-				  	var id = jQuery('#huge_it_slider-select option:selected').val();
-			
-				  	window.send_to_editor('[huge_it_slider id="' + id + '"]');
-					tb_remove();
-				  })
-				});
-</script>
-<div id="huge_it_slider" style="display:none;">
-  <h3>Select Huge IT Slider to insert into post</h3>
-  <?php 
-  	  global $wpdb;
-	  $query="SELECT * FROM ".$wpdb->prefix."huge_itslider_sliders order by id ASC";
-			   $shortcodesliders=$wpdb->get_results($query);
-			   ?>
- <?php 	if (count($shortcodesliders)) {
-							echo "<select id='huge_it_slider-select'>";
-							foreach ($shortcodesliders as $shortcodeslider) {
-								echo "<option value='".$shortcodeslider->id."'>".$shortcodeslider->name."</option>";
-							}
-							echo "</select>";
-							echo "<button class='button primary' id='hugeitsliderinsert'>Insert Slider</button>";
-						} else {
-							echo "No slideshows found", "huge_it_slider";
-						}
-						?>
-	
-</div>
+    ?>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('#hugeitsliderinsert').on('click', function() {
+                var id = jQuery('#huge_it_slider-select option:selected').val();
+
+                window.send_to_editor('[huge_it_slider id="' + id + '"]');
+                tb_remove();
+            })
+        });
+    </script>
+    <div id="huge_it_slider" style="display:none;">
+        <h3>Select Huge IT Slider to insert into post</h3>
+        <?php
+        global $wpdb;
+        $query="SELECT * FROM ".$wpdb->prefix."huge_itslider_sliders order by id ASC";
+        $shortcodesliders=$wpdb->get_results($query);
+        ?>
+        <?php 	if (count($shortcodesliders)) {
+            echo "<select id='huge_it_slider-select'>";
+            foreach ($shortcodesliders as $shortcodeslider) {
+                echo "<option value='".$shortcodeslider->id."'>".$shortcodeslider->name."</option>";
+            }
+            echo "</select>";
+            echo "<button class='button primary' id='hugeitsliderinsert'>Insert Slider</button>";
+        } else {
+            echo "No slideshows found", "huge_it_slider";
+        }
+        ?>
+
+    </div>
 <?php
 }
 ///////////////////////////////////shortcode update/////////////////////////////////////////////
@@ -81,7 +81,7 @@ function add_inline_popup_content() {
 
 add_action('init', 'hugesl_do_output_buffer');
 function hugesl_do_output_buffer() {
-        ob_start();
+    ob_start();
 }
 add_action('init', 'slider_lang_load');
 
@@ -104,7 +104,7 @@ function huge_it_slider_images_list_shotrcode($atts)
 {
     extract(shortcode_atts(array(
         'id' => 'no huge_it slider',
-    
+
     ), $atts));
     return huge_it_cat_images_list($atts['id']);
 }
@@ -184,34 +184,34 @@ function huge_it_slider_options_panel()
     $page_cat = add_menu_page('Theme page title', 'Huge IT slider', 'manage_options', 'sliders_huge_it_slider', 'sliders_huge_it_slider', plugins_url('images/huge_it_sliderLogoHover -for_menu.png', __FILE__));
     add_submenu_page('sliders_huge_it_slider', 'Sliders', 'Sliders', 'manage_options', 'sliders_huge_it_slider', 'sliders_huge_it_slider');
     $page_option = add_submenu_page('sliders_huge_it_slider', 'General Options', 'General Options', 'manage_options', 'Options_slider_styles', 'Options_slider_styles');
-	add_submenu_page( 'sliders_huge_it_slider', 'Licensing', 'Licensing', 'manage_options', 'huge_it_slider_Licensing', 'huge_it_slider_Licensing');
+    add_submenu_page( 'sliders_huge_it_slider', 'Licensing', 'Licensing', 'manage_options', 'huge_it_slider_Licensing', 'huge_it_slider_Licensing');
 
     add_action('admin_print_styles-' . $page_option, 'huge_it_option_admin_script');
 }
 function huge_it_slider_Licensing(){
 
-	?>
+    ?>
     <div style="width:95%">
-    <p>
-	This plugin is the non-commercial version of the Huge IT slider. If you want to customize to the styles and colors of your website,than you need to buy a license.
-Purchasing a license will add possibility to customize the general options of the Huge IT slider. 
+        <p>
+            This plugin is the non-commercial version of the Huge IT slider. If you want to customize to the styles and colors of your website,than you need to buy a license.
+            Purchasing a license will add possibility to customize the general options of the Huge IT slider.
 
- </p>
-<br /><br />
-<a href="http://huge-it.com/slider/" class="button-primary" target="_blank">Purchase a License</a>
-<br /><br /><br />
-<p>After the purchasing the commercial version follow this steps:</p>
-<ol>
-	<li>Deactivate Huge IT slider Plugin</li>
-	<li>Delete Huge IT slider Plugin</li>
-	<li>Install the downloaded commercial version of the plugin</li>
-</ol>
-</div>
+        </p>
+        <br /><br />
+        <a href="http://huge-it.com/slider/" class="button-primary" target="_blank">Purchase a License</a>
+        <br /><br /><br />
+        <p>After the purchasing the commercial version follow this steps:</p>
+        <ol>
+            <li>Deactivate Huge IT slider Plugin</li>
+            <li>Delete Huge IT slider Plugin</li>
+            <li>Install the downloaded commercial version of the plugin</li>
+        </ol>
+    </div>
 <?php
-	}
+}
 function huge_it_option_admin_script()
 {
-   wp_enqueue_script('param_block2', plugins_url("elements/jscolor/jscolor.js", __FILE__));
+    wp_enqueue_script('param_block2', plugins_url("elements/jscolor/jscolor.js", __FILE__));
 }
 function sliders_huge_it_slider()
 {
@@ -220,7 +220,7 @@ function sliders_huge_it_slider()
     if (!function_exists('print_html_nav'))
         require_once("slider_function/html_slider_func.php");
     if (isset($_GET["task"]))
-        $task = $_GET["task"]; 
+        $task = $_GET["task"];
     else
         $task = '';
     if (isset($_GET["id"]))
@@ -232,7 +232,7 @@ function sliders_huge_it_slider()
         case 'add_cat':
             add_slider();
             break;
-		case 'popup_posts':
+        case 'popup_posts':
             if ($id)
                 popup_posts($id);
             else {
@@ -255,7 +255,7 @@ function sliders_huge_it_slider()
             if ($id) {
                 apply_cat($id);
                 editslider($id);
-            } 
+            }
             break;
         case 'remove_cat':
             removeslider($id);
@@ -276,75 +276,75 @@ function Options_slider_styles()
     showStyles();
 }
 class Huge_it_Widget extends WP_Widget {
-	public function __construct() {
-		parent::__construct(
-	 		'Huge_it_Widget', 
-			'Huge IT Slider', 
-			array( 'description' => __( 'Huge IT Slider', 'huge_it_slider' ), ) 
-		);
-	}
-	public function widget( $args, $instance ) {
-		extract($args);
+    public function __construct() {
+        parent::__construct(
+            'Huge_it_Widget',
+            'Huge IT Slider',
+            array( 'description' => __( 'Huge IT Slider', 'huge_it_slider' ), )
+        );
+    }
+    public function widget( $args, $instance ) {
+        extract($args);
 
-		if (isset($instance['slider_id'])) {
-			$slider_id = $instance['slider_id'];
+        if (isset($instance['slider_id'])) {
+            $slider_id = $instance['slider_id'];
 
-			$title = apply_filters( 'widget_title', $instance['title'] );
+            $title = apply_filters( 'widget_title', $instance['title'] );
 
-			echo $before_widget;
-			if ( ! empty( $title ) )
-				echo $before_title . $title . $after_title;
+            echo $before_widget;
+            if ( ! empty( $title ) )
+                echo $before_title . $title . $after_title;
 
-			echo do_shortcode("[huge_it_slider id={$slider_id}]");
-			echo $after_widget;
-		}
-	}
-	public function update( $new_instance, $old_instance ) {
-		$instance = array();
-		$instance['slider_id'] = strip_tags( $new_instance['slider_id'] );
-		$instance['title'] = strip_tags( $new_instance['title'] );
-		return $instance;
-	}
-	public function form( $instance ) {
-		$selected_slider = 0;
-		$title = "";
-		$sliders = false;
-		if (isset($instance['slider_id'])) {
-			$selected_slider = $instance['slider_id'];
-		}
-		if (isset($instance['title'])) {
-			$title = $instance['title'];
-		}
-?>
-		<p>
-			
-				<p>
-					<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label> 
-					<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
-				</p>
-				<label for="<?php echo $this->get_field_id('slider_id'); ?>"><?php _e('Select Slider:', 'huge_it_slider'); ?></label> 
-				<select id="<?php echo $this->get_field_id('slider_id'); ?>" name="<?php echo $this->get_field_name('slider_id'); ?>">
-				
-				<?php
-				 global $wpdb;
-				$query="SELECT * FROM ".$wpdb->prefix."huge_itslider_sliders ";
-				$rowwidget=$wpdb->get_results($query);
-				foreach($rowwidget as $rowwidgetecho){
-				
-				selected
-				?>
-					<option <?php if($rowwidgetecho->id == $instance['slider_id']){ echo 'selected'; } ?> value="<?php echo $rowwidgetecho->id; ?>"><?php echo $rowwidgetecho->name; ?></option>
+            echo do_shortcode("[huge_it_slider id={$slider_id}]");
+            echo $after_widget;
+        }
+    }
+    public function update( $new_instance, $old_instance ) {
+        $instance = array();
+        $instance['slider_id'] = strip_tags( $new_instance['slider_id'] );
+        $instance['title'] = strip_tags( $new_instance['title'] );
+        return $instance;
+    }
+    public function form( $instance ) {
+        $selected_slider = 0;
+        $title = "";
+        $sliders = false;
+        if (isset($instance['slider_id'])) {
+            $selected_slider = $instance['slider_id'];
+        }
+        if (isset($instance['title'])) {
+            $title = $instance['title'];
+        }
+        ?>
+        <p>
 
-					<?php } ?>
-				</select>
+        <p>
+            <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
+            <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
+        </p>
+        <label for="<?php echo $this->get_field_id('slider_id'); ?>"><?php _e('Select Slider:', 'huge_it_slider'); ?></label>
+        <select id="<?php echo $this->get_field_id('slider_id'); ?>" name="<?php echo $this->get_field_name('slider_id'); ?>">
 
-		</p>
-		<?php 
-	}
+            <?php
+            global $wpdb;
+            $query="SELECT * FROM ".$wpdb->prefix."huge_itslider_sliders ";
+            $rowwidget=$wpdb->get_results($query);
+            foreach($rowwidget as $rowwidgetecho){
+
+                selected
+                ?>
+                <option <?php if($rowwidgetecho->id == $instance['slider_id']){ echo 'selected'; } ?> value="<?php echo $rowwidgetecho->id; ?>"><?php echo $rowwidgetecho->name; ?></option>
+
+            <?php } ?>
+        </select>
+
+        </p>
+    <?php
+    }
 }
-add_action('widgets_init', 'register_Huge_it_Widget');  
-function register_Huge_it_Widget() {  
-    register_widget('Huge_it_Widget'); 
+add_action('widgets_init', 'register_Huge_it_Widget');
+function register_Huge_it_Widget() {
+    register_widget('Huge_it_Widget');
 }
 function huge_it_slider_activate()
 {
@@ -454,55 +454,55 @@ INSERT INTO `$table_name` (`id`, `name`, `sl_height`, `sl_width`, `pause_on_hove
         $wpdb->query($sql_1);
     }
     if (!$wpdb->get_var("select count(*) from " . $wpdb->prefix . "huge_itslider_images")) {
-      $wpdb->query($sql_2);
+        $wpdb->query($sql_2);
     }
     if (!$wpdb->get_var("select count(*) from " . $wpdb->prefix . "huge_itslider_sliders")) {
-      $wpdb->query($sql_3);
+        $wpdb->query($sql_3);
     }
 
-	$product = $wpdb->get_results("DESCRIBE " . $wpdb->prefix . "huge_itslider_sliders", ARRAY_A);
+    $product = $wpdb->get_results("DESCRIBE " . $wpdb->prefix . "huge_itslider_sliders", ARRAY_A);
     $isUpdate = 0;
-	foreach ($product as $prod) {
+    foreach ($product as $prod) {
         if ($prod['Field'] == 'published' && $prod['Type'] == 'tinyint(4) unsigned') {
             $isUpdate = 1;
             break;
         }
     }
-	if ($isUpdate) {
-	$wpdb->query("ALTER TABLE `wp_huge_itslider_sliders` MODIFY `published` text");
-	$wpdb->query("UPDATE ".$wpdb->prefix."huge_itslider_sliders SET published = '300' WHERE id = 1 ");
-	}
-	
-	$product2 = $wpdb->get_results("DESCRIBE " . $wpdb->prefix . "huge_itslider_images", ARRAY_A);
-    $isUpdate2 = 0;
-	foreach ($product2 as $prod2) {
-
-			if($product2[6]['Field'] == 'sl_type')
-			{
-			echo '';
-			}
-			else
-			{
-			$query="SELECT * FROM ".$wpdb->prefix."huge_itslider_images order by id ASC";
-			   $rowim=$wpdb->get_results($query);
-	  foreach ($rowim as $key=>$rowimages){
-	  $wpdb->query("UPDATE ".$wpdb->prefix."huge_itslider_images SET  ordering = '".$rowimages->id."'  WHERE ID = ".$rowimages->id." ");
-	  }
-			}
+    if ($isUpdate) {
+        $wpdb->query("ALTER TABLE `wp_huge_itslider_sliders` MODIFY `published` text");
+        $wpdb->query("UPDATE ".$wpdb->prefix."huge_itslider_sliders SET published = '300' WHERE id = 1 ");
     }
-		if($product2[6]['Field'] == 'sl_type')
-			{
-			echo '';
-			}
-			else
-			{
-			$wpdb->query("ALTER TABLE  `wp_huge_itslider_images` ADD  `sl_type` TEXT NOT NULL AFTER  `sl_url`");
-			$wpdb->query("UPDATE ".$wpdb->prefix."huge_itslider_images SET sl_type = 'image' ");
-			$wpdb->query("ALTER TABLE  `wp_huge_itslider_images` ADD  `link_target` TEXT NOT NULL AFTER  `sl_type`");
-			$wpdb->query("UPDATE ".$wpdb->prefix."huge_itslider_images SET link_target = 'on' ");
 
-		    $table_name = $wpdb->prefix . "huge_itslider_params";
-    $sql_update2 = <<<query1
+    $product2 = $wpdb->get_results("DESCRIBE " . $wpdb->prefix . "huge_itslider_images", ARRAY_A);
+    $isUpdate2 = 0;
+    foreach ($product2 as $prod2) {
+
+        if($product2[6]['Field'] == 'sl_type')
+        {
+            echo '';
+        }
+        else
+        {
+            $query="SELECT * FROM ".$wpdb->prefix."huge_itslider_images order by id ASC";
+            $rowim=$wpdb->get_results($query);
+            foreach ($rowim as $key=>$rowimages){
+                $wpdb->query("UPDATE ".$wpdb->prefix."huge_itslider_images SET  ordering = '".$rowimages->id."'  WHERE ID = ".$rowimages->id." ");
+            }
+        }
+    }
+    if($product2[6]['Field'] == 'sl_type')
+    {
+        echo '';
+    }
+    else
+    {
+        $wpdb->query("ALTER TABLE  `wp_huge_itslider_images` ADD  `sl_type` TEXT NOT NULL AFTER  `sl_url`");
+        $wpdb->query("UPDATE ".$wpdb->prefix."huge_itslider_images SET sl_type = 'image' ");
+        $wpdb->query("ALTER TABLE  `wp_huge_itslider_images` ADD  `link_target` TEXT NOT NULL AFTER  `sl_type`");
+        $wpdb->query("UPDATE ".$wpdb->prefix."huge_itslider_images SET link_target = 'on' ");
+
+        $table_name = $wpdb->prefix . "huge_itslider_params";
+        $sql_update2 = <<<query1
 INSERT INTO `$table_name` (`name`, `title`,`description`, `value`) VALUES
 ( 'slider_description_width', 'Slider description width', 'Slider description width', '70'),
 ( 'slider_description_height', 'Slider description height', 'Slider description height', '50'),
@@ -514,25 +514,25 @@ INSERT INTO `$table_name` (`name`, `title`,`description`, `value`) VALUES
 ( 'slider_title_text_align', 'title text-align', 'title text-align', 'right');
 
 query1;
-			 $wpdb->query($sql_update2);
-	}
-	$product3 = $wpdb->get_results("DESCRIBE " . $wpdb->prefix . "huge_itslider_sliders", ARRAY_A);
-	if($product3[8]['Field'] == 'sl_position'){
-		echo '';
-	}
-	else
-	{
-	$wpdb->query("ALTER TABLE  `wp_huge_itslider_sliders` ADD  `sl_position` TEXT NOT NULL AFTER  `param`");
-	$wpdb->query("UPDATE ".$wpdb->prefix."huge_itslider_sliders SET `sl_position` = 'center' ");
-	$table_name = $wpdb->prefix . "huge_itslider_params";
-    $sql_update3 = <<<query1
+        $wpdb->query($sql_update2);
+    }
+    $product3 = $wpdb->get_results("DESCRIBE " . $wpdb->prefix . "huge_itslider_sliders", ARRAY_A);
+    if($product3[8]['Field'] == 'sl_position'){
+        echo '';
+    }
+    else
+    {
+        $wpdb->query("ALTER TABLE  `wp_huge_itslider_sliders` ADD  `sl_position` TEXT NOT NULL AFTER  `param`");
+        $wpdb->query("UPDATE ".$wpdb->prefix."huge_itslider_sliders SET `sl_position` = 'center' ");
+        $table_name = $wpdb->prefix . "huge_itslider_params";
+        $sql_update3 = <<<query1
 INSERT INTO `$table_name` (`name`, `title`,`description`, `value`) VALUES
 ( 'slider_title_has_margin', 'title has margin', 'title has margin', 'on'),
 ( 'slider_description_has_margin', 'description has margin', 'description has margin', 'on'),
 ( 'slider_show_arrows', 'Slider show left right arrows', 'Slider show left right arrows', 'on');
 
 query1;
-	 $wpdb->query($sql_update3);
-	}
+        $wpdb->query($sql_update3);
+    }
 }
 register_activation_hook(__FILE__, 'huge_it_slider_activate');

@@ -1,7 +1,8 @@
-.widget_email_subscribers{
+.widget_text{
     background-color: #12b2f0;
 }
-.widget_email_subscribers .es_caption
+
+.widget_text .es_caption
 {
     color: #fff;
     margin-right: 38px;

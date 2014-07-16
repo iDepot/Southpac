@@ -199,6 +199,16 @@ class es_cls_dbquery
 		return "sus";
 	}
 	
+	public static function es_view_subscriber_upd_group($group = "", $idlist = "")
+	{
+		global $wpdb;
+		$prefix = $wpdb->prefix;
+		$sSql = "UPDATE `".$prefix."es_emaillist` SET `es_email_group` = '".$group."'";
+		$sSql = $sSql . " WHERE es_email_id in (".$idlist.")";
+		$wpdb->query($sSql);
+		return "sus";
+	}
+	
 	public static function es_view_subscriber_job($status = "", $id = 0, $guid = "", $email = "")
 	{
 		global $wpdb;
@@ -218,6 +228,28 @@ class es_cls_dbquery
 			$sSql = $sSql . " and es_email_guid = %s Limit 1";
 			$sSql = $wpdb->prepare($sSql, array($status, $id, $email, $guid));
 			$wpdb->query($sSql);
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	
+	public static function es_view_subscriber_jobstatus($status = "", $id = 0, $guid = "", $email = "")
+	{
+		global $wpdb;
+		$prefix = $wpdb->prefix;
+		
+		$sSql = "SELECT COUNT(*) AS `count` FROM `".$prefix."es_emaillist`";
+		$sSql = $sSql . " WHERE es_email_id = %d";
+		$sSql = $sSql . " and es_email_mail = %s";
+		$sSql = $sSql . " and es_email_status = %s";
+		$sSql = $sSql . " and es_email_guid = %s Limit 1";
+		$sSql = $wpdb->prepare($sSql, array($id, $email, $status, $guid));
+		$result = $wpdb->get_var($sSql);
+		if ( $result > 0)
+		{
 			return true;
 		}
 		else

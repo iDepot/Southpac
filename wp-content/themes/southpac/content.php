@@ -21,11 +21,6 @@
            the_post_thumbnail();
         endif; ?>
 
-        <div class="content">
-			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>') ); ?>
-			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:' ), 'after' => '</div>' ) ); ?>
-		</div>
-
-
+        <?php the_content()?>
 
 	</article><!-- #post -->

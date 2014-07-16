@@ -22,7 +22,6 @@ get_header(); ?>
     <div class="content">
         <div class="container_12 p_bot">
     <?php else:?>
-        <div class="content">
             <div class="container_12">
                 <?php southpac_customize_breadcrumb() ;?>
 <?php endif;
@@ -35,8 +34,7 @@ get_header(); ?>
 
 
 
-            </div>
-        </div>
+       </div>
 
 
     </div><!--  #main.content -->

@@ -103,7 +103,7 @@ class es_widget_register extends WP_Widget
 {
 	function __construct() 
 	{
-		$widget_ops = array('classname' => 'widget_email_subscribers elp-widget', 'description' => __(ES_PLUGIN_DISPLAY, ES_TDOMAIN), ES_PLUGIN_NAME);
+		$widget_ops = array('classname' => 'widget_text elp-widget', 'description' => __(ES_PLUGIN_DISPLAY, ES_TDOMAIN), ES_PLUGIN_NAME);
 		parent::__construct(ES_PLUGIN_NAME, __(ES_PLUGIN_DISPLAY, ES_TDOMAIN), $widget_ops);
 	}
 	
@@ -136,13 +136,13 @@ class es_widget_register extends WP_Widget
 		<script language="javascript" type="text/javascript" src="<?php echo ES_URL; ?>widget/es-widget.js"></script>
 
         <div class=" container_12">
-            <div class="grid_12">
+             <div class="grid_12">
 			<?php if( $es_desc <> "" ) { ?>
 			<h3 class="es_caption"><?php echo $es_desc; ?></h3>
 			<?php } ?>
                 <div id="newsletter">
-                    <div class="rel">
-                              <?php if( $es_name == "YES" ) { ?>
+                      <div class="rel">
+                                <?php if( $es_name == "YES" ) { ?>
                         <div class="es_lablebox"><?php _e('Name', ES_TDOMAIN); ?></div>
                         <div class="es_textbox">
                             <input class="es_textbox_class" name="es_txt_name" id="es_txt_name" value="" maxlength="225" type="text">
@@ -151,10 +151,10 @@ class es_widget_register extends WP_Widget
                         <div class="es_lablebox"><?php _e('Email *', ES_TDOMAIN); ?></div>
                         <div class="es_textbox">
                             <input class="es_textbox_class" name="es_txt_email" id="es_txt_email" onkeypress="if(event.keyCode==13) es_submit_page('<?php echo $url; ?>')" value="" maxlength="225" type="email" placeholder="<?php _e('Your Email', ES_TDOMAIN); ?>">
-                        </div>
+                          </div>
                         <div class="es_msg"><span id="es_msg"></span></div>
                         <div class="es_button">
-                            <a href="#" class="es_textbox_button" id="es_txt_button" onClick="return es_submit_page('<?php echo $url; ?>')" ?></a>
+                            <a href="#" class="es_textbox_button" name="es_txt_button" id="es_txt_button" onClick="return es_submit_page('<?php echo $url; ?>')" ?></a>
                         </div>
                     </div>
                 </div>
@@ -165,7 +165,7 @@ class es_widget_register extends WP_Widget
 				<input name="es_txt_name" id="es_txt_name" value="" type="hidden">
 			<?php } ?>
 			<input name="es_txt_group" id="es_txt_group" value="<?php echo $es_group; ?>" type="hidden">
-            </div>
+		    </div>
             </div>
 
 		<?php

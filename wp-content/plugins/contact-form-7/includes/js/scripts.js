@@ -53,7 +53,7 @@
 		if (_wpcf7.jqueryUi && ! _wpcf7.supportHtml5.date) {
 			this.find('input.wpcf7-date[type="date"]').each(function() {
 				$(this).datepicker({
-					dateFormat: 'dd/mm/yyyy',
+					dateFormat: 'yy-mm-dd',
 					minDate: new Date($(this).attr('min')),
 					maxDate: new Date($(this).attr('max'))
 				});
