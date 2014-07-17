@@ -2,8 +2,178 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d004d9fb-8998-4ffc-abc2-d07483742506" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\plugins\all-in-one-seo-pack-pro\all_in_one_seo_pack-ko_KR.po" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-seo-pack-pro/all_in_one_seo_pack.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-seo-pack-pro/all_in_one_seo_pack.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\01\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\01\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\01\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\01\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\01\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\02\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\02\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\02\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\02\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\02\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\03\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\03\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\03\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\03\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\03\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\04\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\04\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\04\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\04\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\04\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\06\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\06\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\06\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\06\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\06\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\07\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\07\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\07\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\07\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\07\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\08\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\08\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\08\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\08\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\08\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\09\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\09\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\09\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\09\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\09\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\10\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\10\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\10\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\10\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\10\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\11\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\11\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\11\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\11\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\11\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\12\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\12\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\12\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\12\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\12\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\13\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\13\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\13\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\13\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\13\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\14\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\14\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\14\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\14\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\14\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\15\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\15\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\15\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\15\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\15\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\16\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\16\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\16\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\16\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\16\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\17\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\17\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\17\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\17\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\18\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\18\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\18\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\18\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\18\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\19\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\19\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\19\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\19\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\19\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\20\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\20\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\20\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\20\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\20\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\21\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\21\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\21\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\21\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\21\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\22\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\22\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\22\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\22\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\22\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\23\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\23\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\23\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\23\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\24\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\24\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\24\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\24\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\medium\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\01\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\01\facebook.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\01\google.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\01\linkedin.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\01\twitter.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\02\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\02\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\02\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\02\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\02\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\03\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\03\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\03\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\03\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\03\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\04\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\04\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\04\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\04\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\04\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\05\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\05\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\05\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\05\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\05\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\06\credit.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\06\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\06\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\06\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\06\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\bookmarks\small\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\artcore-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\artcore.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\bar.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\business.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\business2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\cafe.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\drop1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\drop2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\drop3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\flashback.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\juicy.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\plus.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\school.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\sketchy.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\solid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\dividers\vintage.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\temp\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\themes\default\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\themes\default\screenshot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\themes\default\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\themes\default\thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\uploads\wysija\themes\index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/southpac/images/f_logo.png" afterPath="$PROJECT_DIR$/wp-content/themes/southpac/images/f_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/southpac/images/logo.png" afterPath="$PROJECT_DIR$/wp-content/themes/southpac/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/southpac/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/southpac/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/southpac/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/southpac/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/southpac/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/southpac/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -33,8 +203,20 @@
       <file leaf-file-name="zh_CN.po" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/languages/zh_CN.po">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="196" column="9" selection-start="4174" selection-end="4174" vertical-scroll-proportion="-1.1538461" vertical-offset="4473" max-vertical-offset="5292">
+            <state line="213" column="0" selection-start="4428" selection-end="4428" vertical-scroll-proportion="0.47123623" vertical-offset="3449" max-vertical-offset="5436">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="96" selection-start="2484" selection-end="2499" vertical-scroll-proportion="-16.666666" vertical-offset="486" max-vertical-offset="2016">
+              <folding>
+                <marker date="1405571785999" expanded="true" signature="2588:2634" placeholder="..." />
+                <marker date="1405571785999" expanded="true" signature="2756:2902" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,7 +224,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="21" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20682">
+            <state line="309" column="20" selection-start="4390" selection-end="4390" vertical-scroll-proportion="-19.72" vertical-offset="5069" max-vertical-offset="21330">
               <folding />
             </state>
           </provider>
@@ -107,9 +289,9 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/home-cols/home-cols.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/content.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/southpac/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/all-in-one-seo-pack-pro/all_in_one_seo_pack.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/southpac/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/languages/zh_CN.po" />
       </list>
@@ -343,6 +525,11 @@
       <created>1395811940444</created>
       <updated>1395811940444</updated>
     </task>
+    <task id="LOCAL-00001" summary="language file update">
+      <created>1405567226042</created>
+      <updated>1405567226042</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -369,6 +556,7 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="330" y="349" width="619" height="286" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -407,7 +595,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="language file update" />
+    <option name="LAST_COMMIT_MESSAGE" value="language file update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -427,36 +616,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/email-subscribers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="85" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.2665441" vertical-offset="273" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/base/es-defined.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="777" selection-end="777" vertical-scroll-proportion="0.4540441" vertical-offset="0" max-vertical-offset="544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/subscribers/view-subscriber-show.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="14" selection-start="2167" selection-end="2167" vertical-scroll-proportion="0.4762846" vertical-offset="994" max-vertical-offset="5491" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/subscribers/view-subscriber-import.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.89285713" vertical-offset="25" max-vertical-offset="2527" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/subscribers/view-subscriber-export.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.049407113" vertical-offset="25" max-vertical-offset="1577" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/job/es-subscribe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.422794" vertical-offset="1318" max-vertical-offset="1862" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/job/es-optin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1653" />
@@ -666,15 +825,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="2" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.40583554" vertical-offset="162" max-vertical-offset="3510">
           <folding>
-            <element signature="e#6#402#0" expanded="true" />
+            <element signature="e#6#402#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="42" selection-start="3129" selection-end="3139" vertical-scroll-proportion="0.37612325" vertical-offset="1021" max-vertical-offset="1800">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,23 +851,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/header.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/superfish.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.6467066" vertical-offset="324" max-vertical-offset="1854">
+        <state line="135" column="6" selection-start="2148" selection-end="2150" vertical-scroll-proportion="3.1193838" vertical-offset="0" max-vertical-offset="4680">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20682">
+        <state line="309" column="20" selection-start="4390" selection-end="4390" vertical-scroll-proportion="-19.72" vertical-offset="5069" max-vertical-offset="21330">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="16" selection-start="3617" selection-end="3617" vertical-scroll-proportion="1.9691119" vertical-offset="0" max-vertical-offset="1872">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="96" selection-start="2484" selection-end="2499" vertical-scroll-proportion="-16.666666" vertical-offset="486" max-vertical-offset="2016">
+          <folding>
+            <marker date="1405571785999" expanded="true" signature="2588:2634" placeholder="..." />
+            <marker date="1405571785999" expanded="true" signature="2756:2902" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/languages/zh_CN.po">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="9" selection-start="4174" selection-end="4174" vertical-scroll-proportion="-1.1538461" vertical-offset="4473" max-vertical-offset="5292">
+        <state line="213" column="0" selection-start="4428" selection-end="4428" vertical-scroll-proportion="0.47123623" vertical-offset="3449" max-vertical-offset="5436">
           <folding />
         </state>
       </provider>

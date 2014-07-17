@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Southpac\n"
 "POT-Creation-Date: 2014-07-11 21:03+1000\n"
-"PO-Revision-Date: 2014-07-17 12:35+1000\n"
+"PO-Revision-Date: 2014-07-17 14:52+1000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: 404.php:17
 msgid "This is somewhat embarrassing, isn&rsquo;t it?"
-msgstr ""
+msgstr "这太让人羞愧了，不是么？"
 
 #: 404.php:20
 msgid ""
@@ -49,7 +49,7 @@ msgstr ""
 
 #: comments.php:53
 msgid "Comments are closed."
-msgstr ""
+msgstr "评论关闭"
 
 #: content-none.php:12 search.php:32
 msgid "Nothing Found"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: content-search.php:36 content.php:26
 msgid "Pages:"
-msgstr ""
+msgstr "页："
 
 #: functions.php:63
 msgid "Primary Menu"
@@ -162,15 +162,15 @@ msgstr ""
 
 #: functions.php:360
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: functions.php:364
 msgid "Reply"
-msgstr ""
+msgstr "回复"
 
 #: functions.php:387 functions.php:390
 msgid ", "
-msgstr ""
+msgstr "，"
 
 #: functions.php:401
 #, php-format
@@ -200,13 +200,21 @@ msgstr ""
 msgid "Home"
 msgstr "主页"
 
-#: header.php:50
-msgid "Southpac Services"
-msgstr "南太平洋事务所"
+#: header.php:54 footer.php#91
+msgid "Southpac"
+msgstr "南太平洋"
 
-#: header.php:52
-msgid "Registered Migration Agent"
-msgstr "专业注册移民中介"
+#: header.php:55
+msgid "Services"
+msgstr "事务所"
+
+#: header.php:61 footer.php#92
+msgid "A MARA Registered"
+msgstr "专业注册"
+
+#: header.php:61
+msgid "Migration Agent"
+msgstr "移民中介"
 
 #: header.php:56
 msgid "Log out"

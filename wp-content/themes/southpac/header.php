@@ -46,10 +46,19 @@
 
         <div class="container_12">
             <div class="grid_12">
-                <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+                <div class="t_logo">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
                         <img alt="Southpac Services <?php _e('Southpac Services')?>" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
-                    </a></h1>
-                <div class="slogan"><?php _e('Registered Migration Agent')?></div>
+
+                        <p>
+                            <span class="row1"><?php _e("Southpac")?></span>
+                            <span class="row2"><?php _e("Services")?></span>
+                        </p>
+
+                  </a>
+                </div>
+
+                <div class="slogan"><?php _e('A MARA Registered')?><br><?php _e('Migration Agent')?></div>
 
                 <!-- top-widget -->
                 <div id="top-widget-area">

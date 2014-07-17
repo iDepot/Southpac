@@ -87,6 +87,10 @@
 
             <a class="f_logo" href="./">
                 <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/f_logo.png" />
+                <p>
+                    <span class="row1"><?php _e("Southpac")?></span>
+                    <span class="row2"><?php _e("Services")?></span>
+                </p>
             </a>
             <div class="clear"></div>
             <div class="copy">
