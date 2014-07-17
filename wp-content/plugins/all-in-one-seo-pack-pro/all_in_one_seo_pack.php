@@ -3,7 +3,7 @@
 Plugin Name: All in One SEO Pack Pro
 Plugin URI: http://semperfiwebdesign.com
 Description: Out-of-the-box SEO for your WordPress blog. <a href="admin.php?page=all-in-one-seo-pack-pro/aioseop_class.php">Options configuration panel</a> | <a href="http://semperplugins.com/support/" target="_blank">Support Forum</a>
-Version: 2.2
+Version: 2.3.1
 Author: Michael Torbert
 Author URI: http://michaeltorbert.com
 */
@@ -26,15 +26,15 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-//register_activation_hook(__FILE__,'aioseop_activate_pl');
+register_activation_hook(__FILE__,'aioseop_activate_pl');
 
 /**
  * @package All-in-One-SEO-Pack-Pro
- * @version 2.2
+ * @version 2.3.1
  */
 
 if ( ! defined( 'AIOSEOP_VERSION' ) )
-    define( 'AIOSEOP_VERSION', '2.2' );
+    define( 'AIOSEOP_VERSION', '2.3.1' );
 
 if ( ! defined( 'AIOSEOP_PLUGIN_DIR' ) ) {
     define( 'AIOSEOP_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );

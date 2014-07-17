@@ -46,7 +46,7 @@
 
         <div class="container_12">
             <div class="grid_12">
-                <h1><a href="../home">
+                <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
                         <img alt="Southpac Services <?php _e('Southpac Services')?>" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
                     </a></h1>
                 <div class="slogan"><?php _e('Registered Migration Agent')?></div>
