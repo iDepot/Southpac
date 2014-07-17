@@ -548,12 +548,12 @@ function southpac_customize_breadcrumb() {
         echo _e('Home');
         echo '</a></li><li class="separator"> > </li>';
         if (is_category() || is_single()) {
-          //  echo '<li>';
-            //the_category(' </li><li class="separator"> > </li><li> ');
+            echo '<li>';
+            the_category(' </li><li class="separator"> > </li><li> ');
             if (is_single()) {
-            //    echo '</li><li class="separator">  >  </li><li>';
+                echo '</li><li class="separator">  >  </li><li>';
                 the_title();
-             //   echo '</li>';
+                echo '</li>';
             }
         } elseif (is_page()) {
             if($post->post_parent){

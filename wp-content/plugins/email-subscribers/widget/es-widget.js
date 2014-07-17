@@ -162,7 +162,7 @@ function eemail_submitresult()
                     }
                     else if((http_req.responseText).trim() == "subscribed-pending-doubleoptin")
                     {
-                        alert("成功订阅. 您会接受到一封确认邮件. 请点击邮件中的链接确认订阅.邮件超过十五分钟左右还没到达您的邮箱, 请查看您的垃圾邮件.');
+                        alert("成功订阅. 您会接受到一封确认邮件. 请点击邮件中的链接确认订阅.邮件超过十五分钟左右还没到达您的邮箱, 请查看您的垃圾邮件.");
                         document.getElementById("es_msg").innerHTML = "订阅成功";
                         document.getElementById("es_txt_email").value="";
                         document.getElementById("es_txt_name").value="";

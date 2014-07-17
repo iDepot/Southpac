@@ -35,24 +35,8 @@
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
 <![endif]-->
-<script>
-<!---->
-//    $(document).ready(function(){
-//        jQuery('#camera_wrap').camera({
-//            loader: false,
-//            pagination: false ,
-//            minHeight: '250',
-//            thumbnails: false,
-//            height: '37.55208333333333%',
-//            caption: true,
-//            navigation: true,
-//            fx: 'mosaic'
-//        });
-//        /*Back to Top*/
-//        $().UItoTop({ easingType: 'easeOutQuart' });
-//
-//    });
-</script>
+
+
 
 <!--==============================footer=================================-->
 
@@ -102,6 +86,10 @@
     </div>
 </footer>
 
+<div id="toTop" style="margin-right: -630px; right: 50%;"><span id="toTopHover"></span></div>
+
 <?php wp_footer(); ?>
+
+
 </body>
 </html>

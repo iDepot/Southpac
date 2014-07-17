@@ -30,7 +30,9 @@ get_header(); ?>
 				 * this in a child theme then include a file called called content-___.php
 				 * (where ___ is the post format) and that will be used instead.
 				 */
-				//get_template_part( 'content', get_post_format() );
+
+                echo '<h4><a class="title" href="'.apply_filters( 'the_permalink', get_permalink() ) . '">' . get_the_title() .'</a></h4>';
+                echo '<span class="excerpt">' . get_the_excerpt() . '</span>';
 
 			endwhile;
 

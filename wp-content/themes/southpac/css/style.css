@@ -384,7 +384,7 @@ header h1 {
 
 #top-widget-area{
     float: right;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .sf-menu .current-menu-item>a{
@@ -935,9 +935,11 @@ a.f_logo {
     text-indent: -999px;
     z-index: 20;
     background: url(../images/totop.png) no-repeat left 0;
+    border-radius: 50% ;
     transition: 0s ease;
     -o-transition: 0s ease;
     -webkit-transition: 0s ease;
+    cursor: pointer;
 }
 #toTop:hover {
     outline: none;
