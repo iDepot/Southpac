@@ -45,26 +45,26 @@
         <div class="grid_3 fright">
             <h3><?php _e("Permanent")?></h3>
             <ul class="list">
-                <li><a href="#"><?php _e("Investment Immigration")?></a></li>
-                <li><a href="#"><?php _e("Skilled Immigration")?></a></li>
-                <li><a href="#"><?php _e("Family Reunion")?></a></li>
-                <li><a href="#"><?php _e("State Sponsor")?></a></li>
+                <li><a href="../immigration"><?php _e("Investment Immigration")?></a></li>
+                <li><a href="../immigration"><?php _e("Skilled Immigration")?></a></li>
+                <li><a href="../immigration"><?php _e("Family Reunion")?></a></li>
+                <li><a href="../immigration"><?php _e("State Sponsor")?></a></li>
             </ul>
         </div>
         <div class="grid_3 fright">
             <h3><?php _e("Temporary")?></h3>
             <ul class="list">
-                <li><a href="#"><?php _e("Temporary Resident")?></a></li>
-                <li><a href="#"><?php _e("Student Visa")?></a></li>
-                <li><a href="#"><?php _e("Visitor Visa")?></a></li>
-                <li><a href="#"><?php _e("Work Visa")?></a></li>
+                <li><a href="../visa"><?php _e("Temporary Resident")?></a></li>
+                <li><a href="../visa"><?php _e("Student Visa")?></a></li>
+                <li><a href="../visa"><?php _e("Visitor Visa")?></a></li>
+                <li><a href="../visa"><?php _e("Work Visa")?></a></li>
             </ul>
         </div>
         <div class="grid_3 fright">
             <h3><?php _e("Tribunal")?></h3>
             <ul class="list">
-                <li><a href="#"><?php _e("MRT Appeal")?></a></li>
-                <li><a href="#"><?php _e("RRT Appeal")?></a></li>
+                <li><a href="../tribunal"><?php _e("MRT Appeal")?></a></li>
+                <li><a href="../tribunal"><?php _e("RRT Appeal")?></a></li>
             </ul>
         </div>
         <div class="grid_3">

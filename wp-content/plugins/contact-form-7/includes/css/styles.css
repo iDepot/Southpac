@@ -105,6 +105,19 @@ div.wpcf7 input{
     padding: 12px 11px 12px;
 }
 
+input[type=reset]:hover{
+    cursor: pointer;
+    background: #d60a15;
+    color: #fff;
+}
+
+.wpcf7-submit:hover{
+    background: #10a1d6;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
 div.wpcf7 textarea{
     width: 100%;
     height: 100%;

@@ -392,6 +392,13 @@ header h1 {
     color: #fff;
 }
 
+
+/******polylang******/
+
+.widget_polylang a{
+   color: #fff;
+}
+
 /******breadcrumbs*****/
 
 #breadcrumbs{
@@ -550,7 +557,7 @@ header h1 {
     margin-left: 10px;
     padding-top: 46px;
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 14px;
 }
 
@@ -939,6 +946,9 @@ a.f_logo {
     transition: 0s ease;
     -o-transition: 0s ease;
     -webkit-transition: 0s ease;
+    transform:scale(.5);
+    -o-transform:scale(.5);
+    -webkit-transform:scale(.5);
     cursor: pointer;
 }
 #toTop:hover {
