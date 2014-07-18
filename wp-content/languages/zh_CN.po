@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Southpac\n"
 "POT-Creation-Date: 2014-07-11 21:03+1000\n"
-"PO-Revision-Date: 2014-07-17 22:34+1000\n"
+"PO-Revision-Date: 2014-07-18 16:17+1000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -26,7 +26,7 @@ msgstr "这太让人羞愧了，不是么？"
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
-msgstr ""
+msgstr "很抱歉！我们没有找到您需要的信息。你可以试试搜索一下。"
 
 #: comments.php:31
 #, php-format
@@ -59,7 +59,7 @@ msgstr "没有结果"
 msgid ""
 "Apologies, but no results were found. Perhaps searching will help find a "
 "related post."
-msgstr ""
+msgstr "抱歉， 我们没有找到你想要的信息。 可能搜索会帮你找到相关页面。"
 
 #: content-search.php:16 content.php:16
 msgid "Featured post"
@@ -144,7 +144,7 @@ msgstr ""
 
 #: functions.php:328
 msgid "(Edit)"
-msgstr ""
+msgstr "（编辑）"
 
 #: functions.php:343
 msgid "Post author"
