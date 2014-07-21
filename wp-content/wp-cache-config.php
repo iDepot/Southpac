@@ -5,7 +5,7 @@ WP-Cache Config Sample File
 See wp-cache.php for author details.
 */
 
-$cached_direct_pages = array( '/' ); //Added by WP-Cache Manager
+$cached_direct_pages = array( '' ); //Added by WP-Cache Manager
 $wp_cache_preload_on = 1; //Added by WP-Cache Manager
 $wp_cache_preload_taxonomies = 0; //Added by WP-Cache Manager
 $wp_cache_preload_email_volume = 'many'; //Added by WP-Cache Manager
