@@ -1,15 +1,21 @@
-.widget_text{
+.elp-widget{
     background-color: #12b2f0;
 }
 
-.widget_text .es_caption
+#newsletter {
+    padding: 13px 0px 11px;
+    float: left;
+}
+
+h3.es_caption
 {
     color: #fff;
     margin-right: 38px;
     float: left;
     margin-bottom: 0;
-    padding: 15px 0 20px;
+    padding: 20px 0;
 }
+
 .es_msg 
 {
     height:40px;
@@ -23,6 +29,7 @@
     display: block;
     overflow: hidden;
     z-index: 999;
+    padding: 5px 0;
     -webkit-transition: 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -37,14 +44,109 @@
 	padding-top:10px;
 	padding-bottom:5px;
 }
-.es_textbox_class 
+.es_textbox input
 {
-	width:200px;
+    border: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    box-shadow: none !important;
+    width: 100%;
+    background-color: #10a1d6;
+    color: #fff;
+    font: bold 13px/18px 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    height: 34px;
+    padding:12px 12px 10px 12px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
 }
-.es_textbox_button 
-{}
-.es_lablebox
-{
-	padding-bottom:3px;
+
+.es_textbox input:focus {
+    background-color: #02bdf0;
+
+}
+
+@media only screen and (max-width: 767px){
+    h3.es_caption
+    {
+        float: none;;
+        margin: 0;
+    }
+
+    #newsletter {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    #newsletter .rel {
+        margin-bottom: 25px;
+        width: auto;
+    }
+
+    .es_msg{
+        padding: 10px 0;
+    }
+
+}
+
+
+
+
+#newsletter .rel {
+    position: relative;
+    overflow: visible;
+    width: 220px;
+    padding-right: 43px;
+}
+
+#newsletter .email {
+    display: block;
+    float: left;
+}
+
+.es_button a {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    display: block;
+    width: 32px;
+    height: 21px;
+    cursor: pointer;
+    background: url(../images/subscribe_icon.png) 0 0 no-repeat;
+
+}
+
+.es_button a:hover {
+    background-position: 0 bottom;
+}
+
+#newsletter .success {
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
     display: none;
+    background: #10a1d6;
+    font-weight: bold;
+    color: #fff;
+    left: 0px;
+    height: 34px;
+    overflow: hidden;
+    padding: 7px 10px;
+    -webkit-transition: 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    position: absolute;
 }
