@@ -16,9 +16,6 @@
             <?php _e( 'Featured post' ); ?>
         </div>
     <?php endif; ?>
-    <?php if ( ! post_password_required() && ! is_attachment() ) :
-        the_post_thumbnail();
-    endif; ?>
 
     <?php if ( is_single() ) : ?>
         <strong><?php the_title(); ?></strong>

@@ -18,24 +18,24 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<script type="text/javascript" async src="http://www.google-analytics.com/ga.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-migrate-1.1.1.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/superfish.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.ui.totop.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.equalheights.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.mobilemenu.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/sForm.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-migrate-1.1.1.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/superfish.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.ui.totop.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.equalheights.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.mobilemenu.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/sForm.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
+
+<!--[if lt IE 9]>
+<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
+<![endif]-->
+
 <!--[if (gt IE 9)|!(IE)]><!-->
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.mobile.customized.min.js"></script>
 <!--<![endif]-->
-<!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<![endif]-->
-
 
 
 <!--==============================footer=================================-->

@@ -2,21 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d004d9fb-8998-4ffc-abc2-d07483742506" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\cache\supercache\localhost\southpac\home\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\cache\wp-cache-1d3b38f1cf9201cf139bcfaaef1b7fb2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\cache\wp-cache-45ae51e86ce9769f7fadce4f8d0e5299.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\cache\wp-cache-f396e4aaecda1b0bdf986c0f3330db9d.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Southpac\wp-content\plugins\email-subscribers\languages\email-subscribers-zh_CN.po" afterPath="" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\Southpac\wp-content\themes\southpac\images\subscribe_icon.png" afterPath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/images/subscribe_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/changelog.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/changelog.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/email-subscribers.php" afterPath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/email-subscribers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-register.php" afterPath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-sendmail.php" afterPath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-sendmail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.css" afterPath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.js" afterPath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/email-subscribers/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/southpac/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/southpac/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-admin/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/southpac/js/html5shiv.js" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\css\static\0bf41d255ace1f02d5f05cd7b51567d9.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\css\static\43e4df01e6fff5df6a18a7662e29082f.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\css\static\5c883c4b5519363569d5bec8ce2325e4.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\js\static\3edc0bcf527b215ebe30c1fbebd950f9.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\js\static\b650ebc2343ea0f69cf3308e6a56d058.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\wp-cache-6b3abd605a885fc207225ef5fe075874.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\wp-cache-a4573bb4550551072b45a41c0f403480.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-be_BY.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-de_DE.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-es_ES.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-fr_FR.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-it_IT.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-ja.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-lt_LT.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-ro_RO.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-ru_RU.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-sr_RS.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-sv_SE.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-tr_TR.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-ua_UA.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-zh_TW.po" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/southpac/content-search.php" afterPath="$PROJECT_DIR$/wp-content/themes/southpac/content-search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/southpac/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/southpac/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/southpac/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/southpac/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/southpac/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/southpac/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/southpac/js/script.js" afterPath="$PROJECT_DIR$/wp-content/themes/southpac/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/wp-cache-config.php" afterPath="$PROJECT_DIR$/wp-content/wp-cache-config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
     </list>
     <ignored path="southpac.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,49 +59,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="950" column="27" selection-start="14826" selection-end="14826" vertical-scroll-proportion="0.0" vertical-offset="15266" max-vertical-offset="19224">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="es-sendmail.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-sendmail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="27" selection-start="1515" selection-end="1515" vertical-scroll-proportion="-10.222222" vertical-offset="570" max-vertical-offset="6966">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="es-widget.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="44" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="3744">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="es-widget.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="227" selection-end="227" vertical-scroll-proportion="0.35164836" vertical-offset="0" max-vertical-offset="2826">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="es-register.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-register.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="18" selection-start="6347" selection-end="6347" vertical-scroll-proportion="-19.518518" vertical-offset="2479" max-vertical-offset="4212">
-              <folding>
-                <marker date="1405911660113" expanded="true" signature="571:599" placeholder="CREATE TABLE..IF..." />
-              </folding>
+      <file leaf-file-name="DATABASE/2f8508ab-bc02-4453-83c3-88bb86165eff" pinned="false" current="true" current-in-tab="true">
+        <entry file="uml://DATABASE/2f8508ab-bc02-4453-83c3-88bb86165eff">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>2f8508ab-bc02-4453-83c3-88bb86165eff</OriginalElement>
+              <nodes />
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="366.5" y="261.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -93,14 +85,20 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="ssh" />
+    </commandsHistory>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/plugins/slider-image/js/admin.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/slider-image/slider_Options.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery.form.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/scripts.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/inc/custom-header.php" />
@@ -120,9 +118,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/languages/southpac.pot" />
         <option value="$PROJECT_DIR$/wp-content/plugins/display-posts-shortcode/display-posts-shortcode.php" />
         <option value="$PROJECT_DIR$/wp-includes/formatting.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/southpac/content-search.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/search.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/email-subscribers/subscribers/view-subscriber-show.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-register.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/email-subscribers/languages/1.po" />
         <option value="$PROJECT_DIR$/wp-content/plugins/email-subscribers/languages/email-subscribers-zh_CN.po" />
         <option value="$PROJECT_DIR$/wp-content/plugins/slider-image/style/admin.style.css" />
@@ -137,19 +136,20 @@
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/content.php" />
         <option value="$PROJECT_DIR$/wp-content/languages/zh_CN.po" />
-        <option value="$PROJECT_DIR$/wp-content/themes/southpac/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/category.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/southpac/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/southpac/js/script.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/southpac/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/wp-cache-config.php" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/slider-image/style/simple-slider.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css" />
+        <option value="$PROJECT_DIR$/wp-content/wp-cache-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/slider-image/style/simple-slider.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/css/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-register.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/email-subscribers/email-subscribers.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/southpac/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/southpac/content-search.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/southpac/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/southpac/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/southpac/js/script.js" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="db-console:/30a5a49d/2f8508ab-bc02-4453-83c3-88bb86165eff/" />
       </list>
     </option>
   </component>
@@ -157,8 +157,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -204,104 +204,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="southpac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Southpac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="southpac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Southpac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="southpac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Southpac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="southpac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Southpac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="email-subscribers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="southpac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Southpac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="email-subscribers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -339,7 +241,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="web.server" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -366,23 +268,24 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="420" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-config.php" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\XAMPP\htdocs\Southpac\wp-admin\images" />
       <recent name="C:\xampp\htdocs\Southpac\wp-content\themes\southpac\images" />
       <recent name="C:\xampp\htdocs\Southpac\wp-content\plugins\email-subscribers\widget" />
       <recent name="C:\xampp\htdocs\Southpac\wp-content\plugins\email-subscribers\classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Southpac\wp-content\plugins\email-subscribers\images" />
-      <recent name="C:\xampp\htdocs\Southpac\wp-content\themes" />
+      <recent name="C:\XAMPP\htdocs\Southpac\wp-content\themes\southpac\js" />
       <recent name="C:\XAMPP\htdocs\Southpac\wp-content\themes\southpac\images" />
       <recent name="C:\xampp\htdocs\Southpac\wp-content\plugins\home-cols\images" />
       <recent name="C:\xampp\htdocs\Southpac\wp-content\plugins\email-subscribers\languages" />
+      <recent name="C:\xampp\htdocs\Southpac\wp-content\languages" />
     </key>
   </component>
   <component name="RunManager">
@@ -466,27 +369,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="330" y="349" width="619" height="286" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30613893" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2819063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33716917" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="330" y="349" width="619" height="286" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32735425" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26800978" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33716917" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272101" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2844933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32735425" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32735425" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -530,56 +435,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/subscribers/view-subscriber-import.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.89285713" vertical-offset="25" max-vertical-offset="2527" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/subscribers/view-subscriber-export.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.049407113" vertical-offset="25" max-vertical-offset="1577" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/job/es-subscribe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.422794" vertical-offset="1318" max-vertical-offset="1862" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/job/es-optin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1653" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/widgets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="13" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.35" vertical-offset="635" max-vertical-offset="27144" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/languages/email-subscribers.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/compose/compose-edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="6" selection-start="912" selection-end="912" vertical-scroll-proportion="0.13899614" vertical-offset="378" max-vertical-offset="2250" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8731343" vertical-offset="702" max-vertical-offset="3528" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/sliders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="147" selection-end="147" vertical-scroll-proportion="0.046332046" vertical-offset="54" max-vertical-offset="9972" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/sliders.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="14" selection-start="759" selection-end="759" vertical-scroll-proportion="0.57915056" vertical-offset="0" max-vertical-offset="11952" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/slider_Options.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="790" />
@@ -680,11 +535,6 @@
         <state line="276" column="25" selection-start="10031" selection-end="10044" vertical-scroll-proportion="-12.892858" vertical-offset="4484" max-vertical-offset="5985" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="553" column="65" selection-start="18779" selection-end="18779" vertical-scroll-proportion="-7.464286" vertical-offset="9937" max-vertical-offset="10754" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="19" selection-start="943" selection-end="943" vertical-scroll-proportion="0.4183486" vertical-offset="171" max-vertical-offset="836" />
@@ -693,11 +543,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/js/TMForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="238" column="22780" selection-start="29977" selection-end="29980" vertical-scroll-proportion="0.33271027" vertical-offset="4344" max-vertical-offset="5016" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/js/sForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.5946429" vertical-offset="333" max-vertical-offset="2204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/js/superfish.js">
@@ -710,19 +555,9 @@
         <state line="42" column="61" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.7015707" vertical-offset="396" max-vertical-offset="969" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/header.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="45" selection-start="1598" selection-end="1606" vertical-scroll-proportion="-5.3333335" vertical-offset="468" max-vertical-offset="2016" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="52" selection-start="2744" selection-end="2744" vertical-scroll-proportion="-21.518518" vertical-offset="445" max-vertical-offset="1656" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="9" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.53846157" vertical-offset="531" max-vertical-offset="1350" />
+        <state line="175" column="50" selection-start="6327" selection-end="6327" vertical-scroll-proportion="0.646402" vertical-offset="2629" max-vertical-offset="3672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css">
@@ -735,19 +570,9 @@
         <state line="35" column="32" selection-start="1307" selection-end="1322" vertical-scroll-proportion="0.32349166" vertical-offset="378" max-vertical-offset="3510" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.27207637" vertical-offset="0" max-vertical-offset="1653" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/advanced-cache.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="42" selection-start="345" selection-end="345" vertical-scroll-proportion="0.16121212" vertical-offset="0" max-vertical-offset="825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/wp-cache-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="32" selection-start="4749" selection-end="4749" vertical-scroll-proportion="0.67757577" vertical-offset="1094" max-vertical-offset="1919" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/style/simple-slider.css">
@@ -757,45 +582,166 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/email-subscribers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.4390244" vertical-offset="0" max-vertical-offset="779">
+        <state line="16" column="21" selection-start="840" selection-end="840" vertical-scroll-proportion="-0.28705442" vertical-offset="457" max-vertical-offset="1007">
+          <folding>
+            <element signature="e#6#759#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/aiowps_backups/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/aiowps_backups/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="44" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="3744">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="909" selection-end="909" vertical-scroll-proportion="0.6640625" vertical-offset="2" max-vertical-offset="11115">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="950" column="27" selection-start="14826" selection-end="14826" vertical-scroll-proportion="0.0" vertical-offset="15266" max-vertical-offset="19224">
+        <state line="1035" column="0" selection-start="16187" selection-end="16187" vertical-scroll-proportion="35.053474" vertical-offset="0" max-vertical-offset="20292">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-sendmail.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="27" selection-start="1515" selection-end="1515" vertical-scroll-proportion="-10.222222" vertical-offset="570" max-vertical-offset="6966">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-register.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/form.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="18" selection-start="6347" selection-end="6347" vertical-scroll-proportion="-19.518518" vertical-offset="2479" max-vertical-offset="4212">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/skeleton.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3902439" vertical-offset="798" max-vertical-offset="5738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/css/superfish.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="4940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/searchpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/content-search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="0.3627685" vertical-offset="0" max-vertical-offset="838">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/js/sForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="2204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="24" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.7147806" vertical-offset="369" max-vertical-offset="1235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/js/jquery.ui.totop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="58" selection-start="546" selection-end="546" vertical-scroll-proportion="-0.2028136" vertical-offset="534" max-vertical-offset="1387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/js/jquery.mobilemenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="17" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2869">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/wp-cache-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="31" selection-start="4790" selection-end="4790" vertical-scroll-proportion="2.0036364" vertical-offset="0" max-vertical-offset="1957">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="768" selection-end="768" vertical-scroll-proportion="-12.892858" vertical-offset="0" max-vertical-offset="2052">
           <folding>
-            <marker date="1405911660113" expanded="true" signature="571:599" placeholder="CREATE TABLE..IF..." />
+            <element signature="e#6#679#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="227" selection-end="227" vertical-scroll-proportion="0.35164836" vertical-offset="0" max-vertical-offset="2826">
+        <state line="26" column="100" selection-start="1097" selection-end="1107" vertical-scroll-proportion="0.41454545" vertical-offset="0" max-vertical-offset="1748">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="34" selection-start="439" selection-end="439" vertical-scroll-proportion="0.46060607" vertical-offset="0" max-vertical-offset="2299">
+          <folding>
+            <element signature="e#6#219#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="16" selection-start="483" selection-end="483" vertical-scroll-proportion="0.40714285" vertical-offset="190" max-vertical-offset="2109">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/2f8508ab-bc02-4453-83c3-88bb86165eff">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>2f8508ab-bc02-4453-83c3-88bb86165eff</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="366.5" y="261.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>

@@ -48,19 +48,9 @@ var currentYear = (new Date).getFullYear();
   });
 
   $(function(){
-  $('.sf-menu').superfish({autoArrows: true})
+  $('.sf-menu').superfish({autoArrows: true});
 
-      $('#toTop').click(function(){
-          $('html,body').animate({scrollTop:0},400);
-      });
-
-      $(window).scroll(function(){
-          if (window.scrollY > document.body.offsetHeight/8){
-              $('#toTop').css('display','block');
-          }else{
-              $('#toTop').css('display','none');
-          }
-      });
+  $('#toTop a').UItoTop();
 
   });
 

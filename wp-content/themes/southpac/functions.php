@@ -16,8 +16,8 @@
  * For more information on hooks, actions, and filters, @link http://codex.wordpress.org/Plugin_API
  *
  * @package WordPress
- * @subpackage southpac_services
- * @since southpac
+ * @subpackage southpac_service
+ * @since Southpac Services 1.0
  */
 
 // Set up the content width value based on the theme's design and stylesheet.
