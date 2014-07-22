@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="SouthpacServices" deleteMissingItems="true">
+  <component name="PublishConfigData" serverName="SouthpacServices" deleteMissingItems="true">
     <serverData>
       <paths name="SouthpacServices">
         <serverdata>
@@ -16,11 +16,11 @@
             <excludedPath path="/wp-content/cache" />
             <excludedPath local="true" path="$PROJECT_DIR$/wp-content/cache" />
             <excludedPath local="true" path="$PROJECT_DIR$/wp-content/aiowps_backups" />
+            <excludedPath path="/wp-content/aiowps_backups" />
           </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
-    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
 

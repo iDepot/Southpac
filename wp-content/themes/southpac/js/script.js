@@ -47,10 +47,12 @@ var currentYear = (new Date).getFullYear();
   $("#copyright-year").text(currentYear);
   });
 
-  $(function(){
-  $('.sf-menu').superfish({autoArrows: true});
 
-  $('#toTop a').UItoTop();
+$(document).ready(function(){
+
+    $('.sf-menu').superfish({autoArrows: true}).mobileMenu();
+
+    $('.toTop a').UItoTop();
 
   });
 

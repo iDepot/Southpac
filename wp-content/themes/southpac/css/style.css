@@ -458,70 +458,6 @@ header h1 {
     color: #bababa;
 }
 
-.bq_left {
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.bq_left img {
-    position: relative;
-}
-
-.bq_left span {
-    z-index: 10;
-    position: absolute;
-    display: block;
-    left: 0;
-    bottom: 0;
-    right: 25px;
-    background-color: #fff;
-    height: 25px;
-
-}
-
-.bq_left span strong {
-    display: block;
-    position: absolute;
-    right: -25px;
-    width: 0px;
-    height: 0px;
-    bottom: 0;
-    border-style: solid;
-    border-width: 25px 0 0px 25px;
-    border-color: transparent transparent transparent #fff;
-
-}
-
-.bq1 {
-    overflow: hidden;
-}
-
-.bq1 p {
-    margin-bottom: 15px;
-
-    padding: 24px 45px 27px 320px;
-    background: url(../images/quotes_big.png) 268px 30px no-repeat #fcfcfc;
-
-}
-
-.bq1 p img {
-    margin-top: 6px;
-    margin-left: 4px;
-}
-
-.bq_bot {
-    word-spacing: 4px;
-    padding-left: 12px;
-    overflow: hidden;
-    font: bold 18px/18px 'Open Sans Condensed', sans-serif;
-}
-
-.bq_bot .upp {
-    word-spacing: normal;
-    padding-top: 2px;
-    font-size: 14px;
-}
-
 .block2 {
     color: #2b2b2b;
     font-weight: bold;
@@ -635,25 +571,6 @@ a.chat:hover {
 
 .tx1 {
     margin-bottom: 12px;
-}
-
-.bq2 + .bq2 {
-    margin-top: 31px;
-}
-
-.bq2 p {
-    padding-left: 53px;
-    background: url(../images/quotes_big.png) 0 6px no-repeat;
-}
-
-.bq2 .bq_bot {
-    word-spacing: normal;
-    padding-left: 54px;
-}
-
-.bq2 p img {
-    margin-top: 10px;
-    margin-left: 4px;
 }
 
 .mt {
@@ -803,7 +720,7 @@ a.f_logo {
     display: inline-block;
 }
 
-#toTop {
+.toTop {
     display: none;
     text-decoration: none;
     position: fixed;
@@ -827,7 +744,7 @@ a.f_logo {
     cursor: pointer;
 }
 
-#toTop:hover {
+.toTop:hover {
     outline: none;
     background-position: right 0;
 }

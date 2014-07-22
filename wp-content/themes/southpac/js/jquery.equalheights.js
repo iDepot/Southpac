@@ -42,4 +42,4 @@ function height_handler(){
 		if((maxHeight)&&tallest>maxHeight) tallest=maxHeight;
 		return this.each(function(){$(this).height(tallest)})
 	}
-})(jQuery)
+})(jQuery);
