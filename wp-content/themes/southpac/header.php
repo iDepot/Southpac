@@ -76,7 +76,7 @@
                     <?php endif;?>
 
                     <?php if (get_option('users_can_register')) : ?>
-                       <a href="<?php bloginfo('wpurl'); ?>/wp-login.php?action=register"><?php _e('Register') ?></a>
+                       <a href="<?php echo wp_registration_url();?>"><?php _e('Register') ?></a>
                     <?php endif; ?>
 
                     <form id="search"  action="<?php echo esc_url( home_url( '/' ) ); ?>"  method="GET">
@@ -86,8 +86,6 @@
                         <div class="clear"></div>
                     </form>
                 </div>
-
-
             </div>
         </div>
 

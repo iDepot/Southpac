@@ -1,10 +1,12 @@
-=== Plugin Name ===
-Contributors: galerio, Urda
+=== Better Delete Revision ===
+Contributors: galerio, Urda, bestweblayout
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K72TR62V5ZDU8
-Tags: better delete revision, revision, delete, remove, removal, revision removal, delete revision, disable revision, no revision, revision manager, manage revision, remove revision, post revision, page revision, optimize database, database optimization, optimize, fast, light, faster, lighter, speed up
+Tags: better delete revision, revision, delete, remove, removal, revision removal, delete revision, disable revision, no revision, revision manager, manage revision, remove revision, post revision, page revision, optimize database, database optimization, optimize, fast, light, faster, lighter, speed up, improve site performance, redundant revisions, perform optimization, delete revision from database, remove old database content, reduce database size
 Requires at least: 2.7
-Tested up to: 3.1
-Stable tag: 1.2
+Tested up to: 3.9.1
+Stable tag: 1.4
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Remove and delete old revision of posts, pages and related meta content completely then optimize Database: reduce size and optimization to speed up!
 
@@ -17,13 +19,18 @@ This plugin can also perform optimizations on your Wordpress database. With opti
 
 Wordpress MU or customs installation (like some pre-made installation of some Hosting Providers) are not yet supported. Wordpress MU support is in our TODO list.
 
-Post Revisions are a feature introduced in Wordpress 2.6. Whenever you or Wordpress saves a post or a page, a revision is automatically created and stored in your Wordpress database. Each additional revision will slowly increase the size of your database. If you save a post or page multiple times, your number of revisions will greatly increase overtime. For example, if you have 100 posts and each post has 10 revisions you could be storing up to 1,000 copies of older data! The Better Delete Revision plugin is your #1 choice to quickly and easily removing revision from your Wordpress database. Try it out today to see what a lighter and smaller Wordpress database can do for you!
+Post Revisions are a feature introduced in Wordpress 2.6. Whenever you or Wordpress saves a post or a page, it automatically creates a revision and stores in your Wordpress database. Each additional revision will slowly increase the size of your database. If you save a post or page multiple times, your number of revisions will greatly increase overtime. For example, if you have 100 posts and each post has 10 revisions you could be storing up to 1,000 copies of older data! The Better Delete Revision plugin is your #1 choice to quickly and easily removing revision from your Wordpress database. Try it out today to see what a lighter and smaller Wordpress database can do for you!
 
 Home Page: http://www.1e2.it/tag/better-delete-revision on www.1e2.it
 
 = Remember to VOTE IT !!! Thanks =
 
 Thanks goes to Urda for version 1.1
+
+= Translation =
+
+* Russian (ru_RU)
+* Italian (it_IT)
 
 == Installation ==
 
@@ -39,51 +46,58 @@ Just copy the new files over the old ones or use the automatic upgrade function 
 
 == Frequently Asked Questions ==
 
-= What does it have more than Delete Revision or Revision Removal or other similar plugin? =
+= Why is it better than Delete Revision or Revision Removal or other similar plugins? =
 
-It has the ability to remove completely the revision posts and pages and related meta tag, description and other things that are useless. The other plugins doesn't really remove all the waste things.
+It has the ability to remove completely the revision posts and pages as well as related meta tags, description and other useless things. The other plugins doesn't really remove all the waste things.
 
-= To clean datebase is safe? =
+= Is it safe to clean database? =
 
-Yes, it's very safe
+Yes, it's completely safe.
 
-= Will not affect the normal published post? =
+= Will it affect the published posts? =
 
-No. The revision posts is redundancy, is not same to the normal posts. For this reason they can be safely removed to save space, increase database speed.
+No. The revision posts is redundancy, is not the same that the normal posts. For this reason, they can be safely removed to save space and increase database speed.
 
 == Screenshots ==
 
 1. Revision Removal Control Panel.
 2. Database Optimization.
 
-
 == Changelog ==
-= 1.2 =
-* Used the Role and Capabilities system instead of User Level
 
-= 1.1 = 
-* 2010-10-21  v1.1
-* English corrections
-* Function cleanup
-* Source code cleanup
-* Moved various strings into functions
+= V1.4 - 18.07.2014 =
+* Update : We updated function of plugin for deleting revisions.
+
+= V1.3 - 17.06.2014 =
+* Update : We updated all functionality for Wordpress 3.9.1.
+* NEW    : The Russian and Italian language files are added to the plugin.
+
+= V1.2 - 25.01.2011 =
+* Update : Used the Role and Capabilities system instead of User Level.
+
+= V1.1 - 21.10.2010 = 
+* Update : English corrections.
+* Update : Function cleanup.
+* Update : Source code cleanup.
+* Update : Moved various strings into functions.
 *           = by Urda =
             
-= 1.0 =
-* Just completed test on wordpress 3.0.1
+= V1.0 - 25.09.2010 =
+* New : Just completed test on Wordpress 3.0.1
 
-== Todo ==
+== Upgrade Notice ==
 
-- General
-    * Clean up code to fit within an 80-character margin limit. Not only doe this assit with various code editors, it forces the programmer to keep the code clean and effecient!
-    * Move strings into a constant file, for easier updating and tracking.
-    * Create a CSS file in charge of handling styles for look and feel.
-    
-- Internationalization
-    * Needs to be done correctly, some code is using 'echo', other code is using the _e() calls from Wordpress. Either Internationalization needs to be implemented, or yank it all together for the time being.
+= V1.4 =
+We updated function of plugin for deleting revisions.
 
-- SQL Related
-    * Add sometime of documentation explaining each and every SQL query
-    * Possibly Move SQL queries into abstracted file?
-    * Clean up SQL (ID vs `ID`)
-    * Remove revisions also for Worpdress MU
+= V1.3 =
+We updated all functionality for Wordpress 3.9.1. The Russian and Italian language file are added to the plugin.
+
+= V1.2 =
+Used the Role and Capabilities system instead of User Level.
+
+= V1.1 = 
+English corrections. Function cleanup. Source code cleanup. Moved various strings into functions.
+            
+= V1.0 =
+Just completed test on Wordpress 3.0.1
