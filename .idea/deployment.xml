@@ -2,15 +2,11 @@
 <project version="4">
   <component name="PublishConfigData" deleteMissingItems="true" compareModeInSync="TIMESTAMP">
     <serverData>
-      <paths name="Southpac Services">
+      <paths name="SouthpacServices">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
-          <excludedPaths>
-            <excludedPath path="/wp-content/cache" />
-            <excludedPath path="/wp-content/aiowps_backups" />
-          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
