@@ -136,22 +136,21 @@ class es_widget_register extends WP_Widget
 		<script language="javascript" type="text/javascript" src="<?php echo ES_URL; ?>widget/es-widget.js"></script>
 
         <div class=" container_12">
-             <div class="grid_12">
-			<?php if( $es_desc <> "" ) { ?>
-			<h3 class="es_caption"><?php echo $es_desc; ?></h3>
-			<?php } ?>
+            <div class="grid_12">
+                <?php if( $es_desc <> "" ) { ?>
+                    <h3 class="es_caption"><?php echo $es_desc; ?></h3>
+                <?php } ?>
                 <div id="newsletter">
-                      <div class="rel">
-                                <?php if( $es_name == "YES" ) { ?>
-                        <div class="es_lablebox"><?php _e('Name', ES_TDOMAIN); ?></div>
-                        <div class="es_textbox">
-                            <input class="es_textbox_class" name="es_txt_name" id="es_txt_name" value="" maxlength="225" type="text">
-                        </div>
+                    <div class="rel">
+                        <?php if( $es_name == "YES" ) { ?>
+                            <div class="es_lablebox"><?php _e('Name', ES_TDOMAIN); ?></div>
+                            <div class="es_textbox">
+                                <input class="es_textbox_class" name="es_txt_name" id="es_txt_name" value="" maxlength="225" type="text">
+                            </div>
                         <?php } ?>
-                        <div class="es_lablebox"><?php _e('Email *', ES_TDOMAIN); ?></div>
                         <div class="es_textbox">
                             <input class="es_textbox_class" name="es_txt_email" id="es_txt_email" onkeypress="if(event.keyCode==13) es_submit_page('<?php echo $url; ?>')" value="" maxlength="225" type="email" placeholder="<?php _e('Your Email', ES_TDOMAIN); ?>">
-                          </div>
+                        </div>
                         <div class="es_msg"><span id="es_msg"></span></div>
                         <div class="es_button">
                             <a href="#" class="es_textbox_button" name="es_txt_button" id="es_txt_button" onClick="return es_submit_page('<?php echo $url; ?>')" ?></a>
@@ -161,34 +160,34 @@ class es_widget_register extends WP_Widget
 
 
 
-			<?php if( $es_name != "YES" ) { ?>
-				<input name="es_txt_name" id="es_txt_name" value="" type="hidden">
-			<?php } ?>
-			<input name="es_txt_group" id="es_txt_group" value="<?php echo $es_group; ?>" type="hidden">
-		    </div>
+                <?php if( $es_name != "YES" ) { ?>
+                    <input name="es_txt_name" id="es_txt_name" value="" type="hidden">
+                <?php } ?>
+                <input name="es_txt_group" id="es_txt_group" value="<?php echo $es_group; ?>" type="hidden">
             </div>
+        </div>
 
-		<?php
-		echo $args['after_widget'];
-	}
-	
-	function update( $new_instance, $old_instance ) 
-	{
-		$instance 				= $old_instance;
-		$instance['es_title'] 	= ( ! empty( $new_instance['es_title'] ) ) ? strip_tags( $new_instance['es_title'] ) : '';
-		$instance['es_desc'] 	= ( ! empty( $new_instance['es_desc'] ) ) ? strip_tags( $new_instance['es_desc'] ) : '';
-		$instance['es_name'] 	= ( ! empty( $new_instance['es_name'] ) ) ? strip_tags( $new_instance['es_name'] ) : '';
-		$instance['es_group'] 	= ( ! empty( $new_instance['es_group'] ) ) ? strip_tags( $new_instance['es_group'] ) : '';
-		return $instance;
-	}
-	
-	function form( $instance ) 
-	{
-		$defaults = array(
-			'es_title' => '',
+        <?php
+        echo $args['after_widget'];
+    }
+
+    function update( $new_instance, $old_instance )
+    {
+        $instance 				= $old_instance;
+        $instance['es_title'] 	= ( ! empty( $new_instance['es_title'] ) ) ? strip_tags( $new_instance['es_title'] ) : '';
+        $instance['es_desc'] 	= ( ! empty( $new_instance['es_desc'] ) ) ? strip_tags( $new_instance['es_desc'] ) : '';
+        $instance['es_name'] 	= ( ! empty( $new_instance['es_name'] ) ) ? strip_tags( $new_instance['es_name'] ) : '';
+        $instance['es_group'] 	= ( ! empty( $new_instance['es_group'] ) ) ? strip_tags( $new_instance['es_group'] ) : '';
+        return $instance;
+    }
+
+    function form( $instance )
+    {
+        $defaults = array(
+            'es_title' => '',
             'es_desc' 	=> '',
             'es_name' 	=> '',
-			'es_group' 	=> ''
+            'es_group' 	=> ''
         );
 		$instance 		= wp_parse_args( (array) $instance, $defaults);
 		$es_title 		= $instance['es_title'];
@@ -216,15 +215,15 @@ class es_widget_register extends WP_Widget
 			<label for="<?php echo $this->get_field_id('es_group'); ?>"><?php _e('Subscriber Group', ES_TDOMAIN); ?></label>
 			<input class="widefat" id="<?php echo $this->get_field_id('es_group'); ?>" name="<?php echo $this->get_field_name('es_group'); ?>" type="text" value="<?php echo $es_group; ?>" />
         </p>
-		<?php
-	}
-	
-	function es_selected($var) 
-	{
-		if ($var==1 || $var==true) 
-		{
-			echo 'selected="selected"';
-		}
-	}
+    <?php
+    }
+
+    function es_selected($var)
+    {
+        if ($var==1 || $var==true)
+        {
+            echo 'selected="selected"';
+        }
+    }
 }
 ?>

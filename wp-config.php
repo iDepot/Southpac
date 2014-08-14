@@ -11,27 +11,35 @@
  * installation. You don't have to use the web site, you can just copy this file\
  * to "wp-config.php" and fill in the values.\
  *\
- * @package WordPress\
+ * @package WordPress
+ * @subpackage southpac_service
+ * @since Southpac Services 1.0
  */
+
+define('WP_CACHE', true); //Added by WP-Cache Manager
+//define( 'WPCACHEHOME', 'C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', '/var/www/html/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+
 define('DB_NAME', 'southpac');
 
 /** MySQL database username */\
-define('DB_USER', 'root');
+define('DB_USER', 'southpac');
 
 /** MySQL database password */\
-define('DB_PASSWORD', '');
+//define('DB_PASSWORD','');
+define('DB_PASSWORD', 'Mysql2014');
 
 /** MySQL hostname */\
-define('DB_HOST', 'localhost');
+    define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */\
-define('DB_CHARSET', 'utf8');
+    define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */\
-define('DB_COLLATE', '');
+    define('DB_COLLATE', '');
 
 /**#@+\
  * Authentication Unique Keys and Salts.\
@@ -41,7 +49,7 @@ define('DB_COLLATE', '');
  * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.\
  *\
  * @since 2.6.0\
- */\
+ */
 define('AUTH_KEY',	   '<u(X4cu08<X7o^@*z9c-]=R;oB@mvCPn#58f`K8K\{J-D$/`[\{dC9@:Gmdt=* 00!');
 define('SECURE_AUTH_KEY',  '+y#Aeh+NTULM=%FL\{yK[>@\}F\}5M]K*l\{2-|beQ@$lrd_Qy<D_5k.CilK!va89mAc');
 define('LOGGED_IN_KEY',    '!^VDi|k=@*ey.YLQ.][8X;t9A)xo!v0vbYx390jElLhxq5F(b3APn%ue%&:]/+nu');
@@ -59,7 +67,7 @@ define('NONCE_SALT',	   ' 6ODz&K38(dv\{(5<ct5i+W&Hc=|+Wq3X>j32 x!o-(nT?gj)7-5\{+
  * You can have multiple installations in one database if you give each a unique\
  * prefix. Only numbers, letters, and underscores please!\
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'sp_';
 
 /**\
  * WordPress Localized Language, defaults to English.\
@@ -69,6 +77,7 @@ $table_prefix  = 'wp_';
  * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German\
  * language support.\
  */\
+
 define('WPLANG', '');
 
 define('WPLANG', 'zh_CN');
@@ -80,13 +89,15 @@ define('WPLANG', 'zh_CN');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG\
  * in their development environments.\
  */\
-define('WP_DEBUG', true);
+    define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+    define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+?>

@@ -47,20 +47,12 @@ var currentYear = (new Date).getFullYear();
   $("#copyright-year").text(currentYear);
   });
 
-  $(function(){
-  $('.sf-menu').superfish({autoArrows: true})
 
-      $('#toTop').click(function(){
-          $('html,body').animate({scrollTop:0},400);
-      });
+$(document).ready(function(){
 
-      $(window).scroll(function(){
-          if (window.scrollY > document.body.offsetHeight/8){
-              $('#toTop').css('display','block');
-          }else{
-              $('#toTop').css('display','none');
-          }
-      });
+    $('.sf-menu').superfish({autoArrows: true}).mobileMenu();
+
+    $('.toTop').UItoTop();
 
   });
 

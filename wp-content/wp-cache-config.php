@@ -5,19 +5,21 @@ WP-Cache Config Sample File
 See wp-cache.php for author details.
 */
 
+$cache_wptouch = '1'; //Added by WP-Cache Manager
+$cache_no_adverts_for_friends = 'yes'; //Added by WP-Cache Manager
 $wp_super_cache_comments = '1'; //Added by WP-Cache Manager
 $wp_cache_preload_on = 1; //Added by WP-Cache Manager
 $wp_cache_preload_taxonomies = 0; //Added by WP-Cache Manager
 $wp_cache_preload_email_volume = 'many'; //Added by WP-Cache Manager
 $wp_cache_preload_email_me = 0; //Added by WP-Cache Manager
 $wp_cache_preload_interval = 60; //Added by WP-Cache Manager
-$wp_cache_preload_posts = '60'; //Added by WP-Cache Manager
+$wp_cache_preload_posts = '88'; //Added by WP-Cache Manager
 $dismiss_gc_warning = 1; //Added by WP-Cache Manager
 $cache_schedule_interval = ''; //Added by WP-Cache Manager
 $cache_gc_email_me = 0; //Added by WP-Cache Manager
 $cache_scheduled_time = '00:00'; //Added by WP-Cache Manager
 $wp_cache_mobile_groups = ''; //Added by WP-Cache Manager
-$wp_cache_mobile_prefixes = 'w3c , w3c-, acs-, alav, alca, amoi, audi, avan, benq, bird, blac, blaz, brew, cell, cldc, cmd-, dang, doco, eric, hipt, htc_, inno, ipaq, ipod, jigs, kddi, keji, leno, lg-c, lg-d, lg-g, lge-, lg/u, maui, maxo, midp, mits, mmef, mobi, mot-, moto, mwbp, nec-, newt, noki, palm, pana, pant, phil, play, port, prox, qwap, sage, sams, sany, sch-, sec-, send, seri, sgh-, shar, sie-, siem, smal, smar, sony, sph-, symb, t-mo, teli, tim-, tosh, tsm-, upg1, upsi, vk-v, voda, wap-, wapa, wapi, wapp, wapr, webc, winw, winw, xda , xda-'; //Added by WP-Cache Manager
+$wp_cache_mobile_prefixes = ''; //Added by WP-Cache Manager
 $wp_cache_refresh_single_only = '0'; //Added by WP-Cache Manager
 $wp_cache_make_known_anon = 0; //Added by WP-Cache Manager
 $wp_cache_mod_rewrite = 1; //Added by WP-Cache Manager
@@ -82,7 +84,7 @@ $wp_super_cache_front_page_notification = '0'; //Added by WP-Cache Manager
 
 $wp_cache_object_cache = 0; //Added by WP-Cache Manager
 $wp_cache_anon_only = 0;
-$wp_supercache_cache_list = 0; //Added by WP-Cache Manager
+$wp_supercache_cache_list = 1; //Added by WP-Cache Manager
 $wp_cache_debug_to_file = 0;
 $wp_super_cache_debug = '1'; //Added by WP-Cache Manager
 $wp_cache_debug_level = 5;
