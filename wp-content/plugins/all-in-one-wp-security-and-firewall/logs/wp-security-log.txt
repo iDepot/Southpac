@@ -1,1 +1,0 @@
-[08/14/2014 2:09 AM] - FAILURE : Creation of .htaccess file in aiowps_backups directory failed!

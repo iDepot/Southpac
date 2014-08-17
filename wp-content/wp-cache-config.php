@@ -5,7 +5,7 @@ WP-Cache Config Sample File
 See wp-cache.php for author details.
 */
 
-$cache_wptouch = '1'; //Added by WP-Cache Manager
+$cache_wptouch = '0'; //Added by WP-Cache Manager
 $cache_no_adverts_for_friends = 'yes'; //Added by WP-Cache Manager
 $wp_super_cache_comments = '1'; //Added by WP-Cache Manager
 $wp_cache_preload_on = 1; //Added by WP-Cache Manager
@@ -21,7 +21,7 @@ $cache_scheduled_time = '00:00'; //Added by WP-Cache Manager
 $wp_cache_mobile_groups = ''; //Added by WP-Cache Manager
 $wp_cache_mobile_prefixes = ''; //Added by WP-Cache Manager
 $wp_cache_refresh_single_only = '0'; //Added by WP-Cache Manager
-$wp_cache_make_known_anon = 0; //Added by WP-Cache Manager
+$wp_cache_make_known_anon = 1; //Added by WP-Cache Manager
 $wp_cache_mod_rewrite = 1; //Added by WP-Cache Manager
 $wp_cache_front_page_checks = 1; //Added by WP-Cache Manager
 $wp_cache_mfunc_enabled = 0; //Added by WP-Cache Manager
@@ -105,6 +105,6 @@ $wp_cache_hide_donation = 0;
 $wp_cache_not_logged_in = 1; //Added by WP-Cache Manager
 $wp_cache_clear_on_post_edit = 1; //Added by WP-Cache Manager
 $wp_cache_hello_world = 0; //Added by WP-Cache Manager
-$wp_cache_mobile_enabled = 1; //Added by WP-Cache Manager
+$wp_cache_mobile_enabled = 0; //Added by WP-Cache Manager
 $wp_cache_cron_check = 1; //Added by WP-Cache Manager
 ?>
