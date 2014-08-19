@@ -4,7 +4,7 @@ Donate link: https://www.tipsandtricks-hq.com
 Tags: security, secure, Anti Virus, antivirus, ban, ban hacker, virus, firewall, firewall security, login, lockdown, htaccess, hack, malware, vulnerability, protect, protection, phishing, database, backup, plugin, sql injection, ssl, restrict, login captcha, bot, hotlink, 404 detection, admin, rename, all in one, scan, scanner, iframe,
 Requires at least: 3.5
 Tested up to: 3.9.2
-Stable tag: 3.7.9.1
+Stable tag: 3.7.9.2
 License: GPLv3
 
 A comprehensive, user-friendly, all in one WordPress security and firewall plugin for your site.
@@ -132,7 +132,7 @@ or malicious bots who do not have a special cookie in their browser. You (the si
 
 = Developers =
 * If you are a developer and you need some extra hooks or filters for this plugin then let us know.
-* Github repository - https://github.com/wp-plugins/all-in-one-wp-security-and-firewall
+* Github repository - https://github.com/Arsenal21/all-in-one-wordpress-security
 
 = Translations =
 * All In One WP Security plugin can be translated to any language.
@@ -163,6 +163,10 @@ https://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin
 None
 
 == Changelog ==
+
+= 3.7.9.2 =
+- Made a couple of changes in the copy protection feature's JS code.
+
 = 3.7.9.1 =
 - Added captcha functionality for custom login form which is produced by the WP function: wp_login_form()
 - Fixed a minor bug with the copy protection feature's JavaScript code.

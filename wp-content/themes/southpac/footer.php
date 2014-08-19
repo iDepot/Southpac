@@ -65,7 +65,7 @@
 
 
 <!--[if lt IE 9]>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
 <![endif]-->
