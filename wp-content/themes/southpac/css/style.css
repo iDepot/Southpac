@@ -720,7 +720,7 @@ a.f_logo {
     display: inline-block;
 }
 
-.toTop {
+#toTop {
     display: none;
     text-decoration: none;
     position: fixed;
@@ -744,7 +744,7 @@ a.f_logo {
     cursor: pointer;
 }
 
-.toTop:hover {
+#toTop:hover {
     outline: none;
     background-position: right 0;
 }

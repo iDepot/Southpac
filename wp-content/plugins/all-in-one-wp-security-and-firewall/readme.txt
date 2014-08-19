@@ -1,10 +1,10 @@
 === All In One WP Security & Firewall ===
 Contributors: Tips and Tricks HQ, wpsolutions, Peter Petreski, Ruhul Amin, samuelaguilera
-Donate link: http://www.tipsandtricks-hq.com
-Tags: security, secure, Anti Virus, antivirus, ban, ban hacker, virus, firewall, firewall security, login, lockdown, htaccess, hack, malware, vulnerability, protect, protection, phishing, database, backup, plugin, sql injection, ssl, restrict, login captcha, bot, hotlink, 404 detection, admin, rename, all in one, scan, scanner
+Donate link: https://www.tipsandtricks-hq.com
+Tags: security, secure, Anti Virus, antivirus, ban, ban hacker, virus, firewall, firewall security, login, lockdown, htaccess, hack, malware, vulnerability, protect, protection, phishing, database, backup, plugin, sql injection, ssl, restrict, login captcha, bot, hotlink, 404 detection, admin, rename, all in one, scan, scanner, iframe,
 Requires at least: 3.5
-Tested up to: 3.9.1
-Stable tag: 3.7.7
+Tested up to: 3.9.2
+Stable tag: 3.7.9.1
 License: GPLv3
 
 A comprehensive, user-friendly, all in one WordPress security and firewall plugin for your site.
@@ -20,13 +20,15 @@ This plugin is designed and written by experts and is easy to use and understand
 
 It reduces security risk by checking for vulnerabilities, and by implementing and enforcing the latest recommended WordPress security practices and techniques.
 
-http://www.youtube.com/watch?v=CJvCTlVtazA
+https://www.youtube.com/watch?v=CJvCTlVtazA
 
 All In One WP Security also uses an unprecedented security points grading system to measure how well you are protecting your site based on the security features you have activated.
 
 Our security and firewall rules are categorized into "basic", "intermediate" and "advanced". This way you can apply the firewall rules progressively without breaking your site's functionality.
 
 The All In One WordPress Security plugin doesn't slow down your site and it is 100% free.
+
+Visit the [WordPress Security Plugin](https://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin) page for more details.
 
 Below is a list of the security and firewall features offered in this plugin:
 
@@ -95,6 +97,7 @@ or malicious bots who do not have a special cookie in their browser. You (the si
 * Instantly block Brute Force Login Attacks via our special Cookie-Based Brute Force Login Prevention feature. This firewall functionality will block all login attempts from people and bots.
 * Ability to add a simple math captcha to the WordPress login form to fight against brute force login attacks.
 * Ability to hide admin login page. Rename your WordPress login page URL so that bots and hackers cannot access your real WordPress login URL. This feature allows you to change the default login page (wp-login.php) to something you configure.
+* Ability to use Login Honeypot which will helps reduce brute force login attempts by robots.
 
 = WhoIs Lookup =
 * Perform a WhoIs lookup of a suspicious host or IP address and get full details.
@@ -122,17 +125,19 @@ or malicious bots who do not have a special cookie in their browser. You (the si
 * Ability to prevent people from accessing the readme.html, license.txt and wp-config-sample.php files
 * Ability to temporarily lock down the front end of your site from general visitors while you do various backend tasks (investigate security attacks, perform site upgrades, do maintenance work etc.)
 * Ability to export/import the security settings.
+* Prevent other sites from displaying your content via a frame or iframe.
 
 = Plugin Support =
 * If you have a question or problem with the All In One Security plugin, post it on the support forum and we will help you.
 
 = Developers =
 * If you are a developer and you need some extra hooks or filters for this plugin then let us know.
+* Github repository - https://github.com/wp-plugins/all-in-one-wp-security-and-firewall
 
 = Translations =
 * All In One WP Security plugin can be translated to any language.
 
-Visit the [WordPress Security Plugin](http://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin) page for more details.
+Visit the [WordPress Security Plugin](https://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin) page for more details.
 
 == Installation ==
 
@@ -148,16 +153,32 @@ Go to the settings menu after you activate the plugin and follow the instruction
 
 == Screenshots ==
 Check the following page for screenshots:
-http://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin
+https://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin
 
 == Frequently Asked Questions ==
 Check the following page for F.A.Q (see the faq section):
-http://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin
+https://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin
 
 == Upgrade Notice ==
 None
 
 == Changelog ==
+= 3.7.9.1 =
+- Added captcha functionality for custom login form which is produced by the WP function: wp_login_form()
+- Fixed a minor bug with the copy protection feature's JavaScript code.
+- Tweaked file change scan algorithm to help prevent getMTime fatal runtime errors.
+- Added a link to the github repository in the readme.txt file for developers.
+
+= 3.7.9 =
+- Fixed a small bug related to the cookie test in the Cookie Based Brute Force feature.
+
+= 3.7.8 =
+- Added new feature called Login Honeypot which will help reduce brute force login attempts by robots. (This can be found in the Brute Force menu)
+- Added new feature to prevent other sites from displaying your content via a frame or iframe. (This can be found in the Miscellaneous menu)
+- Added captcha feature for BuddyPress registration form.
+- Added a new filter for the site lockout message so it can be customized.
+- Added a new filter for template include of the site lockout feature.
+- Temporarily deactivated the "DB Scan" feature.
 
 = 3.7.7 =
 - Improved DB prefix change code to make it more robust.

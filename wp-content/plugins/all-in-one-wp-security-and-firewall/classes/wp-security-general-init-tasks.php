@@ -5,6 +5,10 @@ class AIOWPSecurity_General_Init_Tasks
     function __construct(){
         global $aio_wp_security;
         
+        if($aio_wp_security->configs->get_value('aiowps_prevent_site_display_inside_frame') == '1'){
+            send_frame_options_header(); //send X-Frame-Options: SAMEORIGIN in HTTP header
+        }
+
         if($aio_wp_security->configs->get_value('aiowps_remove_wp_generator_meta_info') == '1'){
             add_filter('the_generator', array(&$this,'remove_wp_generator_meta_info'));
         }
@@ -30,13 +34,24 @@ class AIOWPSecurity_General_Init_Tasks
             $unlock_key = strip_tags($_GET['aiowps_auth_key']);
             AIOWPSecurity_User_Login::process_unlock_request($unlock_key);
         }
-               
+
+        //For honeypot feature
+        if(isset($_POST['aio_special_field'])){
+            $special_field_value = strip_tags($_POST['aio_special_field']);
+            if(!empty($special_field_value)){
+                //This means a robot has submitted the login form!
+                //Redirect back to its localhost
+                AIOWPSecurity_Utility::redirect_to_url('http://127.0.0.1');
+            }
+        }
+        
         //For 404 IP lockout feature
         if($aio_wp_security->configs->get_value('aiowps_enable_404_IP_lockout') == '1'){
             if (!is_user_logged_in() || !current_user_can('administrator')) {
                 $this->do_404_lockout_tasks();
             }
         }
+
 
         //For login captcha feature
         if($aio_wp_security->configs->get_value('aiowps_enable_login_captcha') == '1'){
@@ -45,6 +60,22 @@ class AIOWPSecurity_General_Init_Tasks
             }
         }
 
+        //For custom login form captcha feature, ie, when wp_login_form() function is used to generate login form
+        if($aio_wp_security->configs->get_value('aiowps_enable_custom_login_captcha') == '1'){
+            if (!is_user_logged_in()) {
+                add_filter( 'login_form_middle', array(&$this, 'insert_captcha_custom_login'), 10, 2); //For cases where the WP wp_login_form() function is used
+            }
+        }
+
+        //For honeypot feature
+        if($aio_wp_security->configs->get_value('aiowps_enable_login_honeypot') == '1'){
+            if (!is_user_logged_in()) {
+                add_action( 'login_enqueue_scripts', array(&$this, 'login_enqueue_scripts'));
+                add_action('login_form', array(&$this, 'insert_honeypot_hidden_field'));
+            }
+        }
+        
+        
         //For lost password captcha feature
         if($aio_wp_security->configs->get_value('aiowps_enable_lost_password_captcha') == '1'){
             if (!is_user_logged_in()) {
@@ -92,6 +123,13 @@ class AIOWPSecurity_General_Init_Tasks
                 add_filter( 'preprocess_comment', array(&$this, 'process_comment_post') );
             }
         }
+        
+        //For buddypress registration captcha feature
+        if($aio_wp_security->configs->get_value('aiowps_enable_bp_register_captcha') == '1'){
+            add_action('bp_account_details_fields', array(&$this, 'insert_captcha_question_form'));
+            add_action('bp_signup_validate', array(&$this, 'buddy_press_signup_validate_captcha'));
+        }
+        
         
         //For feature which displays logged in users
         $this->update_logged_in_user_transient();
@@ -188,6 +226,18 @@ class AIOWPSecurity_General_Init_Tasks
         }
     }
     
+    function insert_captcha_custom_login($cust_html_code, $args)
+    {
+        global $aio_wp_security;
+        $cap_form = '<p class="aiowps-captcha"><label>'.__('Please enter an answer in digits:','aiowpsecurity').'</label>';
+        $cap_form .= '<div class="aiowps-captcha-equation"><strong>';
+        $maths_question_output = $aio_wp_security->captcha_obj->generate_maths_question();
+        $cap_form .= $maths_question_output . '</strong></div></p>';
+        
+        $cust_html_code .= $cap_form;
+        return $cust_html_code;
+    }
+    
     function insert_captcha_question_form_multi($error)
     {
         global $aio_wp_security;
@@ -215,6 +265,13 @@ class AIOWPSecurity_General_Init_Tasks
     function insert_captcha_question_form(){
         global $aio_wp_security;
         $aio_wp_security->captcha_obj->display_captcha_form();
+    }
+
+    function insert_honeypot_hidden_field(){
+        global $aio_wp_security;
+        $honey_input = '<p class="aio-special-field"><label>'.__('Enter something special:','aiowpsecurity').'</label>';
+        $honey_input .= '<input name="aio_special_field" type="text" id="aio_special_field" class="aio_special_field" /></p>';
+        echo $honey_input;
     }
     
     function process_comment_post( $comment ) 
@@ -289,4 +346,29 @@ class AIOWPSecurity_General_Init_Tasks
         
     }
     
+    function login_enqueue_scripts()
+    {
+//        echo '<link type="text/css" rel="stylesheet" href="'.AIO_WP_SECURITY_URL.'/css/wp-aiowps.css?ver='.AIO_WP_SECURITY_VERSION.'" />';//Load the CSS file
+        wp_enqueue_style('aiowps-stylesheet', AIO_WP_SECURITY_URL.'/css/wp-aiowps.css');
+    }
+    
+    
+    function buddy_press_signup_validate_captcha($errors)
+    {
+        global $bp, $aio_wp_security;
+        //Check if captcha enabled
+        if (array_key_exists('aiowps-captcha-answer', $_POST)) //If the register form with captcha was submitted then do some processing
+        {
+            isset($_POST['aiowps-captcha-answer'])?$captcha_answer = strip_tags(trim($_POST['aiowps-captcha-answer'])): $captcha_answer = '';
+            $captcha_secret_string = $aio_wp_security->configs->get_value('aiowps_captcha_secret_key');
+            $submitted_encoded_string = base64_encode($_POST['aiowps-captcha-temp-string'].$captcha_secret_string.$captcha_answer);
+            if($submitted_encoded_string !== $_POST['aiowps-captcha-string-info'])
+            {
+                //This means a wrong answer was entered
+                $bp->signup->errors['aiowps-captcha-answer'] = __('Your CAPTCHA answer was incorrect - please try again.', 'aiowpsecurity');
+            }
+        }
+
+        return;
+    }    
 }

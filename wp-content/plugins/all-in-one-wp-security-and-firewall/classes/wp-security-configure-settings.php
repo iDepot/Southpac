@@ -36,6 +36,7 @@ class AIOWPSecurity_Configure_Settings
 
         //Captcha feature
         $aio_wp_security->configs->set_value('aiowps_enable_login_captcha','');//Checkbox
+        $aio_wp_security->configs->set_value('aiowps_enable_custom_login_captcha','');//Checkbox
         $aio_wp_security->configs->set_value('aiowps_enable_lost_password_captcha','');//Checkbox
         $aio_wp_security->configs->set_value('aiowps_captcha_secret_key',AIOWPSecurity_Utility::generate_alpha_numeric_random_string(20));//Hidden secret value which will be used to do some captcha processing. This will be assigned a random string generated when captcha settings saved
 
@@ -84,6 +85,7 @@ class AIOWPSecurity_Configure_Settings
 
         //Brute Force features
         $aio_wp_security->configs->set_value('aiowps_enable_rename_login_page','');//Checkbox
+        $aio_wp_security->configs->set_value('aiowps_enable_login_honeypot','');//Checkbox
 
         $aio_wp_security->configs->set_value('aiowps_enable_brute_force_attack_prevention','');//Checkbox
         $aio_wp_security->configs->set_value('aiowps_brute_force_secret_word','');
@@ -114,6 +116,9 @@ class AIOWPSecurity_Configure_Settings
         //Misc Options
         //Copy protection feature
         $aio_wp_security->configs->set_value('aiowps_copy_protection','');//Checkbox
+        //Prevent others from dislaying your site in iframe
+        $aio_wp_security->configs->set_value('aiowps_prevent_site_display_inside_frame','');//Checkbox
+        
                 
         //TODO - keep adding default options for any fields that require it
         
@@ -155,6 +160,7 @@ class AIOWPSecurity_Configure_Settings
         $aio_wp_security->configs->add_value('aiowps_allowed_ip_addresses','');
         //Captcha feature
         $aio_wp_security->configs->add_value('aiowps_enable_login_captcha','');//Checkbox
+        $aio_wp_security->configs->add_value('aiowps_enable_custom_login_captcha','');//Checkbox
         $aio_wp_security->configs->add_value('aiowps_captcha_secret_key',AIOWPSecurity_Utility::generate_alpha_numeric_random_string(20));//Hidden secret value which will be used to do some captcha processing. This will be assigned a random string generated when captcha settings saved
 
         //User registration
@@ -199,6 +205,7 @@ class AIOWPSecurity_Configure_Settings
         
         //Brute Force features
         $aio_wp_security->configs->add_value('aiowps_enable_rename_login_page','');//Checkbox
+        $aio_wp_security->configs->add_value('aiowps_enable_login_honeypot','');//Checkbox
         
         $aio_wp_security->configs->add_value('aiowps_enable_brute_force_attack_prevention','');//Checkbox
         $aio_wp_security->configs->add_value('aiowps_brute_force_secret_word','');
@@ -229,6 +236,8 @@ class AIOWPSecurity_Configure_Settings
         //Misc Options
         //Copy protection feature
         $aio_wp_security->configs->add_value('aiowps_copy_protection','');//Checkbox
+        //Prevent others from dislaying your site in iframe
+        $aio_wp_security->configs->add_value('aiowps_prevent_site_display_inside_frame','');//Checkbox
 
         
         //TODO - keep adding default options for any fields that require it

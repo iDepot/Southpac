@@ -28,7 +28,7 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/form.css" type="text/css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css" type="text/css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css" type="text/css">
 
     <?php wp_head(); ?>

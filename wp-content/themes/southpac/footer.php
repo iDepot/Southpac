@@ -61,22 +61,27 @@
     </div>
 </footer>
 
-<div class="toTop" style="margin-right: -630px; right: 50%;"><span id="toTopHover"></span></div>
+<!--<div class="toTop" style="margin-right: -630px; right: 50%;"><span id="toTopHover"></span></div>-->
 
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-migrate-1.1.1.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if gt IE 9]>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-2.1.1.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/superfish.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.ui.totop.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.equalheights.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.mobilemenu.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
-
-<!--[if lt IE 9]>
-<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
-<![endif]-->
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
 
 <?php wp_footer(); ?>
 

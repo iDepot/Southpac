@@ -52,7 +52,7 @@ $(document).ready(function(){
 
     $('.sf-menu').superfish({autoArrows: true}).mobileMenu();
 
-    $('.toTop a').UItoTop();
+    $('.toTop').UItoTop();
 
   });
 
