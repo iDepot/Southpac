@@ -5,6 +5,22 @@ class AIOWPSecurity_General_Init_Tasks
     function __construct(){
         global $aio_wp_security;
         
+        add_action('admin_notices', array(&$this,'reapply_htaccess_rules_notice'));
+        if(isset($_REQUEST['aiowps_reapply_htaccess'])){
+            if(strip_tags($_REQUEST['aiowps_reapply_htaccess']) == 1){
+                include_once ('wp-security-installer.php');
+                if(AIOWPSecurity_Installer::reactivation_tasks()){
+                    echo '<div class="updated"><p>The AIOWPS .htaccess rules were successfully re-inserted.</p></div>';
+                }else{
+                    echo '<div class="error"><p>AIOWPS encountered an error when trying to write to your .htaccess file. Please check the logs.</p></div>';
+                }
+                
+            }elseif(strip_tags($_REQUEST['aiowps_reapply_htaccess']) == 2){
+                //Don't re-write the rules and just delete the temp config item
+                delete_option('aiowps_temp_configs');
+            }
+        }
+        
         if($aio_wp_security->configs->get_value('aiowps_prevent_site_display_inside_frame') == '1'){
             send_frame_options_header(); //send X-Frame-Options: SAMEORIGIN in HTTP header
         }
@@ -70,11 +86,9 @@ class AIOWPSecurity_General_Init_Tasks
         //For honeypot feature
         if($aio_wp_security->configs->get_value('aiowps_enable_login_honeypot') == '1'){
             if (!is_user_logged_in()) {
-                add_action( 'login_enqueue_scripts', array(&$this, 'login_enqueue_scripts'));
                 add_action('login_form', array(&$this, 'insert_honeypot_hidden_field'));
             }
         }
-        
         
         //For lost password captcha feature
         if($aio_wp_security->configs->get_value('aiowps_enable_lost_password_captcha') == '1'){
@@ -104,7 +118,6 @@ class AIOWPSecurity_General_Init_Tasks
                 }
             }
         }
-        
 
         //For comment captcha feature
         if (AIOWPSecurity_Utility::is_multisite_install()){
@@ -175,7 +188,6 @@ class AIOWPSecurity_General_Init_Tasks
             $current_user_ip = AIOWPSecurity_Utility_IP::get_user_ip_address();
             // get the logged in users list from transients entry
             $logged_in_users = (AIOWPSecurity_Utility::is_multisite_install() ? get_site_transient('users_online') : get_transient('users_online'));
-//            $logged_in_users = get_transient('users_online');
             $current_user = wp_get_current_user();
             $current_user = $current_user->ID;  
             $current_time = current_time('timestamp');
@@ -186,7 +198,6 @@ class AIOWPSecurity_General_Init_Tasks
                 $logged_in_users = array();
                 $logged_in_users[] = $current_user_info;
                 AIOWPSecurity_Utility::is_multisite_install() ? set_site_transient('users_online', $logged_in_users, 30 * 60) : set_transient('users_online', $logged_in_users, 30 * 60);
-//                set_transient('users_online', $logged_in_users, 30 * 60); //Set transient with the data obtained above and also set the expire to 30min
             }
             else
             {
@@ -268,8 +279,7 @@ class AIOWPSecurity_General_Init_Tasks
     }
 
     function insert_honeypot_hidden_field(){
-        global $aio_wp_security;
-        $honey_input = '<p class="aio-special-field"><label>'.__('Enter something special:','aiowpsecurity').'</label>';
+        $honey_input = '<p style="display: none;"><label>'.__('Enter something special:','aiowpsecurity').'</label>';
         $honey_input .= '<input name="aio_special_field" type="text" id="aio_special_field" class="aio_special_field" /></p>';
         echo $honey_input;
     }
@@ -344,14 +354,7 @@ class AIOWPSecurity_General_Init_Tasks
             AIOWPSecurity_Utility::event_logger('404');
         }
         
-    }
-    
-    function login_enqueue_scripts()
-    {
-//        echo '<link type="text/css" rel="stylesheet" href="'.AIO_WP_SECURITY_URL.'/css/wp-aiowps.css?ver='.AIO_WP_SECURITY_VERSION.'" />';//Load the CSS file
-        wp_enqueue_style('aiowps-stylesheet', AIO_WP_SECURITY_URL.'/css/wp-aiowps.css');
-    }
-    
+    }   
     
     function buddy_press_signup_validate_captcha($errors)
     {
@@ -370,5 +373,14 @@ class AIOWPSecurity_General_Init_Tasks
         }
 
         return;
-    }    
+    }
+    
+    //Displays a notice message if the plugin was reactivated after being initially deactivated.
+    //Notice message gives users option of re-applying the aiowps rules which were deleted from the .htaccess when deactivation occurred
+    function reapply_htaccess_rules_notice()
+    {
+        if (get_option('aiowps_temp_configs') !== FALSE){
+            echo '<div class="updated"><p>Would you like All In One WP Security & Firewall to re-insert the security rules in your .htaccess file which were cleared when you deactivated the plugin?&nbsp;&nbsp;<a href="admin.php?page='.AIOWPSEC_MENU_SLUG_PREFIX.'&aiowps_reapply_htaccess=1" class="button-primary">Yes</a>&nbsp;&nbsp;<a href="admin.php?page='.AIOWPSEC_MENU_SLUG_PREFIX.'&aiowps_reapply_htaccess=2" class="button-primary">No</a></p></div>';
+        }
+    }
 }
