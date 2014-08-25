@@ -2,45 +2,280 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d004d9fb-8998-4ffc-abc2-d07483742506" name="Default" comment="plugin fix">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/acceptance.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/acceptance.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/admin-functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/admin-functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/akismet.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/akismet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-seo-pack-pro/all_in_one_seo_pack.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-seo-pack-pro/all_in_one_seo_pack.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/captcha.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/captcha.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/checkbox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/checkbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/controller.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/date.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/date.php" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\Mockup\logo-original.psd" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\Mockup\logo-southpac.psd" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\Mockup\logo.psd" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\Mockup\office.psd" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\database\southpac.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\database\southpac_backup.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\autoptimize\autoptimize_0319a2b892ff36c3008abf5caf8e68c5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\autoptimize\autoptimize_213bdadca167c6b789f9175065c3d69c.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\autoptimize\autoptimize_62c8f693364202db1c409d10b659bd0a.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\autoptimize\autoptimize_64aeea2f6570500dd896c7128188202d.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\autoptimize\autoptimize_6d574ab2b36ab9284e3bdc5c8b6e8fbf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\autoptimize\autoptimize_a90d1749f9c4989bff14a9a9a506a518.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\autoptimize\autoptimize_acd70fba872747645faab4044e7720b0.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\autoptimize\autoptimize_e6752be241188ace1f1700eaa8de4576.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\373\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\373\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\469\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\469\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\554\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\554\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\about\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\about\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\assessment\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\assessment\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\contact\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\contact\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\about-2\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\about-2\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\assessment-2\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\assessment-2\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\contact-2\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\contact-2\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\info-2\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\info-2\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\job-listings\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\job-listings\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\migration-medical-services-provider\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\migration-medical-services-provider\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\privacy-2\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\privacy-2\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\immigration\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\immigration\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\student\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\student\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\tribunal\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\tribunal\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\tribunal\migration-review-tribunal\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\tribunal\migration-review-tribunal\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\tribunal\ministerial-intervention\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\tribunal\ministerial-intervention\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\tribunal\refugee-review-tribunal\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\tribunal\refugee-review-tribunal\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\visa\australian-business-visas\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\visa\australian-business-visas\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\visa\australian-family-visas\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\visa\australian-family-visas\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\visa\australian-partner-visas\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\visa\australian-partner-visas\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\visa\australian-student-visas\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\visa\australian-student-visas\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\visa\australian-visitor-visas\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\visa\australian-visitor-visas\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\visa\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\services-2\visa\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\skill-occupations-list\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\en\skill-occupations-list\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\info\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\info\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\privacy\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\privacy\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\immigration\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\immigration\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\students\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\students\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\tribunal\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\tribunal\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\tribunal\migration-review-tribunal\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\tribunal\migration-review-tribunal\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\tribunal\ministerial-intervention\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\tribunal\ministerial-intervention\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\tribunal\refugee-review-tribunal\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\tribunal\refugee-review-tribunal\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\visa\australian-family-visas\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\visa\australian-family-visas\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\visa\australian-partner-visas\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\visa\australian-partner-visas\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\visa\australian-student-visas\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\visa\australian-student-visas\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\visa\australian-work-visa\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\visa\australian-work-visa\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\visa\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\services\visa\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\sol\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\cache\supercache\www.southpacservices.com\sol\index.html.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\all-in-one-wp-security-and-firewall\languages\aiowpsecurity-de_DE.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\all-in-one-wp-security-and-firewall\languages\aiowpsecurity-es_ES.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\all-in-one-wp-security-and-firewall\languages\aiowpsecurity-fa_IR.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\all-in-one-wp-security-and-firewall\languages\aiowpsecurity-hu_HU.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\all-in-one-wp-security-and-firewall\languages\aiowpsecurity-it_IT.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\all-in-one-wp-security-and-firewall\languages\aiowpsecurity-pt_BR.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\all-in-one-wp-security-and-firewall\languages\aiowpsecurity-ru_RU.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\autoptimize\localization\autoptimize-be_BY.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\autoptimize\localization\autoptimize-de_DE.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\autoptimize\localization\autoptimize-es_ES.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\autoptimize\localization\autoptimize-fa_IR.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\autoptimize\localization\autoptimize-fr_FR.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\autoptimize\localization\autoptimize-nl_BE.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\autoptimize\localization\autoptimize-nl_NL.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\autoptimize\localization\autoptimize-pl_PL.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\autoptimize\localization\autoptimize-ru_RU.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\autoptimize\localization\autoptimize-sv_SE.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\polylang\languages\polylang-uk.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\shortcodes-ultimate\languages\su-ja.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\shortcodes-ultimate\languages\su-ru_RU.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\thin-out-revisions\languages\thin-out-revisions-fr_FR.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\thin-out-revisions\languages\thin-out-revisions-ja.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-be_BY.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-de_DE.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-es_ES.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-fr_FR.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-it_IT.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-ja.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-lt_LT.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-ro_RO.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-ru_RU.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-sr_RS.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-sv_SE.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-tr_TR.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-ua_UA.po" afterPath="" />
+      <change type="DELETED" beforePath="C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache\languages\wp-super-cache-uk.po" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/about.php" afterPath="$PROJECT_DIR$/wp-admin/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/admin-bar.php" afterPath="$PROJECT_DIR$/wp-includes/admin-bar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/atomlib.php" afterPath="$PROJECT_DIR$/wp-includes/atomlib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/author-template.php" afterPath="$PROJECT_DIR$/wp-includes/author-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/bookmark-template.php" afterPath="$PROJECT_DIR$/wp-includes/bookmark-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/bookmark.php" afterPath="$PROJECT_DIR$/wp-includes/bookmark.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/cache.php" afterPath="$PROJECT_DIR$/wp-includes/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/canonical.php" afterPath="$PROJECT_DIR$/wp-includes/canonical.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/capabilities.php" afterPath="$PROJECT_DIR$/wp-includes/capabilities.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/category-template.php" afterPath="$PROJECT_DIR$/wp-includes/category-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/category.php" afterPath="$PROJECT_DIR$/wp-includes/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-IXR.php" afterPath="$PROJECT_DIR$/wp-includes/class-IXR.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-feed.php" afterPath="$PROJECT_DIR$/wp-includes/class-feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-http.php" afterPath="$PROJECT_DIR$/wp-includes/class-http.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-json.php" afterPath="$PROJECT_DIR$/wp-includes/class-json.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-oembed.php" afterPath="$PROJECT_DIR$/wp-includes/class-oembed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-phpass.php" afterPath="$PROJECT_DIR$/wp-includes/class-phpass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-phpmailer.php" afterPath="$PROJECT_DIR$/wp-includes/class-phpmailer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-pop3.php" afterPath="$PROJECT_DIR$/wp-includes/class-pop3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-simplepie.php" afterPath="$PROJECT_DIR$/wp-includes/class-simplepie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-smtp.php" afterPath="$PROJECT_DIR$/wp-includes/class-smtp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-snoopy.php" afterPath="$PROJECT_DIR$/wp-includes/class-snoopy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-admin-bar.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-admin-bar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-ajax-response.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-ajax-response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-control.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-control.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-manager.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-section.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-section.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-setting.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-setting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-widgets.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-widgets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-editor.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-editor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-embed.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-embed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-error.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-http-ixr-client.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-http-ixr-client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-image-editor-gd.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-image-editor-gd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-image-editor-imagick.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-image-editor-imagick.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-image-editor.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-image-editor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-theme.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-theme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-walker.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-walker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-xmlrpc-server.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-xmlrpc-server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class.wp-dependencies.php" afterPath="$PROJECT_DIR$/wp-includes/class.wp-dependencies.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class.wp-scripts.php" afterPath="$PROJECT_DIR$/wp-includes/class.wp-scripts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class.wp-styles.php" afterPath="$PROJECT_DIR$/wp-includes/class.wp-styles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/comment-template.php" afterPath="$PROJECT_DIR$/wp-includes/comment-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/comment.php" afterPath="$PROJECT_DIR$/wp-includes/comment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/compat.php" afterPath="$PROJECT_DIR$/wp-includes/compat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/cron.php" afterPath="$PROJECT_DIR$/wp-includes/cron.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/date.php" afterPath="$PROJECT_DIR$/wp-includes/date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/default-constants.php" afterPath="$PROJECT_DIR$/wp-includes/default-constants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/default-filters.php" afterPath="$PROJECT_DIR$/wp-includes/default-filters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/default-widgets.php" afterPath="$PROJECT_DIR$/wp-includes/default-widgets.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/file.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/file.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/flamingo.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/flamingo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery.form.js" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery.form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/mail.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/meta-boxes.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/meta-boxes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/number.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/number.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/quiz.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/quiz.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/response.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/response.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/scripts.js" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/select.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/select.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles.css" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/submission.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/submission.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/submit.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/submit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/text.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/text.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/textarea.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/textarea.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/upgrade.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/upgrade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/deprecated.php" afterPath="$PROJECT_DIR$/wp-includes/deprecated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/feed-atom-comments.php" afterPath="$PROJECT_DIR$/wp-includes/feed-atom-comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/feed-atom.php" afterPath="$PROJECT_DIR$/wp-includes/feed-atom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/feed-rdf.php" afterPath="$PROJECT_DIR$/wp-includes/feed-rdf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/feed-rss.php" afterPath="$PROJECT_DIR$/wp-includes/feed-rss.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/feed-rss2-comments.php" afterPath="$PROJECT_DIR$/wp-includes/feed-rss2-comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/feed-rss2.php" afterPath="$PROJECT_DIR$/wp-includes/feed-rss2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/feed.php" afterPath="$PROJECT_DIR$/wp-includes/feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/formatting.php" afterPath="$PROJECT_DIR$/wp-includes/formatting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/functions.php" afterPath="$PROJECT_DIR$/wp-includes/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/functions.wp-scripts.php" afterPath="$PROJECT_DIR$/wp-includes/functions.wp-scripts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/functions.wp-styles.php" afterPath="$PROJECT_DIR$/wp-includes/functions.wp-styles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/general-template.php" afterPath="$PROJECT_DIR$/wp-includes/general-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ID3/getid3.lib.php" afterPath="$PROJECT_DIR$/wp-includes/ID3/getid3.lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/http.php" afterPath="$PROJECT_DIR$/wp-includes/http.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/kses.php" afterPath="$PROJECT_DIR$/wp-includes/kses.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/l10n.php" afterPath="$PROJECT_DIR$/wp-includes/l10n.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/link-template.php" afterPath="$PROJECT_DIR$/wp-includes/link-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/load.php" afterPath="$PROJECT_DIR$/wp-includes/load.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/locale.php" afterPath="$PROJECT_DIR$/wp-includes/locale.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/media-template.php" afterPath="$PROJECT_DIR$/wp-includes/media-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/media.php" afterPath="$PROJECT_DIR$/wp-includes/media.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/meta.php" afterPath="$PROJECT_DIR$/wp-includes/meta.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ms-blogs.php" afterPath="$PROJECT_DIR$/wp-includes/ms-blogs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ms-default-constants.php" afterPath="$PROJECT_DIR$/wp-includes/ms-default-constants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ms-default-filters.php" afterPath="$PROJECT_DIR$/wp-includes/ms-default-filters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ms-deprecated.php" afterPath="$PROJECT_DIR$/wp-includes/ms-deprecated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ms-files.php" afterPath="$PROJECT_DIR$/wp-includes/ms-files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ms-functions.php" afterPath="$PROJECT_DIR$/wp-includes/ms-functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ms-load.php" afterPath="$PROJECT_DIR$/wp-includes/ms-load.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ms-settings.php" afterPath="$PROJECT_DIR$/wp-includes/ms-settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/nav-menu-template.php" afterPath="$PROJECT_DIR$/wp-includes/nav-menu-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/nav-menu.php" afterPath="$PROJECT_DIR$/wp-includes/nav-menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/option.php" afterPath="$PROJECT_DIR$/wp-includes/option.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/pluggable-deprecated.php" afterPath="$PROJECT_DIR$/wp-includes/pluggable-deprecated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/pluggable.php" afterPath="$PROJECT_DIR$/wp-includes/pluggable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/plugin.php" afterPath="$PROJECT_DIR$/wp-includes/plugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/post-formats.php" afterPath="$PROJECT_DIR$/wp-includes/post-formats.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/post-template.php" afterPath="$PROJECT_DIR$/wp-includes/post-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/post-thumbnail-template.php" afterPath="$PROJECT_DIR$/wp-includes/post-thumbnail-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/post.php" afterPath="$PROJECT_DIR$/wp-includes/post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/query.php" afterPath="$PROJECT_DIR$/wp-includes/query.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.html" afterPath="$PROJECT_DIR$/readme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/registration-functions.php" afterPath="$PROJECT_DIR$/wp-includes/registration-functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/registration.php" afterPath="$PROJECT_DIR$/wp-includes/registration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/revision.php" afterPath="$PROJECT_DIR$/wp-includes/revision.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/rewrite.php" afterPath="$PROJECT_DIR$/wp-includes/rewrite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/rss-functions.php" afterPath="$PROJECT_DIR$/wp-includes/rss-functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/rss.php" afterPath="$PROJECT_DIR$/wp-includes/rss.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/script-loader.php" afterPath="$PROJECT_DIR$/wp-includes/script-loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/shortcodes.php" afterPath="$PROJECT_DIR$/wp-includes/shortcodes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/taxonomy.php" afterPath="$PROJECT_DIR$/wp-includes/taxonomy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/template-loader.php" afterPath="$PROJECT_DIR$/wp-includes/template-loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/template.php" afterPath="$PROJECT_DIR$/wp-includes/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/theme.php" afterPath="$PROJECT_DIR$/wp-includes/theme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/update.php" afterPath="$PROJECT_DIR$/wp-includes/update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/user.php" afterPath="$PROJECT_DIR$/wp-includes/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/vars.php" afterPath="$PROJECT_DIR$/wp-includes/vars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/version.php" afterPath="$PROJECT_DIR$/wp-includes/version.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/widgets.php" afterPath="$PROJECT_DIR$/wp-includes/widgets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/wlwmanifest.xml" afterPath="$PROJECT_DIR$/wp-includes/wlwmanifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-activate.php" afterPath="$PROJECT_DIR$/wp-activate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-blog-header.php" afterPath="$PROJECT_DIR$/wp-blog-header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/wp-cache-config.php" afterPath="$PROJECT_DIR$/wp-content/wp-cache-config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-comments-post.php" afterPath="$PROJECT_DIR$/wp-comments-post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config-sample.php" afterPath="$PROJECT_DIR$/wp-config-sample.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-cron.php" afterPath="$PROJECT_DIR$/wp-cron.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/wp-db.php" afterPath="$PROJECT_DIR$/wp-includes/wp-db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/wp-diff.php" afterPath="$PROJECT_DIR$/wp-includes/wp-diff.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-links-opml.php" afterPath="$PROJECT_DIR$/wp-links-opml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-load.php" afterPath="$PROJECT_DIR$/wp-load.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-login.php" afterPath="$PROJECT_DIR$/wp-login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-mail.php" afterPath="$PROJECT_DIR$/wp-mail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-security-and-firewall/logs/wp-security-log-cron-job.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-security-and-firewall/logs/wp-security-log-cron-job.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-security-and-firewall/logs/wp-security-log.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-security-and-firewall/logs/wp-security-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-settings.php" afterPath="$PROJECT_DIR$/wp-settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-signup.php" afterPath="$PROJECT_DIR$/wp-signup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-trackback.php" afterPath="$PROJECT_DIR$/wp-trackback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlrpc.php" afterPath="$PROJECT_DIR$/xmlrpc.php" />
     </list>
     <ignored path="southpac.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +297,17 @@
     <favorites_list name="southpac" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="202" column="0" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.53846157" vertical-offset="3195" max-vertical-offset="4086">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -80,8 +325,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/404.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/southpac/comments.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/searchpage.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/searchform.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/404.php" />
@@ -117,7 +360,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/content-search.php" />
         <option value="db-console:/30a5a49d/2f8508ab-bc02-4453-83c3-88bb86165eff/" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/js/sForm.js" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/js/script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/js/jquery.equalheights.js" />
@@ -131,6 +373,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/southpac/header.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/all-in-one-seo-pack-pro/all_in_one_seo_pack.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -138,8 +383,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -167,6 +412,36 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Southpac">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wp-content/themes/southpac/css">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Southpac">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,38 +488,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="languages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Default">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="southpac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Southpac">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Southpac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wp-content/themes/southpac/css">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Southpac">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -265,21 +524,21 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="162" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="132" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="161" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="131" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="161" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="132" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="724" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="800" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="261" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="280" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="261" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="280" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="263" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="281" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="423" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="354" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
@@ -387,26 +646,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33486766" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32681242" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="330" y="349" width="619" height="286" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32662722" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781065" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="330" y="349" width="619" height="286" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26434678" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23687424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2609047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33486766" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32544377" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3256617" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32544377" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33486766" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3262159" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32544377" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -453,56 +712,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/slider_front_end.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="894" column="55" selection-start="45756" selection-end="45768" vertical-scroll-proportion="0.33333334" vertical-offset="15933" max-vertical-offset="23922" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/home-cols/home-cols.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="30" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1862" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="452" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="779" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="528" selection-end="528" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="456" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/languages/zh_CN.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="17" selection-start="5466" selection-end="5466" vertical-scroll-proportion="2.2725172" vertical-offset="3390" max-vertical-offset="5738" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/display-posts-shortcode/display-posts-shortcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="276" column="25" selection-start="10031" selection-end="10044" vertical-scroll-proportion="-12.892858" vertical-offset="4484" max-vertical-offset="5985" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="19" selection-start="943" selection-end="943" vertical-scroll-proportion="0.4183486" vertical-offset="171" max-vertical-offset="836" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/advanced-cache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="42" selection-start="345" selection-end="345" vertical-scroll-proportion="0.16121212" vertical-offset="0" max-vertical-offset="825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/slider-image/style/simple-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="42" selection-start="959" selection-end="959" vertical-scroll-proportion="0.3856813" vertical-offset="274" max-vertical-offset="1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/aiowps_backups/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/aiowps_backups/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573" />
@@ -533,16 +742,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="4940" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/wp-cache-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="31" selection-start="4790" selection-end="4790" vertical-scroll-proportion="2.0036364" vertical-offset="0" max-vertical-offset="1957" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="16" selection-start="483" selection-end="483" vertical-scroll-proportion="0.40714285" vertical-offset="190" max-vertical-offset="2109" />
-      </provider>
-    </entry>
     <entry file="uml://DATABASE/2f8508ab-bc02-4453-83c3-88bb86165eff">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -569,11 +768,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="31" selection-start="502" selection-end="502" vertical-scroll-proportion="0.41379312" vertical-offset="0" max-vertical-offset="38228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="219" selection-end="219" vertical-scroll-proportion="0.2783883" vertical-offset="0" max-vertical-offset="186105" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/images/arrows.png">
@@ -606,11 +800,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="536" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="3334" selection-end="3334" vertical-scroll-proportion="1.057654" vertical-offset="674" max-vertical-offset="1476" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/widget/es-widget.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="202" column="1" selection-start="7666" selection-end="7666" vertical-scroll-proportion="6.9788866" vertical-offset="0" max-vertical-offset="3744" />
@@ -632,11 +821,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/changelog.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="51" selection-start="2317" selection-end="2317" vertical-scroll-proportion="0.78571427" vertical-offset="396" max-vertical-offset="900" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/email-subscribers/classes/es-common.php">
@@ -676,9 +865,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/all-in-one-seo-pack-pro/aioseop_class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1066" column="46" selection-start="70011" selection-end="70011" vertical-scroll-proportion="-0.5531915" vertical-offset="19568" max-vertical-offset="48096">
-          <folding />
-        </state>
+        <state line="1066" column="46" selection-start="70011" selection-end="70011" vertical-scroll-proportion="-0.5531915" vertical-offset="19568" max-vertical-offset="48096" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/index.php">
@@ -688,59 +875,116 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="55" selection-start="4017" selection-end="4017" vertical-scroll-proportion="1.5460199" vertical-offset="505" max-vertical-offset="2128">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="3214" selection-end="3214" vertical-scroll-proportion="-15.142858" vertical-offset="792" max-vertical-offset="1767">
-          <folding />
-        </state>
+        <state line="100" column="55" selection-start="4017" selection-end="4017" vertical-scroll-proportion="1.5460199" vertical-offset="505" max-vertical-offset="2128" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="281" selection-end="281" vertical-scroll-proportion="0.44618395" vertical-offset="57" max-vertical-offset="17651">
-          <folding />
-        </state>
+        <state line="15" column="10" selection-start="281" selection-end="281" vertical-scroll-proportion="0.44618395" vertical-offset="57" max-vertical-offset="17651" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="477" selection-end="477" vertical-scroll-proportion="0.21755725" vertical-offset="0" max-vertical-offset="1197">
-          <folding />
-        </state>
+        <state line="15" column="45" selection-start="477" selection-end="477" vertical-scroll-proportion="0.21755725" vertical-offset="0" max-vertical-offset="1197" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="55" selection-start="606" selection-end="606" vertical-scroll-proportion="0.47137403" vertical-offset="0" max-vertical-offset="1539">
-          <folding />
-        </state>
+        <state line="13" column="55" selection-start="606" selection-end="606" vertical-scroll-proportion="0.47137403" vertical-offset="0" max-vertical-offset="1539" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/all-in-one-seo-pack-pro/plugin-updates/plugin-update-checker.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="321" selection-end="321" vertical-scroll-proportion="-5.911937" vertical-offset="3192" max-vertical-offset="9614">
-          <folding />
-        </state>
+        <state line="16" column="18" selection-start="321" selection-end="321" vertical-scroll-proportion="-5.911937" vertical-offset="3192" max-vertical-offset="9614" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="30" selection-start="2260" selection-end="2260" vertical-scroll-proportion="0.6902174" vertical-offset="2184" max-vertical-offset="2736">
-          <folding />
-        </state>
+        <state line="135" column="30" selection-start="2260" selection-end="2260" vertical-scroll-proportion="0.6902174" vertical-offset="2184" max-vertical-offset="2736" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/all-in-one-seo-pack-pro/all_in_one_seo_pack.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="50" selection-start="843" selection-end="843" vertical-scroll-proportion="0.7064579" vertical-offset="0" max-vertical-offset="3705">
-          <folding>
-            <element signature="e#6#402#0" expanded="true" />
-          </folding>
+        <state line="19" column="50" selection-start="843" selection-end="843" vertical-scroll-proportion="0.7064579" vertical-offset="0" max-vertical-offset="3705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="1710" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="43" selection-start="688" selection-end="699" vertical-scroll-proportion="-1.5714285" vertical-offset="1080" max-vertical-offset="1584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/wp-cache-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="46" selection-start="785" selection-end="785" vertical-scroll-proportion="-2.482143" vertical-offset="1503" max-vertical-offset="2034" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.41779497" vertical-offset="0" max-vertical-offset="517" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.22670025" vertical-offset="0" max-vertical-offset="794" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="945" selection-end="945" vertical-scroll-proportion="-0.14285715" vertical-offset="477" max-vertical-offset="1296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/southpac/languages/southpac.pot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.43956044" vertical-offset="0" max-vertical-offset="819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="377" selection-end="377" vertical-scroll-proportion="-0.53145057" vertical-offset="594" max-vertical-offset="5130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="41" selection-start="1551" selection-end="1553" vertical-scroll-proportion="-0.38328913" vertical-offset="1009" max-vertical-offset="2376" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/admin-footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="19" selection-start="352" selection-end="352" vertical-scroll-proportion="0.27272728" vertical-offset="0" max-vertical-offset="1602" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/admin-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="42" selection-start="390" selection-end="390" vertical-scroll-proportion="0.13636364" vertical-offset="0" max-vertical-offset="792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/zh_CN.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="273" column="16" selection-start="5405" selection-end="5405" vertical-scroll-proportion="0.34256926" vertical-offset="4642" max-vertical-offset="5436" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="0" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.53846157" vertical-offset="3195" max-vertical-offset="4086">
+          <folding />
         </state>
       </provider>
     </entry>

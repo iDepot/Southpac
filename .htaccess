@@ -1,7 +1,7 @@
 # BEGIN WPSuperCache
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /
+RewriteBase /southpac/
 #If you serve pages from behind a proxy you may want to change 'RewriteCond %{HTTPS} on' to something more sensible
 AddDefaultCharset UTF-8
 RewriteCond %{REQUEST_URI} !^.*[^/]$
@@ -13,8 +13,8 @@ RewriteCond %{HTTP:X-Wap-Profile} !^[a-z0-9\"]+ [NC]
 RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]
 RewriteCond %{HTTP:Accept-Encoding} gzip
 RewriteCond %{HTTPS} on
-RewriteCond %{DOCUMENT_ROOT}/wp-content/cache/supercache/%{SERVER_NAME}/$1/index-https.html.gz -f
-RewriteRule ^(.*) "/wp-content/cache/supercache/%{SERVER_NAME}/$1/index-https.html.gz" [L]
+RewriteCond %{DOCUMENT_ROOT}/Southpac/wp-content/cache/supercache/%{SERVER_NAME}/southpac/$1/index-https.html.gz -f
+RewriteRule ^(.*) "/Southpac/wp-content/cache/supercache/%{SERVER_NAME}/southpac/$1/index-https.html.gz" [L]
 
 RewriteCond %{REQUEST_URI} !^.*[^/]$
 RewriteCond %{REQUEST_URI} !^.*//.*$
@@ -25,8 +25,8 @@ RewriteCond %{HTTP:X-Wap-Profile} !^[a-z0-9\"]+ [NC]
 RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]
 RewriteCond %{HTTP:Accept-Encoding} gzip
 RewriteCond %{HTTPS} !on
-RewriteCond %{DOCUMENT_ROOT}/wp-content/cache/supercache/%{SERVER_NAME}/$1/index.html.gz -f
-RewriteRule ^(.*) "/wp-content/cache/supercache/%{SERVER_NAME}/$1/index.html.gz" [L]
+RewriteCond %{DOCUMENT_ROOT}/Southpac/wp-content/cache/supercache/%{SERVER_NAME}/southpac/$1/index.html.gz -f
+RewriteRule ^(.*) "/Southpac/wp-content/cache/supercache/%{SERVER_NAME}/southpac/$1/index.html.gz" [L]
 
 RewriteCond %{REQUEST_URI} !^.*[^/]$
 RewriteCond %{REQUEST_URI} !^.*//.*$
@@ -36,8 +36,8 @@ RewriteCond %{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_
 RewriteCond %{HTTP:X-Wap-Profile} !^[a-z0-9\"]+ [NC]
 RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]
 RewriteCond %{HTTPS} on
-RewriteCond %{DOCUMENT_ROOT}/wp-content/cache/supercache/%{SERVER_NAME}/$1/index-https.html -f
-RewriteRule ^(.*) "/wp-content/cache/supercache/%{SERVER_NAME}/$1/index-https.html" [L]
+RewriteCond %{DOCUMENT_ROOT}/Southpac/wp-content/cache/supercache/%{SERVER_NAME}/southpac/$1/index-https.html -f
+RewriteRule ^(.*) "/Southpac/wp-content/cache/supercache/%{SERVER_NAME}/southpac/$1/index-https.html" [L]
 
 RewriteCond %{REQUEST_URI} !^.*[^/]$
 RewriteCond %{REQUEST_URI} !^.*//.*$
@@ -47,11 +47,12 @@ RewriteCond %{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_
 RewriteCond %{HTTP:X-Wap-Profile} !^[a-z0-9\"]+ [NC]
 RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]
 RewriteCond %{HTTPS} !on
-RewriteCond %{DOCUMENT_ROOT}/wp-content/cache/supercache/%{SERVER_NAME}/$1/index.html -f
-RewriteRule ^(.*) "/wp-content/cache/supercache/%{SERVER_NAME}/$1/index.html" [L]
+RewriteCond %{DOCUMENT_ROOT}/Southpac/wp-content/cache/supercache/%{SERVER_NAME}/southpac/$1/index.html -f
+RewriteRule ^(.*) "/Southpac/wp-content/cache/supercache/%{SERVER_NAME}/southpac/$1/index.html" [L]
 </IfModule>
 
 # END WPSuperCache
+
 
 
 # BEGIN WordPress
@@ -59,7 +60,7 @@ RewriteRule ^(.*) "/wp-content/cache/supercache/%{SERVER_NAME}/$1/index.html" [L
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+RewriteRule . /southpac/index.php [L]
 </IfModule>
 
 # END WordPress

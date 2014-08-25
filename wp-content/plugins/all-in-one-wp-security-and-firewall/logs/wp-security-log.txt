@@ -31,3 +31,7 @@
 [08/02/2014 3:38 PM] - FAILURE : AIOWPSecurity_Utility_IP - Invalid IP received 
 [08/02/2014 3:38 PM] - FAILURE : AIOWPSecurity_Utility_IP - Invalid IP received 
 [08/02/2014 3:38 PM] - FAILURE : AIOWPSecurity_Utility_IP - Invalid IP received 
+[08/19/2014 2:24 AM] - FAILURE : save_scan_data_to_db() - Error inserting data to DB!
+[08/19/2014 2:24 AM] - SUCCESS : File Change Detection Feature: change to filesystem detected!
+[08/19/2014 2:26 AM] - FAILURE : AIOWPSecurity_Utility_IP - Invalid IP received 
+[08/19/2014 2:26 AM] - FAILURE : AIOWPSecurity_Utility_IP - Invalid IP received 

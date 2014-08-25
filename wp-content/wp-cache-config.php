@@ -5,6 +5,7 @@ WP-Cache Config Sample File
 See wp-cache.php for author details.
 */
 
+$wp_cache_home_path = '/southpac/'; //Added by WP-Cache Manager
 $cache_wptouch = '0'; //Added by WP-Cache Manager
 $cache_no_adverts_for_friends = 'yes'; //Added by WP-Cache Manager
 $wp_super_cache_comments = '1'; //Added by WP-Cache Manager

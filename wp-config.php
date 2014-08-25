@@ -17,8 +17,8 @@
  */
 
 define('WP_CACHE', true); //Added by WP-Cache Manager
-//define( 'WPCACHEHOME', 'C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', '/var/www/html/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', 'C:\XAMPP\htdocs\Southpac\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
+//define( 'WPCACHEHOME', '/var/www/html/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -26,11 +26,12 @@ define( 'WPCACHEHOME', '/var/www/html/wp-content/plugins/wp-super-cache/' ); //A
 define('DB_NAME', 'southpac');
 
 /** MySQL database username */\
-define('DB_USER', 'southpac');
+define('DB_USER', 'root');
+//define('DB_USER', 'southpac');
 
 /** MySQL database password */\
-//define('DB_PASSWORD','');
-define('DB_PASSWORD', 'Mysql2014');
+define('DB_PASSWORD','');
+//define('DB_PASSWORD', 'Mysql2014');
 
 /** MySQL hostname */\
     define('DB_HOST', 'localhost');
