@@ -217,5 +217,5 @@ pip-log.txt
 #wordpress config
 .htaccess
 wp-config.php
-wp-content/cache
+wp-content/cache/
 
