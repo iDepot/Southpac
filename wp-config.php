@@ -81,8 +81,6 @@ $table_prefix  = 'sp_';
 
 define('WPLANG', '');
 
-define('WPLANG', 'zh_CN');
-
 /**\
  * For developers: WordPress debugging mode.\
  *\

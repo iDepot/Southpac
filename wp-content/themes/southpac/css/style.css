@@ -961,6 +961,11 @@ a.f_logo {
         position: static;
     }
 
+    .wp-post-image{
+        float:none;
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 479px) {

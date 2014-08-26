@@ -205,17 +205,11 @@ pip-log.txt
 .coverage
 .tox
 
-#Translations
-*.mo
-
 #Mr Developer
 .mr.developer.cfg
 
 #southpac Services
+.po
 .htaccess
 wp-config.php
 wp-content/cache/
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
