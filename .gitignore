@@ -208,7 +208,7 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
-#southpac Services
+#Southpac Services
 .po
 .htaccess
 wp-config.php

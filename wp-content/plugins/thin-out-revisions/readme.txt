@@ -3,8 +3,8 @@ Contributors: blogger323
 Donate link: http://en.hetarena.com/donate
 Tags: revisions, revision, posts, admin
 Requires at least: 3.6
-Tested up to: 3.9
-Stable tag: 1.6
+Tested up to: 4.0
+Stable tag: 1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -98,14 +98,18 @@ So some options became needless.
 
 == Screenshots ==
 
-1. fig. 1. The 'Thin Out' button to remove intermediate revisions
-2. fig. 2. A button to remove a single revision
+1. fig. 1. The 'Thin Out' button to remove intermediate revisions.
+2. fig. 2. A button to remove a single revision.
 3. fig. 3. Options. You can remove old revisions on the fly or periodically.
-4. fig. 4. Memos are displayed with brackets
+4. fig. 4. Memos are displayed with brackets.
 5. fig. 5. You can use a editor to update old memos.
 
 
 == Changelog ==
+
+= 1.7 - Aug 27, 2014 =
+* A new feature to show Revision Memos on a post. Check details ([English](http://en.hetarena.com/thin-out-revisions#f4), [Japanese](http://hetarena.com/archives/2625)). It is still an experimental implementation. It's a subject to change.
+* WordPress 4.0 compliant
 
 = 1.6 - Apr 13, 2014 =
 * Now you can edit memos for old revisions.
@@ -173,5 +177,7 @@ So some options became needless.
 
 == Upgrade Notice ==
 
-= 1.6 =
-Introduced Memo editor. WordPress 3.5 and prior are no longer supported.
+= 1.7 =
+A new feature to show Revision Memos on a post.
+
+
